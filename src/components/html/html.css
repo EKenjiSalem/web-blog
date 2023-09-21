@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.html-blog .heading {
+    text-decoration: underline;
+    margin-top: -3rem
+}
+
+.html-blog .html-blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.html-blog .html-blog-container .html-blog-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    /* border-radius: .5rem; */
+    /* box-shadow: 0 .3rem .5rem rgba(0,0,0,.3); */
+}
+
+.html-blog .html-blog-container .html-blog-info img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.html-blog .html-blog-container span {
+    color: grey;
+    font-size: 1rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+.html-blog .html-blog-container h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: -9rem;
+}
+
+.html-blog .html-blog-container p {
+    font-size: .5rem;
+    color: black;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.html-blog .html-blog-container .button {
+  margin-bottom: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  color: white;
+  background: black;
+}
+
+.html-blog .html-blog-container .html-button:hover {
+    background: orange;
+    color: black;
+    transition: 1s;
+  }
+
+.html-blog .html-blog-container .html-blog-description {
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+

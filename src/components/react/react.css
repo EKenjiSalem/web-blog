@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.react-blog .heading {
+    text-decoration: underline;
+    margin-top: -3rem
+}
+
+.react-blog .react-blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.react-blog .react-blog-container .react-blog-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    /* border-radius: .5rem; */
+    /* box-shadow: 0 .3rem .5rem rgba(0,0,0,.3); */
+}
+
+.react-blog .react-blog-container .react-blog-info img {
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.react-blog .react-blog-container span {
+    color: grey;
+    font-size: 1rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+.react-blog .react-blog-container h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.react-blog .react-blog-container p {
+    font-size: .5rem;
+    color: black;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.react-blog .react-blog-container .button {
+  margin-bottom: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  color: white;
+  background: black;
+}
+
+.react-blog .react-blog-container .button:hover {
+    background: orange;
+    color: black;
+    transition: 1s;
+  }
+
+.react-blog .react-blog-container .react-blog-description {
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+

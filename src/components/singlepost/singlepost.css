@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.single-post {
+    flex: 9;
+}
+
+.blog-post {
+    font-size: 1.2rem;
+    padding: 0 5rem;
+}
+
+.single-post-wrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.single-post-img {
+    width: 85%;
+    height: 500px;
+    border-radius: .3rem;
+    margin-top: 5rem;
+    margin-left: 6%;
+}
+
+.single-post-title {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.single-post-info {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+ .single-post .single-post-wrapper .ethics {
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
