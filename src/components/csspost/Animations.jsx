@@ -13,13 +13,6 @@ const Selectors = () => {
             <span className="css-post-date"> 1 hour ago </span>
          </div>
          <p className="animations-main"> 
-           CSS, which stands for Cascading Style Sheets, is a stylesheet
-          language used for describing the presentation and layout of web documents 
-          written in HTML and XML. In simpler terms, CSS is used to control how web pages
-          look and are structured. It allows you to define the visual style, formatting,
-           and positioning of elements on a web page.
-
-           <h1 className="animations-title"> Understanding the Basic Concepts of CSS </h1> 
          
   
 

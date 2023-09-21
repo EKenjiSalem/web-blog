@@ -97,7 +97,7 @@ function Css() {
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
-        <Link to="/Colors"><h3 className="css-blog-title"> Specificity </h3></Link>
+        <Link to="/Specificity"><h3 className="css-blog-title"> Specificity </h3></Link>
         <p className="css-blog-description"> 
         In CSS, specificity is a set of rules that determine which styles are applied to
          an HTML element when multiple conflicting styles are present. Specificity is all 
@@ -106,7 +106,7 @@ function Css() {
 
   
       </p>
-        <Link to="/Colors"><button className="button"> Read More </button></Link>
+        <Link to="/Specificity"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -114,7 +114,7 @@ function Css() {
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
-        <Link to="/Media"><h3 className="css-blog-title"> Multimedia </h3></Link>
+        <Link to="/Media"><h3 className="css-blog-title"> Images</h3></Link>
         <p className="css-blog-description"> 
         Web design has evolved beyond static text and images. Today, multimedia elements like images,
         videos, and audio are essential for creating engaging and dynamic web experiences.
