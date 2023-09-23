@@ -45,9 +45,7 @@ const Colors = () => {
 
           <br /> 
           <br /> 
-          The following example creates a box with a width of 200px, height of 100px,
-          <span class="underline"> yellow background, </span>  solid black border, with the text centerly
-          aligned in the middle of the box.
+       
           </li>
           <div className="keyword-img">
             <img src={keyword} alt="" />

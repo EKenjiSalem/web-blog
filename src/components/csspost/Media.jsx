@@ -26,13 +26,14 @@ const Media = () => {
             <span className="css-post-date"> 1 hour ago </span>
          </div>
      
-          <p className="media-main"> 
+         <p className="media-main"> 
          <div className="intro-media">
           In the world of web design, images are more than just visual elements; they're storytellers,
            attention-grabbers, and mood-setters. Mastering CSS for images can take your web design
             skills to new heights. In this blog post, we'll explore some powerful techniques for using 
             HTML and CSS to enhance your web images.
-            </div>
+          </div>
+
             <br />
             <br />
 
@@ -68,7 +69,6 @@ const Media = () => {
           <div className="m-media-img">
             <img src={msizing} alt="" />
           </div>
-    
 
        <br />
        <br />
@@ -85,8 +85,7 @@ const Media = () => {
           <div className="m-media-img">
             <img src={mfiltering} alt="" />
           </div>
-      
-
+  
        <br />
        <br />
 
@@ -96,6 +95,7 @@ const Media = () => {
        opacity property. This is often used for creating image 
        overlays or hover effects.
        </div>
+
          <div className="media-img">
             <img src={opacity} alt="" />
           </div>
@@ -138,10 +138,8 @@ const Media = () => {
           <div className="m-media-img">
             <img src={mresponse} alt="" />
           </div>  
-
             </p>
         </div>
-    
     </div>
   )
 }

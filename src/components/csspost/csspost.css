@@ -623,6 +623,20 @@ hr {
 
 /* Animations */
 
+.animations-main {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+
+.anime-run-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1.5rem;
+
+}
 
 
 
