@@ -632,10 +632,49 @@ hr {
 
 
 .anime-run-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: black;
     margin-bottom: 1.5rem;
+}
 
+
+.transform-img {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:768px) {
+    .transform-img {
+        display: block;
+    }
+}
+
+
+.three-d-anime {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.anime-props{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.anime-list-container{
+    margin-top: 1rem;
+}
+
+.anime-list {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+
+.transitions-container {
+    margin-top: 2rem;
 }
 
 
