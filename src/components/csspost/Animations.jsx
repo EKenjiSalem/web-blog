@@ -8,6 +8,8 @@ import rotating from '../../images/rsz_1rotating.png';
 import transform from '../../images/rsz_transform.png';
 import scale from '../../images/rsz_scale.png';
 import skewing from '../../images/rsz_skewing.png';
+import threed from '../../images/rsz_1threed.png';
+
 
 
 const Selectors = () => {
@@ -25,8 +27,8 @@ const Selectors = () => {
           CSS animations are a great way to add motion and interactivity to web 
           pages without relying on JavaScript or other scripting languages. They
           allow you to create smooth and visually appealing transitions and 
-          animations for various elements on a webpage. CSS animations are defined 
-          using CSS rules and properties, making them non-difficult to apply and control.
+          animations for various elements on a webpage. CSS animations are created using a combination
+          of keyframe, transform, and propertry elements that make them a breeze to apply and control.
         <br />
         <br />
           <strong>Here are some key aspects of CSS animations: </strong>
@@ -129,12 +131,13 @@ to smoothly change an element's style when a user interacts with it
 <br />
 <br />
 
-  <h1 className="anime-run-title"> Running an Animation: </h1>
+<hr />
+  <h1 className="anime-run-title"> Running Animations: </h1>
+<hr />
 
   <div className="keyword-img">
     <img src={rotation} alt="" />
   </div>
-
 
   <br />
   <br />
@@ -149,7 +152,7 @@ to smoothly change an element's style when a user interacts with it
       CSS animation to make an element rotate and scale simultaneously:
 
       <div className="keyword-img">
-        <img src={keyframes} alt="" />
+        <img src={threed} alt="" />
       </div>
 
       <br />

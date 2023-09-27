@@ -14,7 +14,6 @@ import Buttons from './components/htmlpost/Buttons.jsx';
 import Div from './components/htmlpost/Div.jsx';
 import Forms from './components/htmlpost/Forms.jsx';
 import Css from './components/csspost/Css.jsx';
-import JavaScript from './components/javascript/JavaScript.jsx';
 import ReactBlog from './components/react/ReactBlog.jsx';
 import Blog from './components/blog/Blog.jsx';
 import CssPost from './components/csspost/CssPost.jsx';
@@ -26,6 +25,10 @@ import Animations from './components/csspost/Animations.jsx';
 import Media from './components/csspost/Media.jsx';
 import Specificity from './components/csspost/Specificity.jsx';
 import Mobile from './components/csspost/Mobile.jsx';
+import JavaScript from './components/javascript/JavaScript.jsx';
+import JsIntro from './components/javascript/JsIntro.jsx';
+import JsVarPost from './components/javascript/JsVarPost.jsx';
+import Dom from './components/javascript/Dom.jsx';
 import {Routes, Route} from 'react-router-dom';
 
 
@@ -60,6 +63,9 @@ function App() {
             <Route path="/Mobile" element={<Mobile />} />
             <Route path="/Specificity" element={<Specificity />} />
             <Route path="/Media" element={<Media />} />
+            <Route path="/JsIntro" element={<JsIntro />} />
+            <Route path="/JsVarPost" element={<JsVarPost />} />
+            <Route path="/Dom" element={<Dom />} />
          </Routes>
     </section>
   );
