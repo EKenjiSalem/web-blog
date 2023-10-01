@@ -116,6 +116,7 @@
     color: black;
     font-size: 1.5rem;
     margin-bottom: .5rem;
+    text-align: center;
 }
 
 .dom-title-1 {
@@ -123,4 +124,48 @@
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: .5rem;
+}
+
+.dom-title-2 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.dom-title-3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+
+/* Functions */
+
+.scope-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.higher-functions-title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.closures-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* If Statements */
+
+/* Loops */
+
+.loops-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
 }

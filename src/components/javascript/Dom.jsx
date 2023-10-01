@@ -1,6 +1,6 @@
 import React from 'react';
 import './javascript.css';
-import domclick from '../../images/';
+import domclick from '../../images/rsz_domexample.png';
 
 
 
@@ -42,13 +42,13 @@ const Dom = () => {
             <li> Traversal: Navigate the DOM tree by accessing parent, child, and sibling nodes. This is useful for finding related elements or navigating complex structures.</li>
         </ul>   
 
-        <h1> An Example: </h1>
+        <h1 className="dom-title-3"> An Example: </h1>
         In this example, JavaScript and the DOM are used to hide and show a message when the button is
         clicked. The DOM manipulation occurs within the event listener.
 
 
          <div className="var-img">
-          <img src={arrdata} alt="" />
+          <img src={domclick} alt="" />
           </div>
             </p>
 

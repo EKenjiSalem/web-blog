@@ -29,6 +29,8 @@ import JavaScript from './components/javascript/JavaScript.jsx';
 import JsIntro from './components/javascript/JsIntro.jsx';
 import JsVarPost from './components/javascript/JsVarPost.jsx';
 import Dom from './components/javascript/Dom.jsx';
+import Functions from './components/javascript/Functions.jsx';
+import ControlStructures from './components/javascript/ControlStructures.jsx';
 import {Routes, Route} from 'react-router-dom';
 
 
@@ -66,6 +68,8 @@ function App() {
             <Route path="/JsIntro" element={<JsIntro />} />
             <Route path="/JsVarPost" element={<JsVarPost />} />
             <Route path="/Dom" element={<Dom />} />
+            <Route path="/Functions" element={<Functions />} />
+            <Route path="/ControlStructures" element={<ControlStructures />} />
          </Routes>
     </section>
   );
