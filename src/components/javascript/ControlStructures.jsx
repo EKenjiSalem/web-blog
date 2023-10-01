@@ -4,6 +4,14 @@ import ifstate from '../../images/ifstate.png';
 import ifstatetemp from '../../images/ifstatetemp.png';
 import adifstate from '../../images/advanceifstate.png';
 import ifstateex from '../../images/rsz_ifstateex.png';
+import forloop from '../../images/forloop.png';
+import whileloop from '../../images/whileloop.png';
+import dowhileloop from '../../images/dowhileloop.png';
+import forofloop from '../../images/forofloop.png';
+import forinloop from '../../images/forinloop.png';
+import forloopexamp from '../../images/rsz_2loopexamp.png';
+
+
 
 
 
@@ -24,7 +32,7 @@ const ControlStructures = () => {
         <strong> What is an if statement? </strong> 
    <br />
    <br />
-        An if statement in JavaScript is a conditional statement that allows you to
+        An if statement is a conditional statement that allows you to
         execute specific code blocks based on whether a certain condition evaluates 
         to true or false. These conditions are typically expressed as Boolean 
         expressions or comparisons, and they determine the path your program takes.
@@ -37,7 +45,7 @@ const ControlStructures = () => {
     <br />
     <br />
 
-        <strong> Lets Examine the components: </strong> 
+        <strong> Let's Examine the Components: </strong> 
         <ul>
          <li> if: This keyword starts the conditional statement.</li>
          <li> condition: This is an expression that results in either true or false..</li>
@@ -95,11 +103,96 @@ const ControlStructures = () => {
     <h1 className="loops-title"> Loops </h1>
   <hr />
 
+    Loops are control structures that allow you to repeatedly execute a block of code
+     as long as a certain condition is true or for a specified number of times.
+     JavaScript provides several types of loops:
+<br />
+<br />
+
+      Loops are essential for automating repetitive tasks and processing data structures
+      like arrays and objects. It's important to be cautious when using loops to avoid 
+      infinite loops (loops that never exit) and to ensure that you have a clear exit 
+      condition to prevent them.
+<br />
+<br />
+       <strong> Loop Types: Functional Programming </strong>
+<br />
+<br />
+
+          <strong> for loop: </strong> are the most commonly used loop in JavaScript. It consists of three
+          parts: initialization, condition, and increment/decrement. The loop continues to 
+          execute as long as the condition is true.
+          <div className="var-img">
+            <img src={forloop} alt="" />
+          </div>
+
+  <br />
+  <br />
+
+          <strong> while loop: </strong>This loop executes a block of code as long as a specified condition
+          is true.
+          <div className="var-img">
+            <img src={whileloop} alt="" />
+          </div>
+
+  <br />
+  <br />
+
+         <strong> do while loop: </strong> Similar to the while loop, but it always executes the code block
+         at least once before checking the condition.
+        <div className="var-img">
+          <img src={dowhileloop} alt="" />
+        </div>
+  
+  <br />
+  <br />
+    
+          <strong> Loop Types: Object Oriented Programming </strong>
+  <br />
+  <br />
+
+        <strong> for in loop: </strong>Used to iterate over the properties of an object. It loops through
+         all enumerable properties of an object.
+        <div className="var-img">
+          <img src={forinloop} alt="" />
+        </div>
+
+  <br />
+  <br />
+          <strong> for of loop: </strong> this loop is used to iterate 
+           over iterable objects like arrays and strings.
+          <div className="var-img">
+              <img src={forofloop} alt="" />
+            </div>
+
+  <br />
+  <br />
+
+        <strong> Loops in Action: </strong>
+
+        In this example, the for loop to displays the numbers 1 - 10 in an HTML in an
+        unodered list:
+
+        <div className="var-img">
+            <img src={forloopexamp} alt="" />
+          </div>
+
+  <br />
+  <br />
+
+      Here's an example of how to loop through the properties 
+      of an object in JavaScript using a for...in loop:
+
+        <div className="var-img">
+            <img src={forloopexamp} alt="" />
+          </div>
+
+
+
 
 
 
             </p>
-
         </div>
     </div>
   )
