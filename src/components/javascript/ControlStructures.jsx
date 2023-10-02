@@ -12,16 +12,13 @@ import forinloop from '../../images/forinloop.png';
 import forloopexamp from '../../images/rsz_2loopexamp.png';
 
 
-
-
-
 const ControlStructures = () => {
 
   return (
     <div className="js-post">
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="js-post-title"> If Statements and Loops </h1>
+        <h1 className="js-post-title"> If Statements & Loops </h1>
          <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
