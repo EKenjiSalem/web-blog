@@ -6,7 +6,7 @@ import oopupdate from '../../images/rsz_oopupdate.png';
 import oopmethod from '../../images/rsz_oopmethod.png';
 import constr from '../../images/rsz_2constr.png';
 import constructors from '../../images/constructors.png';
-import classes from '../../images/classes.png';
+import classes from '../../images/rsz_classvsconstr.png';
 
 
 const ObjectProgram = () => {
@@ -33,13 +33,22 @@ const ObjectProgram = () => {
 <br />
 <br />
    
-        <strong> Let's explore what an object is: </strong> A "key/property-value pair" refers to
-        the basic structure of an object. JavaScript objects are collections of key-value 
-        pairs, where the keys are the property names (also known as attributes) and the values
-         are the associated data or values of those properties. This key-value pair structure 
-         allows you to define and store information within an object.
+          In object-oriented programming (OOP), objects are fundamental constructs that represent 
+          real-world entities or concepts. Objects are at the core of the language's design. Here's an overview of 
+          objects in JavaScript:
+
+          Objects as Collections of Key-Value Pairs: In JavaScript, objects are essentially collections
+          of key-value pairs, where each key is a string (or symbol in modern JavaScript) that acts 
+          as a property name, and each value can be of any data type, including other objects. This 
+          key-value structure is sometimes referred to as a "dictionary" or "map."
 <br />
 <br />
+          <strong> Creating Objects: </strong>
+<br />
+<br />
+          <strong>Object Literals: </strong> are simplest way to create an object in JavaScript is by 
+          using object literals.
+
     
         <div className="var-img">
          <img src={oopbasics} alt="" />
@@ -91,36 +100,37 @@ const ObjectProgram = () => {
         <strong> Constructor & Class Functions: </strong>
     <hr />
 
-    Constructors and Classes serve similar purposes, but they are not exactly the same. Both 
-    are used to create objects and define their properties and methods, but they differ in
-    syntax and some underlying concepts: 
+    Constructor & Class functions are both used to create objects and define their properties and methods.
+    Essentially, classes are a more modern and syntactically convenient way to define constructors and
+    work with object-oriented programming. Classes were introduced in ECMAScript 6 (ES6) to provide a more
+    structured and familiar approach to creating constructors and managing objects compared to the older
+    constructor function and prototype-based system. 
+<br />
+<br />
+
+    A prototype is an internal, object property that every object has. It is used to implement inheritance
+    and to share properties and methods between objects. In ES6 classes, the concept of prototypes is abstracted
+    away, but under the hood, JavaScript still uses prototypes to implement class inheritance. When you define methods
+     inside a class, they are added to the class's prototype automatically. You don't need to explicitly
+      define a prototype as you did in the constructor function approach.
 
 <br />
 <br />
 
-   <strong> Constructors: </strong> are functions that are used to create objects. They are defined
-    using regular JavaScript functions and typically start with a capital letter by convention.
-     Inside the constructor function, you use the this keyword to set properties and methods 
-     of the object.
-     
-    Note: Constructor functions, while still functional, have a somewhat older
-    and less readable syntax. They are used less frequently in modern JavaScript codebases.
+      <strong>Here are some reasons why classes are considered a more modern approach: </strong>
+        <ul> 
+          <li> <strong> Clearer Syntax:</strong> Classes offer a cleaner and more readable syntax for defining constructors, properties, and methods. This makes your code more understandable and maintainable.</li> 
 
+          <li> <strong>Inheritance: </strong> Classes provide a straightforward way to implement inheritance using the extends keyword. Subclasses can easily inherit properties and methods from parent classes, simplifying the process of building complex class hierarchies.</li>
 
-    <div className="var-img">
-      <img src={constructors} alt="" />
-    </div>
+           <li> <strong>Encapsulation: </strong> Classes encourage better encapsulation by clearly defining the constructor and methods within a single block. This helps developers better organize and understand their code.</li> 
+        </ul>
 
 <br />
 <br />
+          <strong> Here's an example comparing the older constructor function approach with the modern class approach: </strong>
 
-   <strong> Classes: </strong> provide a more straightforward way to define and extend classes, thanks
-    to the extends keyword. Subclasses can inherit properties and methods from parent
-     classes without manual prototype assignments.
 
-    Note: Classes offer a more modern and concise syntax
-    for defining object constructors and methods. They are considered more user-friendly and
-    are widely used in modern JavaScript development.
     <div className="var-img">
       <img src={classes} alt="" />
     </div>
@@ -128,7 +138,7 @@ const ObjectProgram = () => {
 <br />
 <br />
    <strong> Instances: </strong>
-    An instance of a class or constructor is a concrete, individual object created from a class. Each 
+    an instance of a class or constructor is an individual object created from a class. Each 
     instance has its own set of property values and can perform actions defined by the class's
     methods. Instances are separate and distinct from each other, even though they share the 
     same class definition.
@@ -139,27 +149,6 @@ const ObjectProgram = () => {
     behavior based on the blueprint provided by the constructor function.
 <br />
 <br />
-    <strong> In this example, the Person constructor sets the name and age properties of the instance being created. </strong>
-
-    <div className="var-img">
-        <img src={constr} alt="" />
-    </div>
-
-<br />
-<br />
-      <strong> Prototypes </strong>
-        A prototype is an internal, special object property that every object has. It is used to implement
-        inheritance and to share properties and methods between objects. The prototype chain is a fundamental
-        concept in JavaScript's object-oriented programming model.
-<br />
-<br />         
-        JavaScript uses prototype-based inheritance, where objects can inherit
-         properties and methods from other objects. Each object has a prototype, and you can 
-         extend and share behavior between objects by modifying their prototypes.
-  
-    <div className="var-img">
-        <img src={constr} alt="" />
-    </div>
 
 
 
