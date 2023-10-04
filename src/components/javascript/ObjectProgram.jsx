@@ -4,9 +4,12 @@ import oopbasics from '../../images/oop.png';
 import oopaccess from '../../images/rsz_oopaccess.png';
 import oopupdate from '../../images/rsz_oopupdate.png';
 import oopmethod from '../../images/rsz_oopmethod.png';
-import constr from '../../images/rsz_2constr.png';
-import constructors from '../../images/constructors.png';
 import classes from '../../images/rsz_classvsconstr.png';
+import instance from '../../images/rsz_instance1.png';
+import minstance from '../../images/rsz_1instance2.png';
+import indepen from '../../images/rsz_indepen.png';
+import classinher from '../../images/rsz_1classinher.png';
+import encaps from '../../images/rsz_encaps.png';
 
 
 const ObjectProgram = () => {
@@ -24,11 +27,9 @@ const ObjectProgram = () => {
          <p className="js-main"> 
           Object-oriented programming (OOP) in JavaScript is a programming paradigm that focuses
           on organizing code into reusable, self-contained objects that encapsulate data and 
-          behavior. JavaScript is a versatile programming language that supports both OOP and
-          other paradigms like functional programming. OOP in JavaScript is based on the 
-          concept of objects, which are instances of classes (or prototypes), and it allows 
-          you to model real-world entities and their interactions in a structured and modular 
-          way.
+          behavior. OOP in JavaScript is based on the concept of objects, which are instances 
+          of classes (or prototypes), and it allows you to model real-world entities and their
+          interactions in a structured and modular way.
    
 <br />
 <br />
@@ -113,19 +114,6 @@ const ObjectProgram = () => {
     away, but under the hood, JavaScript still uses prototypes to implement class inheritance. When you define methods
      inside a class, they are added to the class's prototype automatically. You don't need to explicitly
       define a prototype as you did in the constructor function approach.
-
-<br />
-<br />
-
-      <strong>Here are some reasons why classes are considered a more modern approach: </strong>
-        <ul> 
-          <li> <strong> Clearer Syntax:</strong> Classes offer a cleaner and more readable syntax for defining constructors, properties, and methods. This makes your code more understandable and maintainable.</li> 
-
-          <li> <strong>Inheritance: </strong> Classes provide a straightforward way to implement inheritance using the extends keyword. Subclasses can easily inherit properties and methods from parent classes, simplifying the process of building complex class hierarchies.</li>
-
-           <li> <strong>Encapsulation: </strong> Classes encourage better encapsulation by clearly defining the constructor and methods within a single block. This helps developers better organize and understand their code.</li> 
-        </ul>
-
 <br />
 <br />
           <strong> Here's an example comparing the older constructor function approach with the modern class approach: </strong>
@@ -149,8 +137,109 @@ const ObjectProgram = () => {
     behavior based on the blueprint provided by the constructor function.
 <br />
 <br />
+      When you create an instance of a class, you're essentially making a copy of that
+      class with its own set of data and behavior. Each instance is unique and 
+      separate from others.
+<br />
+<br />
+      Instances have their own set of data or attributes, which can be different from 
+      the data in other instances of the same class. For example, if you have 
+      a Person class, each instance (e.g., a person object) may have its own name,
+      age, and other attributes.
 
+<br />
+<br />
+        <div className="var-img">
+          <img src={instance} alt="" />
+        </div>
+<br />
+<br />
+      <strong> Methods (Behavior): </strong> Instances of a class can also have
+     access to the methods defined in the class. These methods can perform
+      actions or calculations based on the instance's data.
 
+      <div className="var-img">
+          <img src={minstance} alt="" />
+        </div>
+<br />
+<br />
+
+       Instances are independent of each other. Changes made to one instance's data do not
+       affect the data of other instances. Each instance maintains its own state.
+      <div className="var-img">
+          <img src={indepen} alt="" />
+        </div>
+<br />
+<br />
+
+      <strong> Inheritance: </strong>
+      Inheritance is a mechanism that allows one class (or constructor function) to inherit
+      properties and methods from another class. 
+
+<br />
+<br />
+      <strong> Here's how class inheritance works in JavaScript: </strong>
+<br />
+<br />
+      <strong> Parent Class: </strong> You define a base class (also called a parent class) using
+       the class keyword. This class can have properties and methods.
+<br />
+<br />
+      <strong> Child Class: </strong>  You create a derived class (also called a child class) using 
+      the class keyword as well. The derived class extends the base class using the extends keyword.
+       It can also have its own properties and methods.
+<br />
+<br />
+       <strong> Super Keyword: </strong> Inside the constructor of the derived class, you use the
+        super keyword to call the constructor of the base class. This initializes the inherited 
+        properties and methods.
+<br />
+<br />
+        In this example, Dog is a derived class that inherits from the Animal base class. 
+        The super(name) call in the Dog constructor invokes the constructor of the Animal class
+         to set the name property, and Dog adds its own breed property and a bark method.
+
+      <div className="var-img">
+          <img src={classinher} alt="" />
+        </div>
+
+<br />
+<br />
+
+        <strong> Encapsulation: </strong>
+<br />
+<br />
+        Encapsulation is one of the fundamental principles of object-oriented programming (OOP), and it refers to the concept of bundling an object's data (attributes or properties) and methods (functions or behaviors) that operate on that data into a single unit or "capsule." In JavaScript, which is a flexible and dynamic language, encapsulation can be achieved using various techniques.
+<br />
+<br />
+       <strong> Key Encapsulation Concepts: </strong>
+<br />
+<br />
+       <strong> Private and Public Members: </strong> 
+<br />
+<br />
+        Encapsulation allows you to distinguish between a class's public interface (methods and properties
+        accessible from outside the class) and its private implementation details (methods and properties 
+        that are not meant to be accessed directly from outside the class).
+<br />
+<br />        
+        <strong> Closure for Private Members: </strong> 
+<br />
+<br />
+        JavaScript's closures allow you to create private members within a constructor function or class.
+        These private members are accessible only within the constructor function or class itself.
+<br />
+<br />
+       
+        In this example, The privateVar is a private variable, and the getPrivateVar method allows you
+        to access it through a closure. The name property is a public property that you can access 
+        directly.
+
+        <div className="var-img">
+          <img src={encaps} alt="" />
+        </div>
+
+    
 
 
 

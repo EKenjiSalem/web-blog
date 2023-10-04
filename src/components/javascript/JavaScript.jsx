@@ -102,15 +102,13 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="js-intro-title"> Objects, Properties, & Methods </h3></a>
-        <p className="javascript-blog-description"> 
-         Web development has evolved into a dynamic and vital field that powers the digital 
-         landscape we interact with daily. From the simplest static websites to complex
-          web applications, the process of web development encompasses various technologies,
-           methodologies, and best practices. Whether you're an aspiring developer or 
-           a seasoned pro looking to stay updated, this guide will walk you through the key components 
-           and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Arrays"><h3 className="js-intro-title"> Arrays </h3></Link>
+        <p className="javascript-blog-description"> In JavaScript, an array is a data structure that
+         allows you to store and manipulate a collection of values, such as numbers, strings, objects,
+          or even other arrays. Arrays are commonly used to organize and work with data in a structured 
+          way. Here are some key characteristics of JavaScript arrays:
+       </p>
+        <Link to="/Arrays"><button className="button"> Read More </button></Link>
       </div>
     </div>
     

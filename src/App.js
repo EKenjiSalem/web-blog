@@ -32,6 +32,7 @@ import Dom from './components/javascript/Dom.jsx';
 import Functions from './components/javascript/Functions.jsx';
 import ControlStructures from './components/javascript/ControlStructures.jsx';
 import ObjectProgram from './components/javascript/ObjectProgram.jsx';
+import Arrays from './components/javascript/Arrays.jsx';
 import {Routes, Route} from 'react-router-dom';
 
 
@@ -72,6 +73,7 @@ function App() {
             <Route path="/Functions" element={<Functions />} />
             <Route path="/ControlStructures" element={<ControlStructures />} />
             <Route path="/ObjectProgram" element={<ObjectProgram />} />
+            <Route path="/Arrays" element={<Arrays />} />
          </Routes>
     </section>
   );
