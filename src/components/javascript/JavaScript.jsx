@@ -86,6 +86,20 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
+        <Link to="/Arrays"><h3 className="js-intro-title"> Arrays </h3></Link>
+        <p className="javascript-blog-description"> In JavaScript, an array is a data structure that
+         allows you to store and manipulate a collection of values, such as numbers, strings, objects,
+          or even other arrays. Arrays are commonly used to organize and work with data in a structured 
+          way. Here are some key characteristics of JavaScript arrays:
+       </p>
+        <Link to="/Arrays"><button className="button"> Read More </button></Link>
+      </div>
+    </div>
+
+    <div className="javascript-blog-info" data-aos="fade-in">
+      <img src={codepost} alt="" />
+      <div className="javascript-blog-content">
+      <span className="javascript-blog-date"> April 25th, 2022 </span>
         <Link to="/ObjectProgram"><h3 className="js-intro-title"> Object Oriented Programming </h3></Link>
         <p className="javascript-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -97,34 +111,20 @@ function JavaScript() {
         <Link to="/ObjectProgram"><button className="button"> Read More </button></Link>
       </div>
     </div>
-
-    <div className="javascript-blog-info" data-aos="fade-in">
-      <img src={codepost} alt="" />
-      <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <Link to="/Arrays"><h3 className="js-intro-title"> Arrays </h3></Link>
-        <p className="javascript-blog-description"> In JavaScript, an array is a data structure that
-         allows you to store and manipulate a collection of values, such as numbers, strings, objects,
-          or even other arrays. Arrays are commonly used to organize and work with data in a structured 
-          way. Here are some key characteristics of JavaScript arrays:
-       </p>
-        <Link to="/Arrays"><button className="button"> Read More </button></Link>
-      </div>
-    </div>
     
     <div className="javascript-blog-info" data-aos="fade-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="js-intro-title"> Asynchronous </h3></a>
+        <Link to="/Asynchro"><h3 className="js-intro-title"> Asynchronous </h3></Link>
         <p className="javascript-blog-description"> 
-         Web development has evolved into a dynamic and vital field that powers the digital 
-         landscape we interact with daily. From the simplest static websites to complex
-          web applications, the process of web development encompasses various technologies,
-           methodologies, and best practices. Whether you're an aspiring developer or 
-           a seasoned pro looking to stay updated, this guide will walk you through the key components 
-           and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        Asynchronous programming is a fundamental concept in JavaScript, enabling developers to build
+        responsive and efficient web applications. Understanding how to work with asynchronous code 
+        is crucial for handling tasks like making API requests, reading/writing files, and managing
+        user interactions without freezing the application's user interface. In this blog post,
+         we'll explore the core concepts of asynchronous programming in JavaScript and various 
+         techniques for managing it effectively..</p>
+        <Link to="/Asynchro"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -132,7 +132,7 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="js-intro-title"> Modules </h3></a>
+        <Link to="/Modules"><h3 className="js-intro-title"> Modules </h3></Link>
         <p className="javascript-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -140,7 +140,7 @@ function JavaScript() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Modules"><button className="button"> Read More </button></Link>
       </div>
     </div>
 

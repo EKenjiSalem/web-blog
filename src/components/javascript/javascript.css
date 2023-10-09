@@ -81,6 +81,7 @@
     line-height: 1.5;
 }
 
+
 .javascript-blog .javascript-blog-container .js-blog-title {
     font-size: 1.5rem;
     color: black;
@@ -102,6 +103,7 @@
     margin-left: 46rem;
 }
 
+
 .js-main {
     font-size: 1.2rem;
     margin-left: 12rem;
@@ -110,6 +112,20 @@
     line-height: 1.5;
 }
 
+
+@media (max-width: 768px) {
+    .js-main {
+      width: 90%;
+      margin-left: 2rem;
+      margin-top: ;
+    }
+    .js-post-date {
+        margin-left: 16rem;
+    }
+    .js-post-author {
+        margin-left: -12rem;
+}
+}
 
 /* Dom */
 

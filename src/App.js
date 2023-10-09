@@ -33,7 +33,10 @@ import Functions from './components/javascript/Functions.jsx';
 import ControlStructures from './components/javascript/ControlStructures.jsx';
 import ObjectProgram from './components/javascript/ObjectProgram.jsx';
 import Arrays from './components/javascript/Arrays.jsx';
+import Asynchro from './components/javascript/Asynchro.jsx';
+import Modules from './components/javascript/Modules.jsx';
 import {Routes, Route} from 'react-router-dom';
+
 
 
 function App() {
@@ -74,6 +77,8 @@ function App() {
             <Route path="/ControlStructures" element={<ControlStructures />} />
             <Route path="/ObjectProgram" element={<ObjectProgram />} />
             <Route path="/Arrays" element={<Arrays />} />
+            <Route path="/Asynchro" element={<Asynchro />} />
+            <Route path="/Modules" element={<Modules />} />
          </Routes>
     </section>
   );

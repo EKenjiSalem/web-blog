@@ -1,30 +1,86 @@
-// Creating an array with some elements
-let fruits = ["apple", "banana", "cherry"];
+const originalArray = [1, 2, 3];
 
-// Accessing elements by index
-console.log(fruits[0]); // "apple"
-console.log(fruits[1]); // "banana"
+// Creates a copy of the array
+const copiedArray = [...originalArray]; 
 
-// Modifying elements
-fruits[2] = "strawberry";
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
 
-// Adding elements to the end of the array
-fruits.push("orange");
+// Combines the arrays
+const mergedArray = [...array1, ...array2];
 
-// Removing elements from the end of the array
-fruits.pop();
 
-// Finding the length of an array
-console.log(fruits.length); // 3
 
-// Iterating through an array using a for loop
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
+const originalArray = [1, 2, 3];
+
+// Adds elements to the array
+const newArray = [...originalArray, 4, 5]; 
+
+
+function sum(a, b, c) {
+    return a + b + c;
+  }
+  
+  const values = [1, 2, 3];
+  // Adds the variables, result is 6
+  const result = sum(...values); 
+  
+
+const text = "Hello";
+// Converts the string Hello into an array of characters
+const charArray = [...text]; 
+
+
+const originalObject = { a: 1, b: 2 };
+// Creates a copy of the object
+const copiedObject = { ...originalObject }; 
+
+
+
+
+function fetchData(callback) {
+  setTimeout(function () {
+    callback('Data fetched!');
+  }, 1000);
 }
 
-// Using array methods
-fruits.forEach(function(fruit) {
-  console.log(fruit);
+fetchData(function (result) {
+  console.log(result);
 });
 
-// Other array methods: push, pop, shift, unshift, splice, concat, slice, sort, etc.
+
+
+
+function fetchData() {
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve('Data fetched!');
+    }, 1000);
+  });
+}
+
+fetchData()
+  .then(function (result) {
+    console.log(result);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+
+
+
+  async function fetchData() {
+    try {
+      const result = await new Promise(function (resolve) {
+        setTimeout(function () {
+          resolve('Data fetched!');
+        }, 1000);
+      });
+      console.log(result);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  
+  fetchData();
+   
