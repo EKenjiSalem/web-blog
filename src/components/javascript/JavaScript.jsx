@@ -116,7 +116,7 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <Link to="/Asynchro"><h3 className="js-intro-title"> Asynchronous </h3></Link>
+        <Link to="/Asynchro"><h3 className="js-intro-title"> Asynchronous and API's </h3></Link>
         <p className="javascript-blog-description"> 
         Asynchronous programming is a fundamental concept in JavaScript, enabling developers to build
         responsive and efficient web applications. Understanding how to work with asynchronous code 
@@ -134,12 +134,12 @@ function JavaScript() {
       <span className="javascript-blog-date"> April 25th, 2022 </span>
         <Link to="/Modules"><h3 className="js-intro-title"> Modules </h3></Link>
         <p className="javascript-blog-description"> 
-         Web development has evolved into a dynamic and vital field that powers the digital 
-         landscape we interact with daily. From the simplest static websites to complex
-          web applications, the process of web development encompasses various technologies,
-           methodologies, and best practices. Whether you're an aspiring developer or 
-           a seasoned pro looking to stay updated, this guide will walk you through the key components 
-           and insights of web development.</p>
+        In the world of modern web development, managing the complexity of JavaScript code has become
+         increasingly crucial. As applications grow in size and complexity, developers need tools 
+         and techniques to organize, modularize, and maintain their code effectively. JavaScript
+          modules have emerged as a fundamental building block for achieving these goals. In this
+           blog post, we'll explore the concept of JavaScript modules, their benefits, and how to
+            use them to structure your code for scalability and maintainability.</p>
         <Link to="/Modules"><button className="button"> Read More </button></Link>
       </div>
     </div>
