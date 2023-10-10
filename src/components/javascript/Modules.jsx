@@ -1,5 +1,10 @@
 import React from 'react';
 import './javascript.css';
+import modcommon from '../../images/rsz_modules.png';
+import esmodules from '../../images/rsz_esmodules.png';
+import namedex from '../../images/named.png';
+import defaultex from '../../images/default.png';
+
 
 
 
@@ -16,28 +21,146 @@ const Modules = () => {
          </div>
      
          <p className="js-main"> 
-
-        JavaScript modules are a way to organize and structure your JavaScript code into reusable and
-        maintainable pieces. They provide a mechanism for encapsulating and separating functionality,
-        variables, and classes into distinct files, making it easier to work on large and complex JavaScript 
-        applications.
+         JavaScript modules are a way to encapsulate and organize code into discrete, reusable units.
+        These units, or modules, can contain variables, functions, classes, or even objects. The 
+        primary purpose of modules is to create a clean separation of concerns, making it simplier
+         to work on different parts of an application independently.
     <br />
     <br />
 
          <strong> Here are some key features and concepts related to JavaScript modules: </strong> 
         <ul>
-          <li> <strong> Encapsulation: </strong> 
-        Modules encapsulate their internal functionality, meaning that the variables, functions, and
-        classes defined within a module are not accessible from outside the module unless explicitly 
-        exported. 
-        </li>
         <li>
+          <strong> File Sharing: </strong>
+          At the core of modules are file sharing, where functions, variables, objects, etc. in one file
+          are exported and then imported by another external file, where the data can be then extracted
+          from the exported files and utlized in the imported file.
+         </li>
+        <li> 
         <strong> Exporting: </strong>
          Modules allow you to specify which parts of the module should be accessible from other modules.
         You can export variables, functions, or classes using the export keyword.
          </li>
+         <li>
+        <strong> Importing: </strong>
+         Other modules can import functionality from a module using the import statement.
+         </li>
+         <li> <strong> Encapsulation: </strong> 
+        Modules encapsulate their internal functionality, meaning that the variables, functions, and
+        classes defined within a module are not accessible from outside the module unless explicitly 
+        exported. 
+        </li>
+       </ul>
+<br />
+<br />
+        <strong> Benefits of JavaScript Modules: </strong> 
+        <ul>
+          <li> <strong> Reusability: </strong> 
+          Modules can be imported and used in multiple parts of an application, promoting code reuse.
+          This reduces duplication and promotes a DRY (Don't Repeat Yourself) coding philosophy.
+        </li>
+        <li>
+        <strong> Maintainability:  </strong>
+          By breaking down your code into smaller, manageable pieces, modules make it easier to 
+          understand, debug, and maintain. This is especially important as your codebase grows.
+         </li>
+         <li>
+        <strong> Dependency Management:  </strong>
+           Modules enable explicit declaration and management of dependencies. You can clearly 
+           see which modules depend on others, making it easier to understand the relationships
+           between different parts of your application.
+         </li>
         </ul>
-    
+  <br />
+  <br />
+
+         <strong> Types of JavaScript Modules: </strong> 
+
+      There are two main types of JavaScript modules:
+    <ul> 
+      <li> <strong> CommonJS Modules: </strong> These are typically used in server-side JavaScript, particularly in Node.js.
+       CommonJS modules use require to import modules and module.exports to export values. </li>
+
+       <div className="var-img">
+          <img src={modcommon} alt="" />
+        </div>
+
+
+      <li> <strong> ECMAScript (ES) Modules: </strong> These are native to modern browsers and have become increasingly 
+      popular in both browser and server-side development. ES modules use import and export statements 
+      to define dependencies and exports. </li> 
+
+         <div className="var-img">
+          <img src={esmodules} alt="" />
+        </div> 
+<br />
+<br />
+      To run this ES Modules example, you can use modern browsers that support ES modules natively or
+       a build tool like webpack or Babel to transpile the code for use in environments that do not 
+       yet support ES modules.
+<br />
+<br />
+      In summary, the key differences between CommonJS and ES Modules are the syntax used for
+      importing and exporting modules. CommonJS uses require and module.exports, while ES Modules
+      use import and export. The examples above illustrate how to work with both module systems
+      in JavaScript.
+    </ul>
+
+<br />
+<br />
+
+        
+          <hr />
+            <h1 className="modules-title-named"> Named and Default Exports: </h1>
+          <hr />
+
+          In JavaScript modules, you can export and import both named exports and a default export.
+          Each serves a specific purpose, and they can be used together within the same module or 
+          across different modules. Let's explore the differences between named and default exports:
+<br />
+<br />
+          <strong> Named Exports: </strong>
+<br />
+<br />
+          <strong> Multiple Exports: </strong>
+           With named exports, you can export multiple variables, functions, or classes from 
+           a module by giving each export a name. This makes it easy to expose specific pieces 
+           of functionality.
+<br />
+<br />
+          <strong> Named Import: </strong>
+          When importing named exports in another module, you need to use the same name for the
+          imported variable as the exported one. This is also known as a destructuring import.    
+<br />
+<br />
+            <strong> Example of named exports: </strong>
+            <div className="var-img">
+               <img src={namedex} alt="" />
+            </div> 
+<br />
+<br />
+        <strong> Default Exports: </strong>
+<br />
+<br />
+
+       <strong> Single Default Export: </strong> A module can have only one default export. It 
+        is often used to represent the main functionality or object provided by the module.
+<br />
+<br />
+        <strong> No Need for Curly Braces: </strong> When importing a default export, you don't 
+        need to use curly braces. You can assign any name you want to the imported value.
+<br />
+<br />
+       <strong> Example of a default export: </strong> 
+        <div className="var-img">
+            <img src={defaultex} alt="" />
+        </div> 
+
+<br />
+<br />
+
+
+
             </p>
 
         </div>
