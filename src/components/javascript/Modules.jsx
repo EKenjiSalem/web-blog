@@ -4,6 +4,7 @@ import modcommon from '../../images/rsz_modules.png';
 import esmodules from '../../images/rsz_esmodules.png';
 import namedex from '../../images/named.png';
 import defaultex from '../../images/default.png';
+import encapsulate from '../../images/rsz_encapsulation.png';
 
 
 
@@ -158,6 +159,27 @@ const Modules = () => {
 
 <br />
 <br />
+
+          <hr />
+            <h1 className="modules-title-named"> Encapsulation </h1>
+          <hr />
+
+          Encapsulation in JavaScript modules involves hiding the internal implementation details
+           of a module and exposing only the necessary interface or public API. This helps prevent
+            the accidental modification of internal variables and functions from outside the module,
+             promoting information hiding and reducing the risk of unintended side effects.
+<br />
+<br />
+       <strong> In this example: </strong> 
+        The count variable and the increment function are encapsulated within the counter.js module.
+        They are not accessible from outside the module. The getCount and reset functions are part 
+        of the module's public interface and are exported. These functions allow external code to
+        interact with the encapsulated data and behavior. Note: the module's data being accessed 
+        by the main.js file.
+    
+        <div className="var-img">
+            <img src={encapsulate} alt="" />
+        </div> 
 
 
 

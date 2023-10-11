@@ -116,14 +116,12 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-        <Link to="/Asynchro"><h3 className="js-intro-title"> Asynchronous and API's </h3></Link>
+        <Link to="/Asynchro"><h3 className="js-intro-title"> AJAX </h3></Link>
         <p className="javascript-blog-description"> 
-        Asynchronous programming is a fundamental concept in JavaScript, enabling developers to build
-        responsive and efficient web applications. Understanding how to work with asynchronous code 
-        is crucial for handling tasks like making API requests, reading/writing files, and managing
-        user interactions without freezing the application's user interface. In this blog post,
-         we'll explore the core concepts of asynchronous programming in JavaScript and various 
-         techniques for managing it effectively..</p>
+        AJAX is a set of web development techniques that enable web pages to interact with 
+        a web server in the background, without requiring a full page refresh. It allows 
+        data to be exchanged asynchronously between the browser and the server, enhancing 
+        the user experience by providing real-time updates and interactivity.</p>
         <Link to="/Asynchro"><button className="button"> Read More </button></Link>
       </div>
     </div>

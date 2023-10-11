@@ -13,17 +13,50 @@ const Asynchro = () => {
     <div className="js-post">
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="js-post-title"> Asynchronous and API's </h1>
+        <h1 className="js-post-title"> Ajax </h1>
          <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
          </div>
 
-        <hr/>
-          <h1 className="async-title">  Asynchronous </h1>
-        <hr />
+   
      
          <p className="js-main"> 
+        <strong>Ajax (Asynchronous JavaScript and XML): </strong>
+        Ajax is a technique used in web development to create asynchronous web applications. This allows
+        web pages to send and receive data from a server without having to refresh the entire page. 
+        This enables dynamic and interactive user experiences. Ajax is not a specific technology; 
+        instead, it's a combination of various technologies, including JavaScript, XMLHttpRequest 
+        (or more modern alternatives like the Fetch API), HTML, and CSS. It can be used to update
+         parts of a web page without requiring a full page reload. Although AJAX is often associated 
+         with XML due to its name, it's important to note that AJAX is not limited to XML 
+         and can work with various data formats, including JSON and plain text.
+<br />
+<br />
+        <strong> APIs (Application Programming Interfaces): </strong>
+        APIs are a set of rules and protocols that allow different software applications to 
+        communicate with each other. In the context of web development, APIs are often used to 
+        retrieve and send data between a web application and a server. Web APIs, such as RESTful 
+        APIs or GraphQL APIs, provide endpoints that can be accessed over the internet. These 
+        endpoints allow developers to request data (GET requests) or send data (POST, PUT, DELETE 
+        requests) to interact with a server or a third-party service. APIs are commonly used to 
+        access data and functionality from external sources, like social media platforms or databases.
+
+<br />
+<br />
+          <strong> JSON (JavaScript Object Notation): </strong>
+          JSON is a data interchange format that is simple for humans to read and write.
+          JSON is often used as a data format in web development, particularly when data is
+          exchanged between a web application and a server using APIs. JSON data is represented 
+          as key-value pairs, making it a suitable choice for structuring data in a way that can
+          be easily converted to and from JavaScript objects. JSON is commonly used because
+          it's simple to work with in JavaScript, and widely supported by web APIs.
+<br />
+<br />
+<br />
+        <strong> What is asynchronous in javascript? </strong>
+<br />
+<br />
          Asynchronous refers to a programming paradigm and mechanism that allows you to perform 
          tasks without blocking the execution of other code. Asynchronous operations are commonly
           used for tasks that may take some time to complete, such as fetching data from a remote
@@ -37,8 +70,8 @@ const Asynchro = () => {
 
 <br />
 <br />
-        The primary way to work with asynchronous code in JavaScript is through the use of callbacks,
-        Promises, and async/await.
+        The primary way to work with asynchronous code in JavaScript is through the use of <strong> callbacks,
+        Promises, and async/await.</strong>
 <br />
 <br />
           <strong> Callbacks: </strong>

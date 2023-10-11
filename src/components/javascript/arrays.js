@@ -84,3 +84,37 @@ fetchData()
   
   fetchData();
    
+
+
+// counter.js
+
+// Private variable (encapsulated)
+let count = 0;
+
+// Private function (encapsulated)
+function increment() {
+  count++;
+}
+
+// Public function (exposed as part of the module's interface)
+function getCount() {
+  return count;
+}
+
+function reset() {
+  count = 0;
+}
+
+// Export only the public functions
+export { getCount, reset };
+
+
+
+// main.js
+
+import { getCount, reset } from './counter.js';
+
+console.log(`Initial count: ${getCount()}`); // Initial count: 0
+increment(); // This would result in an error because increment is not accessible.
+reset(); // This resets the count to 0.
+console.log(`Updated count: ${getCount()}`); // Updated count: 0
