@@ -14,7 +14,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
         <span className="react-blog-date"> April 25th, 2022 </span>
-        <Link to="/HtmlPost"><h3 className="react-main-title"> What is React? </h3></Link>
+        <Link to="/ReactIntro"><h3 className="react-main-title"> What is React? </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -22,7 +22,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <Link to="/CssPost"><button className="button"> Read More </button></Link>
+        <Link to="/ReactIntro"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -30,7 +30,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img"  alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> JSX</h3></a>
+        <Link to="/Syntax"><h3 className="react-main-title"> JSX</h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -38,7 +38,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button class="button"> Read More </button></a>
+        <Link to="/Syntax"><button class="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -46,7 +46,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img"  alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> Components </h3></a>
+        <Link to="/Components"><h3 className="react-main-title"> Components </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -54,7 +54,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Components"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -62,7 +62,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> React Router </h3></a>
+        <Link to="/Router"><h3 className="react-main-title"> React Router </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -70,7 +70,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Router"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -78,7 +78,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> Props </h3></a>
+        <Link to="/Props"><h3 className="react-main-title"> Props </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -86,7 +86,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Props"><button className="button"> Read More </button></Link>
       </div>
     </div>
     
@@ -94,7 +94,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> State </h3></a>
+        <Link to="/State"><h3 className="react-main-title"> State </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -102,7 +102,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/State"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -110,7 +110,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> Hooks </h3></a>
+        <Link to="/Hooks"><h3 className="react-main-title"> Hooks </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -118,7 +118,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Hooks"><button className="button"> Read More </button></Link>
       </div>
     </div>
 
@@ -142,7 +142,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> Operators </h3></a>
+        <Link to="/Operators"><h3 className="react-main-title"> Operators </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -150,7 +150,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/Operators"><button className="button"> Read More </button></Link>
       </div>
     </div>
 

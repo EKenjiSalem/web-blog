@@ -66,6 +66,10 @@
   }
 
   .blog .blog-container .blog-description {
+    /* margin-top: -5rem; */
+  }
 
+  .blog .blog-container .blog-title {
+    margin-top: -8rem;
 
   }
