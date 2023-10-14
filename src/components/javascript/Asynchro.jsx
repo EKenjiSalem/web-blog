@@ -28,9 +28,11 @@ const Asynchro = () => {
         This enables dynamic and interactive user experiences. Ajax is not a specific technology; 
         instead, it's a combination of various technologies, including JavaScript, XMLHttpRequest 
         (or more modern alternatives like the Fetch API), HTML, and CSS. It can be used to update
-         parts of a web page without requiring a full page reload. Although AJAX is often associated 
-         with XML due to its name, it's important to note that AJAX is not limited to XML 
-         and can work with various data formats, including JSON and plain text.
+         parts of a web page without requiring a full page reload.
+<br />
+<br />
+        Although AJAX is often associated with XML due to its name, it's important to note that
+        AJAX is not limited to XML and can work with various data formats, including JSON and plain text.
 <br />
 <br />
         <strong> APIs (Application Programming Interfaces): </strong>

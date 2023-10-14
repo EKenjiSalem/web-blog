@@ -2,12 +2,20 @@ import React from 'react';
 import codepost from '../../images/js-logo.png';
 import './javascript.css';
 import {Link} from 'react-router-dom';
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function JavaScript() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
   <section className="javascript-blog" id="html-blog">
    <div className="javascript-blog-container">
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
         <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -20,7 +28,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -34,7 +42,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -50,7 +58,7 @@ function JavaScript() {
     </div>
 
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -66,7 +74,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -82,7 +90,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -96,7 +104,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -112,7 +120,7 @@ function JavaScript() {
       </div>
     </div>
     
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -126,7 +134,7 @@ function JavaScript() {
       </div>
     </div>
 
-    <div className="javascript-blog-info" data-aos="fade-in">
+    <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
@@ -148,3 +156,6 @@ function JavaScript() {
 }
 
 export default JavaScript;
+
+
+

@@ -68,15 +68,66 @@
 
 .react-blog .react-blog-container .react-main-title {
     margin-top: -8rem;
-
 }
 
 .react-blog .react-blog-container .react-blog-description {
     font-size: 1.2rem;
     margin-top: .5rem;
-
 }
 
 .react-img {
     margin-left: -4rem;
 }
+
+.react-intro-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+
+.react-key-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.react-feature-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.react-main {
+    font-size: 1.4rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+}
+
+@media (max-width: 768px) {
+    .react-main {
+      width: 90%;
+      margin-left: 1.5rem;
+    }
+}
+
+.key-list-container {
+    margin-top: 1.5rem;
+
+}
+
+.key-list {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+.feature-list {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
