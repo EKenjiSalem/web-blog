@@ -197,3 +197,22 @@
     font-size: 1.5rem;
     text-align: center;
 }
+
+
+/* Props */
+
+.react-intro {
+    margin-top: 4rem;
+}
+
+.props-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -2rem; 
+    margin-bottom: 1rem;
+}
+
+.propfunc-title {
+    color: black;
+    font-size: 1.5rem;
+}
