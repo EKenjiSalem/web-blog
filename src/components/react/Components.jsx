@@ -26,25 +26,29 @@ const Components = () => {
           elements, and define the behavior and structure of the application.
 <br />
 <br />
-        <strong> There are two main types of components in React: </strong>
-
+        <strong className="type-title"> There are two main types of components in React: </strong>
+<br />
+<br />
        <strong> Function Components: </strong> These are stateless, functional components that are defined as 
         JavaScript functions. They are mainly used for simpler UI elements and don't have their
-         own internal state or lifecycle methods. Function components are highly encouraged in 
+         own internal state or lifecycle methods. <strong> Function components are highly encouraged in 
          modern React development due to the introduction of hooks, which allow you to manage 
-         state and side effects in functional components.
+         state and side effects in functional components. </strong>
             <div className="jsx-img">
               <img src={reactfunccomp} />
             </div>
 
 <br />
-<br />  
-            <div className="jsx-img">
+
+       <strong>  Using a function component to display a fixed greeting </strong>
+        <div className="jsx-img">
               <img src={reactfuncdynam} />
             </div>
 
+
+
 <br />
-<br />  
+<br /> 
        <strong> Class Components: </strong> These components are defined as JavaScript classes 
        that extend React.Component. They offer more features, including the ability to manage 
        internal state, lifecycle methods (such as componentDidMount and componentDidUpdate), 
