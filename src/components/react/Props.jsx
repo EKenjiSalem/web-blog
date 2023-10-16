@@ -23,22 +23,21 @@ const Props = () => {
          dynamic and reusable.
          </div>
 <br />
-<br />
 
             <strong> Key Concepts: </strong>
              <ul> 
-              <li> <strong> Props are Read-Only: </strong> It's essential to understand
+              <li className="props-list"> <strong> Props are Read-Only: </strong> It's essential to understand
                that props are read-only. Child components cannot modify the data they 
                receive through props. This helps maintain data integrity and predictability
               in your application.</li> 
-              <li>  <strong> Dynamic and Reusable Components: </strong> Props make your
+              <li className="props-list">  <strong> Dynamic and Reusable Components: </strong> Props make your
               components dynamic and reusable. You can use the same component structure
                with different data, allowing you to create versatile UI components.</li>
-              <li> <strong> Customization and Configuration: </strong>  You can use 
+              <li className="props-list"> <strong> Customization and Configuration: </strong>  You can use 
               props to customize and configure components. For instance, you can pass
               different styles, behavior, or content to a component through props,
               making it highly adaptable. </li>
-              <li> <strong> Unidirectional Flow:</strong> You can use props to customize
+              <li className="props-list"> <strong> Unidirectional Flow:</strong> You can use props to customize
               and configure components. For instance, you can pass different styles,behavior, 
               or content to a component through props, making it highly adaptable.
               </li>

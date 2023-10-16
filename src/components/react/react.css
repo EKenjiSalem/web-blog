@@ -216,3 +216,40 @@
     color: black;
     font-size: 1.5rem;
 }
+
+.props-list {
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+
+
+/* State */
+
+.state-info {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+.state-intro-title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.lift-state-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.state-list {
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+
+
+/* Hooks */
+
+.hooks-info {
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+}
