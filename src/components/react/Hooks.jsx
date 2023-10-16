@@ -54,7 +54,7 @@ const Hooks = () => {
 <br />  
           <strong> useContext: </strong> useContext is used to access and subscribe to a
            context's value within a component.
-           <div className="props-img">
+             <div className="props-img">
               <img src={contexthook} />
              </div>
 <br />

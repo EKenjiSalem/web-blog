@@ -134,7 +134,7 @@ function ReactBlog() {
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
       <span className="react-blog-date"> April 25th, 2022 </span>
-        <a href="#"><h3 className="react-main-title"> API </h3></a>
+        <Link to="/ApiReact"><h3 className="react-main-title"> API </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
@@ -142,7 +142,7 @@ function ReactBlog() {
            methodologies, and best practices. Whether you're an aspiring developer or 
            a seasoned pro looking to stay updated, this guide will walk you through the key components 
            and insights of web development.</p>
-        <a href="#"><button className="button"> Read More </button></a>
+        <Link to="/ApiReact"><button className="button"> Read More </button></Link>
       </div>
     </div>
 

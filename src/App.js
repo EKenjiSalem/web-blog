@@ -35,7 +35,7 @@ import ObjectProgram from './components/javascript/ObjectProgram.jsx';
 import Arrays from './components/javascript/Arrays.jsx';
 import Asynchro from './components/javascript/Asynchro.jsx';
 import Modules from './components/javascript/Modules.jsx';
-
+import ApiReact from './components/react/ApiReact.jsx';
 import ReactIntro from './components/react/ReactIntro.jsx';
 import Components from './components/react/Components.jsx';
 import Syntax from './components/react/Syntax.jsx';
@@ -98,6 +98,7 @@ function App() {
             <Route path="/Hooks" element={<Hooks />} />
             <Route path="/Operators" element={<Operators />} />
             <Route path="/Props" element={<Props />} />
+            <Route path="/ApiReact" element={<ApiReact />} />
 
          </Routes>
     </section>
