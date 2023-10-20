@@ -2,23 +2,34 @@ import React from 'react';
 import htmlblog from '../../images/html-blog.jpg';
 import './html.css';
 import {Link} from 'react-router-dom';
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function Html() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
   <section className="html-blog" id="html-blog">
    <div className="html-blog-container">
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
         <span className="html-blog-date"> April 25th, 2022 </span>
         <Link to="/HtmlPost"><h3> What is HTML? </h3></Link>
-        <p className="html-blog-description"> 
-HTML stands for HyperText Markup Language. HTML is responsible for creating the structure for all websites and apps. It provides a way to define multiple elements on a webpage, such as text, headings, paragraphs, images, videos, links, and more.
-   .....</p>
+         <p className="html-blog-description"> 
+            HTML stands for HyperText Markup Language. HTML is responsible for creating the structure
+            for all websites and apps. It provides a way to define multiple elements on a webpage, such
+            as text, headings, paragraphs, images, videos, links, and more.
+            </p>
         <Link to="/HtmlPost"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt=""/>
       <div className="html-blog-content">
       <span className="blog-date"> April 25th, 2022 </span>
@@ -29,7 +40,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
          <Link to="/Multimedia"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="html-blog-date"> April 25th, 2022 </span>
@@ -42,7 +53,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
          <Link to="/Buttons"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="html-blog-date"> April 25th, 2022 </span>
@@ -54,7 +65,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
         <Link to="/Attributes"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="htm-blog-date"> April 25th, 2022 </span>
@@ -69,7 +80,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
            <Link to="/Forms"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="html-blog-date"> April 25th, 2022 </span>
@@ -84,7 +95,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
            <Link to="/Div"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="blog-date"> April 25th, 2022 </span>
@@ -95,7 +106,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
          <Link to="/Text"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="blog-date"> April 25th, 2022 </span>
@@ -106,7 +117,7 @@ HTML stands for HyperText Markup Language. HTML is responsible for creating the 
          <Link to="/List"><button className="button"> Read More </button></Link>
       </div>
     </div>
-    <div className="html-blog-info" data-aos="fade-in">
+    <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
       <span className="blog-date"> April 25th, 2022 </span>

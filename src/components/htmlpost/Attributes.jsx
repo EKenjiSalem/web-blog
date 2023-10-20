@@ -38,10 +38,11 @@ function Attributes() {
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-post-title"> Exploring Attributes </h1>
-         <div className="html-post-info">
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
+         
          <p className="html-attr-intro">
          HTML attributes are additional pieces of information added to HTML elements to define their 
          characteristics, modify their behavior, or provide supplementary data. These attributes
@@ -89,8 +90,8 @@ function Attributes() {
           <img src={mclassimg} alt="" />
          </div>
 
-         <h1 className="class-style-title"> Class to Style with CSS: </h1>
-         <p className="class-style">
+         <h1 className="class-styles-title"> Class to Style with CSS: </h1>
+         <p className="class-styles">
           The primary use of the class attribute is to apply
           specific CSS styles to elements. By defining styles in a CSS stylesheet 
           and associating them with class names, you can easily apply consistent

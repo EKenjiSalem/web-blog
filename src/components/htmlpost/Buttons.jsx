@@ -18,17 +18,18 @@ function Buttons() {
         <div className="html-post-wrapper">
 
         <h1 className="html-post-title"> Buttons </h1>
-         <div className="html-post-info">
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
 
-         <p className="html-blog-post">
+         <p className="button-blog-post">
          HTML buttons are interactive elements used in web development to create 
          clickable actions or triggers on a webpage. They allow users to initiate 
          various actions when clicked, such as submitting forms, navigating to 
          other pages, executing JavaScript functions, or simply providing a means 
-         for user interaction.</p>
+         for user interaction.
+         </p>
          <div className="blog-button">
           <img src={blogbutton} alt="" />
          </div>
@@ -55,6 +56,7 @@ function Buttons() {
         <br />
         <strong> button:</strong> A generic button with no predefined behavior.
          </p>
+
          <div className="attr-img">
           <img src={attrimg} alt="" />
          </div>
@@ -81,7 +83,7 @@ function Buttons() {
          Buttons created with the input element are usually submit and reset buttons are commonly found 
          in HTML forms. When the submit button is clicked, they submit the form's data to the server for processing. 
          When the reset button is clicked form resets to its initial values and the form's fields are cleared.
-      </p>
+         </p>
 
          <div className="input-btn-img">
           <img src={inputimg} alt="" />
