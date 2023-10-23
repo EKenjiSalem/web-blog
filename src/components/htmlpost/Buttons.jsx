@@ -14,7 +14,7 @@ import mimgbtn from '../../images/rsz_img-btn.png';
 function Buttons() {  
 
   return (
-    <div className="html-post">
+    <div className="html-container">
         <div className="html-post-wrapper">
 
         <h1 className="html-post-title"> Buttons </h1>
@@ -37,23 +37,22 @@ function Buttons() {
           <img src={mblogbtn} alt="" />
          </div>
 
-
          <h1 className="btn-attr-title"> Button Attributes: </h1> 
           <p className="btn-attr">
            HTML buttons come with a range of attributes that allow you to customize their appearance 
            and behavior. Let's explore some of the most common attributes:
-        <br />
-        <br />
+<br />
+<br />
        <h1 className="type-attr-title"> Type Attribute:</h1> 
         The type attribute specifies the type of button. The most commonly used values are:
-        <br />
-        <br />
+<br />
+<br />
         <strong> submit:</strong> Submits a form when clicked.
-        <br />
-        <br />
+<br />
+<br />
         <strong> resets: </strong> Resets form fields to their initial values.
-        <br />
-        <br />
+<br />
+<br />
         <strong> button:</strong> A generic button with no predefined behavior.
          </p>
 
@@ -75,7 +74,6 @@ function Buttons() {
          <div className="m-name-attr-img">
           <img src={nattr} alt="" />
          </div>
-
 
          <h1 className="input-btn-title"> Input Element as Button: </h1>
          <p className="input-btn-main"> The input element can also be used to create buttons. 
@@ -103,7 +101,7 @@ function Buttons() {
           <img src={nattr} alt="" />
          </div>
 
-         <h1 className="img-btn-title"> Images in Buttons: </h1> 
+        <h1 className="img-btn-title"> Images in Buttons: </h1> 
         <p className="img-btn-main"> You can use an img element within a button
          element to create a button with an image. This is often done when you 
          want the image itself to serve as the clickable element. </p>
@@ -114,15 +112,8 @@ function Buttons() {
          <div className="m-img-btn">
           <img src={mimgbtn} alt="" />
          </div>
-  
-  
 
-
-
-
- 
-        </div>
-    
+        </div>    
     </div>
   )
   }

@@ -13,7 +13,7 @@ import mobilemedia from '../../images/mobilemedia.png';
 
 function Multimedia() {
   return (
-    <div className="html-post">
+    <div className="html-container">
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-media-title"> Images, Videos, and Audio </h1>
@@ -44,8 +44,7 @@ function Multimedia() {
           <div className="mobile-media-img">
             <img src={mmediaimg} alt="" />
           </div>
-          
-          <br />
+<br />
           <li className="media-list">
           <strong> Video: </strong> the video element is used to embed videos on a web page. The video tag can contain one 
           or more source elements, each specifying different video formats for better browser compatibility.
@@ -59,10 +58,9 @@ function Multimedia() {
            </div>
            <div className="mobile-video-img">
             <img src={mmediavid} alt="" />
-           </div>
-          
-          <br />
-          <br />
+           </div>          
+<br />
+<br />
           <li className="media-list-audio">
           <strong> Audio: </strong> the audio element is used to embed audio content on a web page. Similar to the video 
           element, it can contain one or more source elements specifying different audio formats. 
@@ -74,22 +72,19 @@ function Multimedia() {
           <div className="mobile-audio-img">
             <img src={mmediaaudio} alt="" />
           </div>
-
           </ul>
-
-
 <br />
 <br />
           <h1 className="media-embed-title"> Media Embedding Example: </h1>
-          <div className="html-post-img">
-          <img src={mediaembedded} alt="" />
-         </div>
-          <div className="m-media-post-img">
-          <img src={mobilemedia} alt="" />
-         </div>
+           <div className="html-post-img">
+            <img src={mediaembedded} alt="" />
+           </div>
+           <div className="m-media-post-img">
+            <img src={mobilemedia} alt="" />
+           </div>
          </p>
-        </div>    
-    </div>
+         </div>    
+      </div>
   )
 }
 

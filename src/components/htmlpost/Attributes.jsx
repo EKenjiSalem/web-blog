@@ -1,6 +1,8 @@
 import './htmlpost.css';
 import idimg from '../../images/id.png';
 import midimg from '../../images/rsz_id.png';
+import idselector from '../../images/idselector.png';
+import midselector from '../../images/rsz_idselector.png';
 import classimg from '../../images/class.png';
 import mclassimg from '../../images/rsz_class.png';
 import hrefimg from '../../images/href.png';
@@ -34,7 +36,7 @@ import mtargetimg from '../../images/rsz_target.png';
 
 function Attributes() {
   return (
-    <div className="html-post">
+    <div className="html-container">
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-post-title"> Exploring Attributes </h1>
@@ -51,13 +53,15 @@ function Attributes() {
            single quotation marks.
           </p>
 
-                 
-        <h1 className="attr-post-title"> id Attributes: </h1>
+         <hr className="id-line" />
+          <h1 className="attr-post-title"> ID Attributes: </h1>
+          <hr className="id-line"/> 
+    
          <p className="attr-main">
-        HTML attributes can vary depending on the element they are applied to.
+         HTML attributes can vary depending on the element they are applied to.
          Let's explore some commonly used attributes and their purposes:
-         <br />
-         <br />
+<br />
+<br />
         The id attribute assigns a unique identifier to an element on the page. It's often used 
         in CSS and JavaScript to select and style specific elements.
          </p>
@@ -68,17 +72,39 @@ function Attributes() {
          <div className="m-attr-img">
           <img src={midimg} alt="" />
          </div>
+<br />
+<br />
+         <h1 className="id-attr-title"> ID Attributes with JavaScript: </h1>
+          <p className="attr-main">
+          You can use JavaScript's Document Object Model (DOM) to select an element by its id 
+          attribute.
+<br />
+<br />
+         In this example, document.getElementById("myElement") is used to select the HTML element
+         with the id attribute set to "myElement." After selecting the element, you can manipulate
+         or access its properties and content.
 
+         </p>
 
-       <h1 className="class-post-title"> class Attributes: </h1>
+         <div className="attr-post-img">
+          <img src={idselector} alt="" />
+         </div>
+         <div className="m-idselector-img">
+          <img src={midselector} alt="" />
+         </div>
+
+        <hr className="id-line" />
+         <h1 className="class-post-title"> Class Attributes: </h1>
+        <hr className="id-line" />
+
          <p className="class-main">
          The class attribute in HTML is used to assign one or more class names to
           elements. These class names are typically used for styling with CSS and 
           for selecting elements with JavaScript. Here are various uses for the 
           class attribute in HTML:
-         <br />
-         <br />
-         This attribute is a versatile tool that allows you to style, select,
+<br />
+<br />
+          This attribute is a versatile tool that allows you to style, select,
           and enhance the functionality of elements on your web page. It's a fundamental part of
            web development, enabling you to create consistent and responsive designs while also 
            facilitating interactivity within your HTML documents.
@@ -102,31 +128,30 @@ function Attributes() {
          <div className="m-styling-img">
           <img src={mstylingimg} alt="" />
          </div>
-         <br />
-         <br />
-
-
-         <h1 className="js-title">  Class to create functionality in JavaScript: </h1>
+<br />
+<br />
+         <h1 className="class-js-title">  Class to create functionality in JavaScript: </h1>
          <p className="class-js"> Selecting Elements with JavaScript: JavaScript can target elements
-          with specific class names using methods like document.getElementsByClassName().</p>
+          with specific class names.</p>
            <div className="class-js-img">
           <img src={classjsimg} alt="" />
          </div>
           <div className="m-class-js-img">
           <img src={mclassjsimg} alt="" />
          </div>
-         <br />
-         <br /> 
+<br />
+<br /> 
+         <hr className="id-line" />
+          <h1 className="href-post-title"> Href Attributes: </h1>
+         <hr className="id-line" />
 
-
-         <h1 className="href-post-title"> href Attributes: </h1>
          <p className="href-main">
-        HTML attributes can vary depending on the element they are applied to.
-         Let's explore some commonly used attributes and their purposes:
-         <br />
-         <br />
-        The id attribute assigns a unique identifier to an element on the page. It's often used 
-        in CSS and JavaScript to select and style specific elements.
+          HTML attributes can vary depending on the element they are applied to.
+          Let's explore some commonly used attributes and their purposes:
+<br />
+<br />
+          The id attribute assigns a unique identifier to an element on the page. It's often used 
+          in CSS and JavaScript to select and style specific elements.
          </p>
          <div className="href-post-img">
           <img src={hrefimg} alt="" />
@@ -135,17 +160,19 @@ function Attributes() {
           <img src={mhrefimg} alt="" />
          </div>
 
+         <hr className="id-line" />
+          <h1 className="src-post-title"> Src Attributes: </h1>
+         <hr className="id-line" />
 
-         <h1 className="src-post-title"> src Attributes: </h1>
          <p className="src-main">
          The src attribute in HTML is used to specify the source - URL or file path -
           for various elements. Its usage depends on the type of HTML element it's 
           applied to. Here are some common uses for the src attribute:
-         <br />
-         <br />
          </p>
 
-         <h1> Image Src: </h1>
+<br />
+
+         <h1 className="src-title-img"> Image Src: </h1>
          <p className="src-main">  The src attribute in the img element specifies the source
           URL or file path of an image to be displayed on the web page. 
          </p>
@@ -198,7 +225,6 @@ function Attributes() {
           <img src={mvideosrc} alt="" />
          </div>
 
-
          <h1 className="alt-post-title"> alt Attributes: </h1>
          <p className="alt-main"> The alt attribute provides alternative text for
           images. It's essential for web accessibility, as it describes the 
@@ -211,18 +237,18 @@ function Attributes() {
          <div className="m-alt-img">
           <img src={malt} alt="" />
          </div>
+<br />
+         <hr className="id-line" />
+          <h1 className="width-post-title"> Width and Height Attributes: </h1>
+         <hr className="id-line" />
 
-
-
-         <h1 className="width-post-title"> Width and Height Attributes: </h1>
          <p className="width-main">
-         the width and height attributes are used to specify the dimensions of certain elements,
+         The width and height attributes are used to specify the dimensions of certain elements,
           such as image, video, and table cells td and th. These attributes determine the visual size 
           of the element on the web page. </p>
-         <br />
-         <br />
+<br />
+<br />
         
-
          <h1 className="image-width-title"> Image width and height Attributes: </h1>
          <p className="image-width-main">
          When you use the width and height attributes with an img element, you can 
@@ -236,7 +262,7 @@ function Attributes() {
           <img src={mimgwidth} alt="" />
          </div>
 
-
+<br />
          <h1 className="video-width-title"> Video width and height Attributes: </h1>
          <p className="video-width-main">
          Similar to the image, the width and height of a video are set the same.
@@ -250,12 +276,14 @@ function Attributes() {
           <img src={mvidheight} alt="" />
          </div>
 
+<br />
+
          <h1 className="tab-width-title"> Table Cells </h1>
-         <p className="tab-width-main"> In the context of HTML tables, you can use
+          <p className="tab-width-main"> In the context of HTML tables, you can use
           the width attribute to define the width of individual table cells td or table 
           headers th in pixels or as a percentage of the table's total width.
-         
-         </p>
+          </p>
+
          <div className="tab-width-img">
           <img src={tabwidth} alt="" />
          </div>
@@ -263,8 +291,10 @@ function Attributes() {
           <img src={mtabwidth} alt="" />
          </div>
 
+         <hr className="id-line" />
+          <h1 className="style-attr-title"> Style Attribute: </h1>
+         <hr className="id-line" />
 
-         <h1 className="style-attr-title"> style Attributes: </h1>
          <p className="style-attr-main">
          The style attribute allows you to add inline CSS styles directly to an element, 
          affecting its appearance.
@@ -277,18 +307,19 @@ function Attributes() {
          <div className="m-style-attr-img">
           <img src={mstyleattr} alt="" />
          </div>
-   
+         
+         <hr className="id-line" />
+          <h1 className="target-post-title"> Target Attribute: </h1>
+         <hr className="id-line" />
 
-         <h1 className="target-post-title"> target Attributes: </h1>
          <p className="target-main">
 
          The target attribute is used in HTML to specify where to open 
          the linked resource when a user clicks on a hyperlink a or a form form
           is submitted. The target attribute can take several values, each of 
-          which defines a different behavior for opening the linked resource.
-        
-         <br />
-         <br />
+          which defines a different behavior for opening the linked resource.        
+<br />
+<br />
          <h1 className="target-blank-title"> _blank Attributes: </h1>
          This attributes opens the linked resource in a new browser window or tab,
           depending on the user's browser settings. It's often used for external 

@@ -8,19 +8,19 @@ function Forms() {
     <div className="html-post">
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="html-post-title"> User Forms and Inputs </h1>
-         <div className="html-post-info">
+        <h1 className="form-container-title"> User Forms and Inputs </h1>
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
-         <p className="form-post-main">
-         HTML forms are a crucial component of web development that allow users to input data and interact with a website. 
-         They are used to gather information from users, such as text, numbers, selections, and more, which can then be submitted 
-         to a server for processing. Forms are a fundamental way to create interactive and 
-         dynamic web applications, such as login pages, search bars, registration forms,
+         </div> */}
+          <p className="form-post-main">
+          HTML forms are a crucial component of web development that allow users to input data and interact with a website. 
+          They are used to gather information from users, such as text, numbers, selections, and more, which can then be submitted 
+          to a server for processing. Forms are a fundamental way to create interactive and 
+          dynamic web applications, such as login pages, search bars, registration forms,
           and feedback surveys.
-         <br />
-         <br />
+<br />
+<br />
          <h1 className="form-post-title">The Key Components and Concepts Associated with HTML Forms:</h1>
           <p className="form-list">
            <strong className="form-list-title" > Form Element Form: </strong> 
@@ -28,11 +28,9 @@ function Forms() {
           The form element is used to define an HTML form. It encapsulates all the form controls and input
           HTML forms are defined using the form element. This element acts as a container for various form controls
           and defines the structure of the form. The <strong> action </strong> specifies where the form data 
-          will be sent. The <strong> method </strong> specifiesthe HTTP method to be used, usually "GET" or "POST". </p>
-        <br />
-        <br />
-
-
+          will be sent. The <strong> method </strong> specifies the HTTP method to be used, usually "GET" or "POST". </p>
+<br />
+<br />
         <h1 className="form-label-title"> Form Label: </h1>
          <div className="form-label"> 
          Labels: are used to provide a description for form controls. 
@@ -44,10 +42,10 @@ function Forms() {
          <div className="form-controls"> 
          Form controls are the elements within a form that allow users to input data or make selections. Common form controls include:
        <ul> 
-        <li> Input - for text input, checkboxes, radio buttons, etc. </li>
-        <li> Textarea - for multiline text input.</li>
-        <li> Select -  for dropdown menus.</li>
-        <li> Button - for buttons to trigger actions. </li>
+        <li className="form-list-controls"> Input - for text input, checkboxes, radio buttons, etc. </li>
+        <li className="form-list-controls"> Textarea - for multiline text input.</li>
+        <li className="form-list-controls"> Select -  for dropdown menus.</li>
+        <li className="form-list-controls"> Button - for buttons to trigger actions. </li>
         </ul>
         </div>
 
@@ -58,7 +56,7 @@ function Forms() {
           attribute of the form element. The HTTP method specified in the
            method attribute determines how the data is sent either in the URL 
            for "GET" or in the request body for "POST".
-        </div>
+         </div>
 
 
         <h1 className="form-validation-title"> Form Validation: </h1>
@@ -67,25 +65,30 @@ function Forms() {
          like <strong> required </strong>, pattern, and JavaScript to ensure that user input meets
           certain criteria. Server-side validation is also essential to validate
            data on the server and enhance security.
-        </div>
-        </p>
+         </div>
+         </p>
 
         <h1 className="placeholder-title"> PlaceHolder Attribute: </h1>
-         <p className="placeholder">
-         Refers to a text or visual cue that is temporarily displayed within
+         <p className="placeholder-attr">
+          Refers to a text or visual cue that is temporarily displayed within
           an input field or textarea to provide an example or hint to the 
           user about the type of information expected in that field. 
           Placeholders are typically used to improve the user experience 
           by providing context or instructions, but they are not actual 
           input values and are usually replaced when the user starts typing.
-        </p>
+         </p>
 
-          <div className="forms-img">
-            <img src={forms} alt="" className="form-img"/>
+<br />  
+        <h1 className="form-action"> Form in Action: </h1>
+
+           <div className="form-image">
+            <img src={forms} alt="" />
           </div>
+
           <div className="m-forms-img">
-            <img src={mforms} alt="" className="form-img"/>
+            <img src={mforms} alt="" />
           </div>  
+
         </div>
     </div>
   )

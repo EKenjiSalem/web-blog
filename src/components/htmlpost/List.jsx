@@ -2,6 +2,8 @@ import React from 'react';
 import './htmlpost.css';
 import ul from '../../images/ul.png';
 import ol from '../../images/ol.png';
+import listaction from '../../images/listexample.png';
+import mlistaction from '../../images/rsz_listexample.png';
 
 function List() {
   return (
@@ -9,10 +11,10 @@ function List() {
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-post-title"> List  </h1>
-         <div className="html-post-info">
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
          <p className="list-main"> Lists are used to organize and display
           information in a structured and ordered or unordered manner on a web
            page. Lists are an essential part of web design and are commonly 
@@ -59,6 +61,20 @@ function List() {
             including changing the bullet points or numbering style.
           
             </p>
+
+            <h1 className="list-action-title"> Ul and Ol list in Action: </h1>
+             <p className="list-action">
+             In this example, the ul element is used to create an unordered list, which displays
+             a list of items with bullet points. The ol element is used to create an ordered list,
+              which displays a list of items with numbers. Each list item is represented by the 
+              li element, which stands for "list item."
+             </p>
+            <div className="list-action-img">
+              <img src={listaction}  alt="" />
+            </div>
+            <div className="m-list-action-img">
+              <img src={mlistaction}  alt="" />
+            </div>
         </div>
     
     </div>

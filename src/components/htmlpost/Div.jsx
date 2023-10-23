@@ -15,34 +15,34 @@ function Div() {
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-post-title"> The Magnificent Div </h1>
-         <div className="html-post-info">
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
-         <p className="html-blog-post">
+         </div> */}
+         <p className="div-blog-post">
          In HTML, div is a fundamental and versatile element that is used to 
          create a division or a container for grouping and structuring content
           within a web page. The term "div" stands for "division." It is a 
           non-semantic element, meaning it doesn't inherently convey any specific 
           meaning like headings or paragraphs do, but it is incredibly useful for 
           styling and layout purposes.
-          <br />
-          <br />
+<br />
+<br />
           The div is also a blank canvas that holds other HTML elements and
           content. Unlike semantic elements like headings h1 to h6, paragraphs
           p, or lists ul, ol, div elements do not carry any inherent meaning.
           Instead, they provide a structural framework and styling hooks for 
           your web page.
-          <br />
-          <br />
+<br />
+<br />
           The div element is a cornerstone of web development and often used as a building block in combination with 
           CSS Cascading Style Sheets to create layouts, apply styling, and organize
            content. It allows you to group multiple HTML elements together and 
            apply styling or functionality to the group as a whole. 
           </p>
 
-
-          <h1 className="organiz-main-title"> The Main Purposes for a Div: </h1>
+      
+         <h1 className="organiz-main-title"> The Main Purposes for a Div: </h1>
          <h3 className="organiz-title"> Structural Organization: </h3>
          <p className="organiz-main"> The primary role of div elements
            is to divide and structure the content of a web page. By placing 

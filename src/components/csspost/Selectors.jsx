@@ -32,10 +32,10 @@ const Selectors = () => {
         <div className="css-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="css-post-title"> Selectors </h1>
-         <div className="css-post-info">
+         {/* <div className="css-post-info">
             <span className="css-post-author"> Author: <b> Elias </b> </span>
             <span className="css-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
 
          <main> 
          <p className="selectors-main"> 
@@ -81,6 +81,8 @@ const Selectors = () => {
         You can also apply CSS styles directly to individual HTML elements using the style
         attribute. This is not recommended for general use because it mixes content with 
         presentation and can make your HTML harder to read and maintain.
+      </div>
+      </p>
 
         <div className="inline-selector-img">
             <img src={inlineselector} alt="" />
@@ -89,7 +91,6 @@ const Selectors = () => {
           <div className="m-inline-selector-img">
             <img src={minlineselector} alt="" />
           </div>   
-        </div>
 
 
         <div className="link-main"> <strong> Embedded Style Block: </strong>
@@ -97,9 +98,10 @@ const Selectors = () => {
         HTML document, typically within the style element in the head section of the 
         HTML. These styles are specific to that HTML document and are not external 
         stylesheets.
+        </div>
 
-        <br />
-        <br /> 
+  <br />
+  <br /> 
 
         <div className="embed-selector-img">
             <img src={embedblock} alt="" />
@@ -108,18 +110,20 @@ const Selectors = () => {
           <div className="m-inline-selector-img">
             <img src={membedblock} alt="" />
           </div>   
-        </div>
+
 
 
         <hr />
         <h1 className="selectors-title"> Selectors Type: </h1>
         <hr />
+
         <p className="selector-type-main"> 
         <strong> Element Selector: </strong>
         The simplest selector targets all instances of a specific HTML element/tag type.
         This targets the h1 and body tags, and applies color and background.
         Note: This example is the same as the embedded style block example.
         </p>
+
         <div className="inline-selector-img">
             <img src={embedblock} alt="" />
           </div>
@@ -149,8 +153,8 @@ const Selectors = () => {
         ID selectors are used to target and style a specific
         HTML element with a unique identifier ID. They are written 
         using the # symbol followed by the ID name. 
-        <br />
-        <br /> 
+<br />
+<br /> 
         It's important to note that ID selectors should be used 
         sparingly. Each ID should be unique within a single HTML 
         document, meaning that you should not have multiple elements
@@ -219,8 +223,8 @@ const Selectors = () => {
     their state or position within the document. Unlike traditional selectors that match elements 
     by their tag name, class, or ID attributes, pseudo-class selectors provide a dynamic way to
     style elements.</p>
-    <br />
-    <br />
+<br />
+<br />
 
       <h1 className="selector-pseduo-title"> Common Pseudo Selectors: </h1>
         <p className="selector-type-main"> 
@@ -270,8 +274,8 @@ const Selectors = () => {
         considering only elements of the same type. Here's an example that selects every 2nd 
         paragraph and applies a different background color:
      
-        <br />
-        <br />
+<br />
+<br />
         In this example, every third p element will have a background color orange
         creating a pattern of styled paragraphs. The 2n parameter means every 2nd element
          (2, 4, 6, and so on). You can adjust this parameter to create different patterns 
@@ -285,7 +289,7 @@ const Selectors = () => {
             <img src={mnthselector} alt="" />
           </div>  
 
-            </p>
+
             </main>
 
         </div>

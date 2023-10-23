@@ -2,12 +2,20 @@ import React from 'react';
 import codepost from '../../images/cssmain.webp';
 import './csspost.css';
 import {Link} from 'react-router-dom';
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Css() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
   <section className="css-blog" id="html-blog">
    <div className="css-blog-container">
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
         <span className="css-blog-date"> April 25th, 2022 </span>
@@ -21,7 +29,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="blog-date"> April 25th, 2022 </span>
@@ -35,7 +43,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -49,7 +57,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -64,7 +72,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -78,7 +86,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -93,7 +101,7 @@ function Css() {
       </div>
     </div>
 
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -110,7 +118,7 @@ function Css() {
       </div>
     </div>
 
-        <div className="css-blog-info" data-aos="fade-in">
+        <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
@@ -124,7 +132,7 @@ function Css() {
       </div>
     </div>
     
-    <div className="css-blog-info" data-aos="fade-in">
+    <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>

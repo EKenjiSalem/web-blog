@@ -6,7 +6,7 @@ import mhtmltemplate from '../../images/rsz_1htmltemplate.png';
 
 function HtmlPost() {
   return (
-    <div className="html-post">
+    <div className="html-container">
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="html-post-title"> Exploring HTML: The Building Blocks of the Web  </h1>

@@ -9,10 +9,10 @@ function CssPost() {
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="css-post-title"> What is CSS?  </h1>
 
-         <div className="css-post-info">
+         {/* <div className="css-post-info">
             <span className="css-post-author"> Author: <b> Elias </b> </span>
             <span className="css-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
 
          <p className="css-main"> 
           CSS, which stands for Cascading Style Sheets, is a stylesheet
@@ -68,34 +68,12 @@ function CssPost() {
              applied to images, text, backgrounds, borders and even buttons. CSS provides a wide array of 
              options for defining and applying colors, from simple color names to sophisticated gradients. </li>
              </ul>
-
-   
-        <p className="internal"> </p>
-
-
-
-
-       </div>
-
-
-
-       
-         
-  
-
-          {/* <div className="ul-img">
-            <img src={ul} alt="" />
-          </div>
-          <div className="m-ul-img">
-            <img src={ul} alt="" />
-          </div>  
-
-        */}
-
-          
+<br /> 
+<br />
+            </div>    
             </p>
+
         </div>
-    
     </div>
   )
 }

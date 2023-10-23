@@ -8,11 +8,11 @@ function Semantics() {
     <div className="html-post">
         <div className="html-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="html-post-title"> The Importance of Semantics </h1>
-         <div className="html-post-info">
+        <h1 className="semantics-post-title"> The Importance of Semantics </h1>
+         {/* <div className="html-post-info">
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
          <p className="semantics-post">
          HTML semantics refer to the meaning or purpose behind the elements and 
          tags used in HTML to structure web content. Semantic HTML elements provide
@@ -25,7 +25,7 @@ function Semantics() {
           <br />
           <br />
 
-          <h1 className="semantics-title"> Here are some common examples of semantics elements and their purposes: </h1>
+          <h1 className="semantics-title"> Common examples of semantic elements and their purposes: </h1>
            <p className="semantics-main">
 
            <ul> 
