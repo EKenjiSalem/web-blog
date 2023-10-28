@@ -47,7 +47,7 @@ function Css() {
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       <span className="css-blog-date"> April 25th, 2022 </span>
-        <Link to="/BoxModel"> <h3 className="css-blog-title"> The Kraft of the Box Model  </h3></Link>
+        <Link to="/BoxModel"> <h3 className="css-blog-title"> The Craft of the Box Model  </h3></Link>
         <p className="css-blog-description"> 
        Layout and positioning are fundamental aspect of web development that empowers you to 
         precisely control the layout and placement of elements on your web page. Understanding how the

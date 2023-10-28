@@ -91,7 +91,7 @@
     font-size: 1.5rem;
     color: black;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 .js-post-info {
@@ -105,7 +105,7 @@
 
 
 .js-main {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 12rem;
     margin-right: 12rem;
     margin-top: 5rem;
@@ -113,12 +113,178 @@
 }
 
 
+.js-var-main {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    line-height: 1.5;
+}
+
+.var-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.var-list {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.operators-title {
+    margin-top: -1rem;
+    margin-bottom: -.3rem; 
+    text-align: center;
+
+}
+
+.operator-list-title {
+
+}
+
+.operator-list {
+    margin-left: 2rem;
+    margin-top: .5rem;
+}
+
+
+.mathoperator-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: -4rem; 
+}
+
+.mathoperator-list {
+    margin-top:  1rem;
+    list-style-type: none;
+}
+ 
+.assignment-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+
+}
+ 
+.assignment-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.comparison-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+
+}
+
+.comparison-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.logical-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.logical-img {
+   
+}
+
+.logical-list{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.unary-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.unary-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.unary-img {
+
+}
+
+.ternary-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ternary-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+
+.basictype-titles {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.basictype-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.reference-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.reference-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.datatype-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.datatype-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+
 @media (max-width: 768px) {
     .js-main {
       width: 90%;
+      margin-bottom: -2.5rem;
       margin-left: 2rem;
-      margin-top: ;
     }
+    .js-var-main {
+        width: 90%;
+        margin-bottom: -2.5rem;
+        margin-left: 2rem;
+      }
     .js-post-date {
         margin-left: 16rem;
     }
@@ -157,27 +323,373 @@
     margin-bottom: .5rem;
 }
 
+.dom-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
 
 /* Functions */
+
+.function-intro {
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width:768px) {
+    .function-intro {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+.anatomy-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.anatomy-list-container {
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.anatomy-list {
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+@media (max-width:768px) {
+    .anatomy-title {
+        margin-left: 1.5rem;
+    }
+    .anatomy-list-container {
+        width: 90%;
+        margin-left: 1.5rem;
+        list-style-type: none;
+    }
+}
+
+.create-function-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+
+.function-declaration-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.function-declaration {
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.function-declaration-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .create-function-title {
+        margin-left: 1.5rem;
+    }
+    .function-declaration-title {
+        margin-left: 1.5rem;
+    }
+    .function-declaration {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+.arguments {
+  
+
+}
+
+.function-expression-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.function-expression {
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.function-expression-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .function-expression-title {
+        margin-left: 1.5rem;
+    }
+    .function-expression {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+
+.arrow-function-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.arrow-function {
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.arrow-function-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .arrow-function-title{
+        margin-left: 1.5rem;
+    }
+    .arrow-function {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+.function-action-title {
+    margin-left: 12rem;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.function-action {
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.function-action-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .function-action-title {
+        margin-left: 1.5rem;
+    }
+    .function-action {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
 
 .scope-title {
     color: black;
     font-size: 1.5rem;
+    margin-top: -1rem;
     text-align: center;
 }
 
-.higher-functions-title {
+.scope-main {
+    color: black;
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    line-height: 1.5;
+}
+
+.global-scope-title {
     color: black;
     font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.global-list {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+.global-scope-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+.local-scope-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+
+.local-scope-list {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+.local-scope-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .global-scope-title, .local-scope-title {
+        margin-left: 1.5rem;
+    }
+    .scope-main, .global-list, .local-scope-list {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
 }
 
 .closures-title {
     color: black;
     font-size: 1.5rem;
     text-align: center;
+    margin-top: -1rem;
 }
 
+.closure-main {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.closure-img {
+    margin-left: 12rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:768px) {
+    .closure-main {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+.higher-functions-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.higher-function-main {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+@media (max-width:768px) {
+    .higher-function-main {
+        width: 90%;
+        margin-left: 1.5rem;
+ }
+}
+
+.common-higher-function-title {
+    color: black;
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.common-higher-functions {
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+@media (max-width:768px) {
+    .common-higher-function-title {
+        margin-left: 1.5rem;
+    }
+    .common-higher-functions {
+       width: 90%;
+       margin-left: 1.5rem;
+    }
+}
+
+
 /* If Statements */
+
+.ifstate-main {
+    margin-top: 3rem;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+}
+
+.ifstate-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+@media (max-width:768px) {
+    .ifstate-main {
+        width: 90%;
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+.advanceifstatement {
+    margin-top: -1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.ifstate-action {
+    margin-top: -1.5rem;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
 
 /* Loops */
 
@@ -185,14 +697,192 @@
     color: black;
     font-size: 1.5rem;
     text-align: center;
+    margin-top: -1rem;
 }
 
-/* API's */
 
-.api-title {
+/* Arrays */
+
+.arrays-main {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+@media (max-width:768px) {
+    .arrays-main {
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+}
+
+.array-list {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.array-create-title {
     font-size: 1.5rem;
     color: black;
     text-align: center;
+    margin-top: -1rem;
+}
+
+.array-main-create {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    font-size: 1.5rem;
+}
+
+.array-methods-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.array-data-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.array-loops-title {
+    font-size: 1.4rem;
+    color: black;
+    margin-top: -1rem;
+    margin-bottom: .5rem;
+}
+
+.array-zero-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.array-destructing-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.multi-array-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.mutable-arrays-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.spread-array-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.array-action-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+
+/* Objects */
+
+.object-oriented-main {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+@media (max-width:768px) {
+    .object-oriented-main {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+
+.create-objects-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.object-intro {
+    margin-top: -3rem;
+    margin-bottom: .5rem;
+}
+
+.methods-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.methods-main {
+    margin-top: -3.5rem;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+.constructor-function-title {
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+
+
+/* API's */
+
+.ajax-main {
+    font-size: 1.4rem;
+    color: black;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width:768px) {
+    .ajax-main {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+}
+
+.api-title {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.api-list {
+    list-style-type: none;
+    margin-left: -.2rem;
 }
 
 .async-title {
@@ -204,7 +894,52 @@
 
 /* Modules */
 
+.modules-main {
+    font-size: 1.4rem;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    line-height: 1.5
+}
+
+@media (max-width:768px) {
+    .modules-main {
+       width: 90%;
+       margin-left: 1.5rem;
+    }
+}
+
+.modules-key-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.modules-benefits-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.modules-list {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+.module-type-list {
+    margin-top: 2rem;
+    list-style-type: none;
+}
+
+.modules-type {
+    margin-bottom: 1.5rem;
+}
+
 .modules-title-named {
+    margin-top: -1rem;
     font-size: 1.5rem;
     color: black;
     text-align: center;

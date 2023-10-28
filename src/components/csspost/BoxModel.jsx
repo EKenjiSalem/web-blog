@@ -19,14 +19,13 @@ const BoxModel = () => {
     <div className="css-post">
         <div className="css-post-wrapper">
         <h1 className="css-post-title"> BoxModel </h1>
-         <div className="css-post-info">
+         {/* <div className="css-post-info">
             <span className="css-post-author"> Author: <b> Elias </b> </span>
             <span className="css-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
 
          <main> 
           <p className="boxmodel-main"> 
-
             The box model is a fundamental concept in web development and design that 
             controls element spacing, layout, and how their dimensions are calculated.
             By adjusting the padding, border, and margin properties, designers can create 
@@ -37,30 +36,30 @@ const BoxModel = () => {
            <div className="boxmodel-img">
             <img src={boxmodel} alt="" />
            </div>
-           <div className="m-ul-img">
+           <div className="m-boxmodel-img">
             <img src={mboxmodel} alt="" />
            </div>  
-      <br />
-      <br />
+<br />
+<br />
 
     <ul>
-    <h1 className="width-heigth-title"> Width and Height </h1>
+    <h1 className="width-heigth-title"> Width and Height: </h1>
    width and height properties are part of the CSS Box Model, yet are are used to 
    specify the dimensions of the content area of an element.
 
-   <br />
-   <br />
+<br />
+<br />
     The width property defines the horizontal dimension of the content area,
     while the height property determines the vertical dimension. 
     These properties directly affect the size of the content box within 
     the box model.
 
-    <br />
-    <br />
+<br />
+<br />
     <h1 className="layout-spacing-title"> To Control Spacing, The Box Model offer 4 Main Components: Content, Margin, Border, Padding </h1>
-    <br />
+<br />
     <strong> Note: </strong> margin and padding shorthand for top, bottom, right, left - margin/padding: 1rem 5rem 4rem 7rem;
-    <br />
+<br />
      <li className="spacing-list"> 
      <strong> Content: </strong>
       The content is the innermost part of the element, where the actual content,
@@ -104,10 +103,10 @@ const BoxModel = () => {
       <strong> Border-Radius: </strong>
       Allows you to round the edges of a content box. 
       </li>
-         <div className="border-img">
+         <div className="border-radius-img">
             <img src={radborder} alt="" />
            </div>
-           <div className="m-border-img">
+           <div className="m-border-radius-img">
             <img src={mradborder} alt="" />
            </div>  
 

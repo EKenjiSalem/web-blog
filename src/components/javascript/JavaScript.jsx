@@ -32,7 +32,7 @@ function JavaScript() {
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
       <span className="javascript-blog-date"> April 25th, 2022 </span>
-      <Link to="/JsVarPost"><h3 className="js-intro-title"> Variables, Operators, & Data Types </h3></Link>
+      <Link to="/JsVarPost"><h3 className="js-intro-title"> Variables & Operators </h3></Link>
         <p className="javascript-blog-description"> 
         Variables, operators, and data types are the buildingblocks of Javascript. They allow you to
          manipulate data, control program flow, and build complex applications. Knowing these 

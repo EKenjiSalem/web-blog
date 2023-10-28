@@ -19,16 +19,12 @@ const ControlStructures = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> If Statements & Loops </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
-         <p className="js-main"> 
-        
-        <strong> What is an if statement? </strong> 
-   <br />
-   <br />
+        <p className="ifstate-main"> 
         An if statement is a conditional statement that allows you to
         execute specific code blocks based on whether a certain condition evaluates 
         to true or false. These conditions are typically expressed as Boolean 
@@ -44,20 +40,19 @@ const ControlStructures = () => {
 
         <strong> Let's Examine the Components: </strong> 
         <ul>
-         <li> if: This keyword starts the conditional statement.</li>
-         <li> condition: This is an expression that results in either true or false..</li>
-         <li> {}: These curly braces enclose the code block to be executed if the condition is true.</li>
+         <li className="ifstate-list"><strong> if </strong> - This keyword starts the conditional statement.</li>
+         <li className="ifstate-list"><strong> condition </strong> - This is an expression that results in either true or false..</li>
+         <li className="ifstate-list"><strong> curly braces </strong> - These curly braces enclose the code block to be executed if the condition is true.</li>
         </ul> 
         <div className="var-img">
          <img src={ifstate} alt="" />
         </div>
 <br />
-<br />
         <strong> How if Statements Work: </strong>
          <ul> 
-          <li> The if statement begins with the evaluation of the specified condition.</li>
-          <li> If the condition is true, the code block inside the curly braces is executed.</li>
-          <li> If the condition is false, the code block is skipped, and the program continues with
+          <li className="ifstate-list"> The if statement begins with the evaluation of the specified condition.</li>
+          <li className="ifstate-list"> If the condition is true, the code block inside the curly braces is executed.</li>
+          <li className="ifstate-list"> If the condition is false, the code block is skipped, and the program continues with
            the next statement after the if block.</li>
 <br />
           <strong> In this example, the code checks the temperature and prints a message based on whether it's hot or not. </strong> 
@@ -73,24 +68,27 @@ const ControlStructures = () => {
        <strong> Advanced Usage: </strong> 
 <br />
 <br />
+        <p className="advanceifstatement">
         if statements can be combined with else if and else clauses to handle more 
         complex conditional logic. You can also nest if statements within each other
         for even greater control over your program's flow.
+        </p>
+
         <div className="var-img">
          <img src={adifstate} alt="" />
         </div>
 
 <br />
-<br />
 
     <strong> If Statement in Action: </strong>
-
 <br />
 <br />
-
-    In this example, we create a simple web page with a button. When the button is 
-    clicked, it triggers a JavaScript function that uses an if statement to check if 
-    a number entered by the user is even or odd and displays a message accordingly.
+      <p className="ifstate-action">
+      In this example, we create a simple web page with a button. When the button is 
+      clicked, it triggers a JavaScript function that uses an if statement to check if 
+      a number entered by the user is even or odd and displays a message accordingly.
+      </p>
+ 
 
       <div className="var-img">
          <img src={ifstateex} alt="" />
@@ -122,74 +120,55 @@ const ControlStructures = () => {
           <div className="var-img">
             <img src={forloop} alt="" />
           </div>
-
   <br />
-  <br />
-
           <strong> while loop: </strong>This loop executes a block of code as long as a specified condition
           is true.
           <div className="var-img">
             <img src={whileloop} alt="" />
           </div>
-
   <br />
-  <br />
-
          <strong> do while loop: </strong> Similar to the while loop, but it always executes the code block
          at least once before checking the condition.
         <div className="var-img">
           <img src={dowhileloop} alt="" />
         </div>
-  
   <br />
   <br />
-    
           <strong> Loop Types: Object Oriented Programming </strong>
   <br />
   <br />
-
-        <strong> for in loop: </strong>Used to iterate over the properties of an object. It loops through
-         all enumerable properties of an object.
+        <strong> for in loop: </strong>
+        Used to iterate over the properties of an object. It loops through all enumerable
+        properties of an object.
         <div className="var-img">
           <img src={forinloop} alt="" />
         </div>
 
   <br />
-  <br />
           <strong> for of loop: </strong> this loop is used to iterate 
            over iterable objects like arrays and strings.
-          <div className="var-img">
-              <img src={forofloop} alt="" />
-            </div>
-
-  <br />
+           <div className="var-img">
+             <img src={forofloop} alt="" />
+           </div>
   <br />
 
         <strong> Loops in Action: </strong>
-
         In this example, the for loop to displays the numbers 1 - 10 in an HTML in an
         unodered list:
-
         <div className="var-img">
-            <img src={forloopexamp} alt="" />
-          </div>
+         <img src={forloopexamp} alt="" />
+        </div>
 
   <br />
-  <br />
 
-      Here's an example of how to loop through the properties 
-      of an object in JavaScript using a for...in loop:
-
+        <strong> An example of how to loop through the properties 
+        of an object in JavaScript using a for...in loop: </strong>
         <div className="var-img">
-            <img src={forloopexamp} alt="" />
-          </div>
-
-
-
-
-
-
-            </p>
+          <img src={forloopexamp} alt="" />
+        </div>
+  <br />
+  <br />
+          </p>
         </div>
     </div>
   )

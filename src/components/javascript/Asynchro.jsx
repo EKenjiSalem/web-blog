@@ -14,14 +14,14 @@ const Asynchro = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> Ajax </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
 
    
      
-         <p className="js-main"> 
+         <p className="ajax-main"> 
         <strong>Ajax (Asynchronous JavaScript and XML): </strong>
         Ajax is a technique used in web development to create asynchronous web applications. This allows
         web pages to send and receive data from a server without having to refresh the entire page. 
@@ -119,30 +119,32 @@ const Asynchro = () => {
           <strong>Here are some common types of JavaScript APIs: </strong>
 <br />
 <br />
-          <ul> 
-            <li> 
+          
           <strong> Web APIs: </strong> 
           These are APIs provided by web browsers to allow JavaScript to interact with various web
           platform features. Examples include the Document Object Model (DOM) API for manipulating
           HTML and XML documents, the XMLHttpRequest or Fetch API for making HTTP requests, the
           Geolocation API for accessing a user's location, and the Web Audio API for working with audio.
-           </li>
-           <li>
+          
+<br />
+<br />
+          
          <strong> Third-Party APIs:  </strong> 
           Many external services and platforms offer APIs that developers can use to integrate their
           functionality into their web applications. Examples include the Twitter API for posting tweets,
           the Google Maps API for embedding maps, and the Facebook Graph API for accessing Facebook data.
-          </li>
-          <li> 
-         <strong> Node.js APIs:  </strong>
+        
+<br />
+<br />
+        
+          <strong> Node.js APIs:  </strong>
           If you're using JavaScript on the server-side with Node.js, there are a variety of built-in
           APIs that provide access to file system operations, network communication, and other server-related
           tasks.
-          </li>
           
-          </ul>
+          
 
-
+<br />
 <br />
           <strong> Custom API's: </strong>
           You can also create your own APIs to encapsulate functionality within your JavaScript 
@@ -164,8 +166,7 @@ const Asynchro = () => {
   
 <br />
 <br />  
-         <strong>  Using the Fetch API: </strong>
-
+          <strong>  Using the Fetch API: </strong>
           The Fetch API is a modern and widely supported way to make HTTP requests in JavaScript. It 
           returns a Promise that resolves with the response to the request.
 
@@ -174,35 +175,36 @@ const Asynchro = () => {
           at some point in the future. In the follwing example the .then() and .catch() represents
           the promises.
 
-          <div className="var-img">
+           <div className="var-img">
               <img src={fetchapi} alt="" />
-            </div> 
+           </div> 
 <br />  
 
-        <strong>Practical Use Cases </strong>  
-        Here are some practical use cases for JavaScript APIs:
+        <strong> Here are some practical use cases for JavaScript APIs: </strong>  
         <ul> 
-          <li><strong> Weather App:</strong> 
+          <li className="api-list"><strong> Weather App: </strong> 
           Use a weather API to fetch and display current weather conditions for a given location. 
           </li>
-         <li><strong>  Social Media Integration:</strong>
+         <li className="api-list"><strong>  Social Media Integration: </strong>
           Integrate social media sharing and authentication using APIs like the Twitter API or Facebook.
           </li>
-          <li> <strong>Maps and Geolocation: </strong>
+          <li className="api-list"> <strong>Maps and Geolocation: </strong>
            Embed interactive maps on your website using APIs such as Google Maps or use the 
            Geolocation API to provide location-based services.
            </li>
-           <li> <strong> Data Visualization: </strong>
-         Fetch data from external sources and visualize it using charting libraries like D3.js.
+           <li className="api-list"> <strong> Data Visualization: </strong>
+           Fetch data from external sources and visualize it using charting libraries like D3.js.
            </li>
-           <li> <strong> Authentication:</strong>
+           <li className="api-list"> <strong> Authentication: </strong>
            Implement user authentication using third-party authentication providers like
-          OAuth-based APIs.
+           OAuth-based APIs.
            </li>
-       </ul>
+        </ul>
+
+<br />
+<br />
   
             </p>
-
         </div>
     </div>
   )

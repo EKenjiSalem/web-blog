@@ -37,29 +37,26 @@ const Selectors = () => {
             <span className="css-post-date"> 1 hour ago </span>
          </div> */}
 
-         <main> 
          <p className="selectors-main"> 
           A CSS selector is a pattern that specifies which HTML elements to
           style. Selectors tell the browser which elements to apply a particular set of CSS rules 
           to. CSS selectors can be based on elements' names, IDs, classes, attributes, and 
           their relationships within the HTML document.
-         <br />
-         <br />
+<br />
+<br />
           The first thing that must be done is to connect css to html. There are three 
-          primary ways to complete this task: <strong> Inline, Embedded, and External Linking </strong>
-          <br />
-          <br />
-
+          primary ways to complete this task: <br /> <strong> Inline, Embedded, and External Linking </strong>
+<br />
+<br />
           <strong> Note: Inline and Embedded style block are both internal ways to connect css </strong>
+          </p>
 
-          <br />
-          <br />
-          
-        <div className="link-main"> <strong> External CSS: </strong>
+        <h1 className="external-title"> External Linking CSS: </h1>
+        <p className="external-main">
         This is the most common and recommended method for linking CSS to HTML. In this
         approach, you create a index.html and styles.css files. then link the styles.css file
         to your index.html file/document using the link element.
-        </div>
+        </p>
 
 
          <div className="eselector-img">
@@ -70,86 +67,84 @@ const Selectors = () => {
             <img src={mexternallink} alt="" />
           </div>  
 
-        <div className="link-main"> <strong> Inline CSS: </strong>
+        <h1 className="inline-title"> Inline CSS: </h1>
+        <p className="inline-main"> 
         Inline CSS is applied directly to individual HTML elements using the style attribute.
         While this approach is straightforward, it's not recommended for large-scale projects
         due to its lack of reusability.
-
-        <br />
-        <br /> 
-
+<br />
+<br /> 
         You can also apply CSS styles directly to individual HTML elements using the style
         attribute. This is not recommended for general use because it mixes content with 
         presentation and can make your HTML harder to read and maintain.
-      </div>
-      </p>
+       </p>
 
-        <div className="inline-selector-img">
+        <div className="inline-img">
             <img src={inlineselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-inline-img">
             <img src={minlineselector} alt="" />
           </div>   
 
-
-        <div className="link-main"> <strong> Embedded Style Block: </strong>
+        <h1 className="embedded-title"> Embedded Style Block: </h1>
+        <p className="embedded-main"> 
         An embedded style block refers to CSS styles that are placed directly within an 
         HTML document, typically within the style element in the head section of the 
         HTML. These styles are specific to that HTML document and are not external 
         stylesheets.
-        </div>
+        </p>
 
   <br />
   <br /> 
 
-        <div className="embed-selector-img">
+        <div className="embedded-img">
             <img src={embedblock} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-embedded-img">
             <img src={membedblock} alt="" />
           </div>   
 
 
 
-        <hr />
-        <h1 className="selectors-title"> Selectors Type: </h1>
-        <hr />
+        <hr className="selector-line" />
+         <h1 className="selector-type-title"> Selectors Type </h1>
+        <hr className="selector-line"  />
 
-        <p className="selector-type-main"> 
-        <strong> Element Selector: </strong>
+        <h1 className="element-title"> Element Selector: </h1> 
+        <p className="element-selector-main"> 
         The simplest selector targets all instances of a specific HTML element/tag type.
         This targets the h1 and body tags, and applies color and background.
         Note: This example is the same as the embedded style block example.
         </p>
 
-        <div className="inline-selector-img">
+        <div className="element-img">
             <img src={embedblock} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-element-img">
             <img src={membedblock} alt="" />
           </div>   
 
 
-          <h1 className="selector-title"> Class Selector: </h1>
-        <p className="selector-type-main"> 
+          <h1 className="class-selector-title"> Class Selector: </h1>
+        <p className="class-selector-main"> 
         Class selectors are used to target and style HTML elements that share a common class attribute. Use a . with the tag to target.
         Class selectors can be applied to multiple elements, allowing you
         to style them consistently.
         </p>
-        <div className="inline-selector-img">
+        <div className="class-selector-img">
             <img src={selectorclass} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-class-selector-img">
             <img src={mselectorclass} alt="" />
           </div>  
 
 
-        <h1 className="selector-title"> ID Selector: </h1>
-        <p className="selector-type-main"> 
+        <h1 className="id-selector-title"> ID Selector: </h1>
+        <p className="id-selector-main"> 
         ID selectors are used to target and style a specific
         HTML element with a unique identifier ID. They are written 
         using the # symbol followed by the ID name. 
@@ -165,115 +160,116 @@ const Selectors = () => {
         for unique, one-of-a-kind elements that require special styling.
         </p>
 
-        <div className="inline-selector-img">
+         <div className="id-selector-img">
             <img src={idselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-id-selector-img">
             <img src={midselector} alt="" />
           </div>  
 
 
-          <h1 className="selector-title"> Descendant Selector: </h1>
-        <p className="selector-type-main"> 
+        <h1 className="descendant-selector-title"> Descendant Selector: </h1>
+        <p className="descendant-selector-main"> 
         Selects elements that are descendants of a specified element.
         This will add margin to all p elements inside an element with the class "container."
         </p>
-        <div className="inline-selector-img">
+
+         <div className="descendant-selector-img">
             <img src={descenselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-descendant-selector-img">
             <img src={mdescenselector} alt="" />
           </div>  
 
-          <h1 className="selector-title"> Child Selector </h1>
-        <p className="selector-type-main"> 
+        <h1 className="child-selector-title"> Child Selector: </h1>
+        <p className="child-selector-main"> 
         Selects elements that are direct children of a specified element.
         This will change the font color to yellow and increase the font size of the list items
         that are direct children of a ul element.
         </p>
-        <div className="inline-selector-img">
+        <div className="child-selector-img">
             <img src={childselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-child-selector-img">
             <img src={mchildselector} alt="" />
           </div>  
-
-          <h1 className="selector-title"> Attribute Selector </h1>
-        <p className="selector-type-main"> 
-        Selects elements based on their attributes.
+<br />
+<br />
+        <h1 className="attr-selector-title"> Attribute Selector: </h1>
+        <p className="attr-selector-main"> 
+         Selects elements based on their attributes.
         </p>
-        <div className="inline-selector-img">
+         <div className="attr-selector-img">
             <img src={attrselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-attr-selector-img">
             <img src={mattrselector} alt="" />
           </div>  
 
-
-    <hr className="pseduo-line" />
-    <h1 className="pseduo-title"> Pseudo-classes and Pseudo-elements </h1>
-    <hr />
-
-    <p className="pseduo-intro"> CSS selectors go beyond simple element, class, and ID selections. 
-    Pseudo-class selectors, ( often indicated by a colon : ) allows you to select elements based on
-    their state or position within the document. Unlike traditional selectors that match elements 
-    by their tag name, class, or ID attributes, pseudo-class selectors provide a dynamic way to
-    style elements.</p>
 <br />
 <br />
 
-      <h1 className="selector-pseduo-title"> Common Pseudo Selectors: </h1>
-        <p className="selector-type-main"> 
-        <strong className='hover'> :hover </strong>
-        The :hover pseudo-class selects an element when the user hovers their mouse
-        pointer over the element. This is often used to create interactive effects like changing 
-        the color or background of a button, or a link when the user hovers over.
-        </p>
-        <div className="inline-selector-img">
-            <img src={hoverpseduo} alt="" />
-          </div>
-          <div className="m-inline-selector-img">
-            <img src={mhoverpseduo} alt="" />
-          </div>  
+          <hr  />
+          <h1 className="pseduo-ce-title"> Pseudo-classes and Pseudo-elements </h1>
+          <hr />
 
+          <p className="pseduo-intro"> CSS selectors go beyond simple element, class, and ID selections. 
+          Pseudo-class selectors, ( often indicated by a colon : ) allows you to select elements based on
+          their state or position within the document. Unlike traditional selectors that match elements 
+          by their tag name, class, or ID attributes, pseudo-class selectors provide a dynamic way to
+          style elements.</p>
+<br />
+<br />
+         <h1 className="selector-pseduo-title"> Common Pseudo Selectors: </h1>
 
-        <p className="selector-type-focus"> 
-        <strong className='hover'> :focus </strong>
+         <h1 className="pseduo-hover-title"> :hover </h1>
+          <p className="pseduo-intro"> 
+          The :hover pseudo-class selects an element when the user hovers their mouse
+          pointer over the element. This is often used to create interactive effects like changing 
+          the color or background of a button, or a link when the user hovers over.
+          </p>
+          <div className="pseduo-selector-img">
+              <img src={hoverpseduo} alt="" />
+            </div>
+            <div className="m-pseduo-selector-img">
+              <img src={mhoverpseduo} alt="" />
+            </div>  
+<br />
+<br />
+        <h1 className="pseduo-focus-title"> :focus </h1>
+        <p className="selector-type-focus">
         The :focus pseudo-class selects an element when it gains focus, typically through 
         keyboard navigation or clicking with a mouse. It's often used for styling form input
         fields to provide visual feedback when they are active.
         </p>
-         <div className="inline-selector-img">
+         <div className="focus-selector-img">
             <img src={focuselector} alt="" />
           </div>
-          <div className="m-inline-selector-img">
+          <div className="m-focus-selector-img">
             <img src={mfocuselector} alt="" />
           </div>  
 
-
-        <p className="selector-type-main"> 
-        <strong className='hover'> :first-child and :last-child</strong>
+        <h1 className="pseduo-fl-title"> first-child and :last-child </h1>
+        <p className="fl-selector-main"> 
         These pseudo-classes select the first and last child elements of a parent element. 
         They can be useful for styling the first and last items in a list differently.
         </p>
-        <div className="inline-selector-img">
+        <div className="fl-selector-img">
             <img src={flchildselector} alt="" />
           </div>
-          <div className="m-inline-selector-img">
+          <div className="m-fl-selector-img">
             <img src={mflchildselector} alt="" />
           </div>  
 
-
-        <p className="selector-type-main"> 
-        <strong className='hover'> :nth-of-type(n) </strong>
+        <h1 className="pseduo-nth-title"> :nth-of-type(n) </h1>
+        <p className="nth-selector-main"> 
         Allows you to select elements based on their position within their parent element, 
         considering only elements of the same type. Here's an example that selects every 2nd 
         paragraph and applies a different background color:
-     
 <br />
 <br />
         In this example, every third p element will have a background color orange
@@ -281,19 +277,16 @@ const Selectors = () => {
          (2, 4, 6, and so on). You can adjust this parameter to create different patterns 
          based on the nth element you want to select.
         </p>
-        <div className="inline-selector-img">
+        <div className="nth-selector-img">
             <img src={nthselector} alt="" />
           </div>
 
-          <div className="m-inline-selector-img">
+          <div className="m-nth-selector-img">
             <img src={mnthselector} alt="" />
           </div>  
-
-
-            </main>
-
-        </div>
-    
+<br />
+<br />
+        </div>    
     </div>
      
   )
