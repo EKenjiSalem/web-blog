@@ -66,10 +66,12 @@
   }
 
   .blog .blog-container .blog-description {
-    /* margin-top: -5rem; */
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    line-height: 1.5;
   }
 
   .blog .blog-container .blog-title {
-    margin-top: -8rem;
+    margin-top: -6rem;
 
   }

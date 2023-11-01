@@ -14,34 +14,32 @@ const State = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> React State </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
-         <p className="react-main"> 
-          <div className="state-info"> 
+         <p className="react-state-main"> 
          State is a fundamental concept in react that allows you to create dynamic and 
          interactive user interfaces. State" refers to an object that holds data that
          influences a component's behavior and rendering. State is used to store and manage 
          information that can change over time, such as user input, data fetched from an 
          API, or the results of user interactions.
-         </div>
 
          <div className="">
           <ul>
-            <strong> Here are some key points about state in React: </strong> 
+            <h1 className="keypoints-react-title"> Here are some key points about state in React: </h1> 
 
-            <li className="state-list"> Component-Specific: State is specific to a particular component.
+            <li className="state-list"><strong> Component-Specific: </strong> State is specific to a particular component.
              Each component can have its own state, and it's isolated from other components. 
              This makes it easier to manage and reason about the data that a component
               depends on. </li> 
 
-            <li className="state-list">  Mutable: Unlike props, which are read-only and passed from parent to
+            <li className="state-list"><strong> Mutable: </strong> Unlike props, which are read-only and passed from parent to
              child, state can be changed within a component. React components can re-render
               when their state changes, allowing the user interface to update dynamically.</li>
 
-               <li className="state-list"> Initialization: You typically initialize state in a class component's 
+               <li className="state-list"><strong> Initialization: </strong> You typically initialize state in a class component's 
                constructor or, in functional components, using the useState hook. For 
                example, in a functional component: </li>
            </ul>
@@ -49,14 +47,12 @@ const State = () => {
           
 <br />
 <br />
-        <h1 className="state-intro-title"> Creating State: </h1>
+          <h1 className="state-intro-title"> Creating State: </h1>
               In this example, count is the state variable, setCount is the function used
                to update its value, 0 is the initial state value.
                <div className="props-img">
                  <img src={stateintro} />
               </div>
-
-<br />
 <br />
             <strong> Updating State: </strong> You should not directly modify state; 
             instead, you use the state updater function - setCount - in the example.
@@ -64,8 +60,6 @@ const State = () => {
             <div className="props-img">
               <img src={stateupdate} />
             </div>
-
-<br />
 <br />
          <strong> Asynchronous Updates: </strong>
 
@@ -87,13 +81,10 @@ const State = () => {
            update. React may merge multiple state updates into a single update or delay them.
 <br />
 <br />
-          Here's how you typically use prevState:
-
+         <strong> Here's how you typically use prevState: </strong>
           <div className="props-img">
               <img src={prevstate} />
             </div>
-
-
 <br />
 <br />
           <hr />
@@ -134,6 +125,8 @@ const State = () => {
              <div className="props-img">
                <img src={stateliftex} />
             </div>
+<br />
+<br />
             </p>
 
         </div>

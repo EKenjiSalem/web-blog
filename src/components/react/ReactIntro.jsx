@@ -9,10 +9,10 @@ const ReactIntro = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> React Intro </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
          <p className="react-main"> 
         <h1 className="react-intro-title"> What is React? </h1>

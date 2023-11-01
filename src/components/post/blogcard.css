@@ -5,97 +5,91 @@
 }
 
 
-
-h2 {
-    margin-top: 10rem;
-    padding-bottom: 10rem;
+.blog .heading {
+    text-decoration: underline;
+    margin-top: -3rem
 }
 
-h3 {
-    font-size: 22px;
-    padding-top: 35%;
-   
+.blog .blog-container .blog-content .blog-title {
+    margin-left: 1rem;
 }
 
-
-.blog-post-title {
-    margin-top: 120%; 
-    margin-left: -6.5rem ;
-    margin-bottom: .5rem;   
-    color: black;
-    font-size: 22px;
+.link-blog {
+    margin-top: 3rem;
 }
 
-
-
-
-
-.container .blog-post .image-post {
-    margin-left: 7rem;
-    width: 18rem;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transform: translateX(-9rem);
-    border-radius: .5rem;
-
-}
-
-
-
-.container .blog-post {
-    margin-top: 3.5rem;
-    margin-left: 2rem;
-    padding: 1rem;
-    height: 17rem;
-}
-
-
-.container .blog-post p {
-    font-size: 18px;
-    margin-left: -6.5rem;
-    color: black;
- 
-}
-
-
-
-.blog-post {
+.blog .blog-container {
     display: flex;
-    align-items: center;
-    height: 20rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+}
+
+.blog .blog-container .blog-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 35rem;
+    overflow: hidden;
     border-radius: .5rem;
-    margin-top: 30rem;
-    margin: 10px;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.blog .blog-container .blog-info img {
+    height: 15rem;
     width: 100%;
-    padding-top: 25rem;
-    max-width: 95rem;
-/*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=7c7c7c&c2=aaaaaa&gt=l&gd=dtl
-*/
-background: #7C7C7C;
-background: linear-gradient(135deg, #7C7C7C, #AAAAAA);
+    object-fit: cover;
+    margin-bottom: 7rem;
 }
 
-
-
-
-.blog-post .blog-post-info {
-    margin-top: 14rem;
-
+.blog .blog-container span {
+    color: grey;
+    font-size: 1rem;
+    display: block;
+    padding: 1rem 0;
 }
 
-
-
-
-.main-btn  {
-    border-radius: .5rem;
-    padding: 1rem 2rem;
-    background-color: black ;
-    color: white; 
-    margin-top: 1rem;
-    margin-left: -6.7rem;
-    margin-bottom: 60rem;
+.blog .blog-container h3 {
+    font-size: 1.5rem;
+    color: black;
 }
 
+.blog .blog-container p {
+    font-size: 1rem;
+    color: black;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.blog .blog-container  .button {
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  color: white;
+  background: black;
+}
+
+.blog .blog-container .button:hover {
+    background: orange;
+    color: black;
+    transition: 1s;
+}
+
+.blog .blog-container .blog-description {
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+
+/* Master Web Development */
+
+.master-web-title {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.master-title {
+    
+}

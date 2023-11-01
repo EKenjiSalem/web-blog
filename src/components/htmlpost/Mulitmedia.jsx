@@ -21,7 +21,7 @@ function Multimedia() {
             <span className="html-post-author"> Author: <b> Elias </b> </span>
             <span className="html-post-date"> 1 hour ago </span>
          </div> */}
-         <p className="html-blog-post">
+         <p className="html-media-post">
           <div className="media-content-info"> 
          In HTML, images, videos, and audio are multimedia elements that can be embedded in a web
          page to provide visual and auditory content. These elements enhance the user experience by
@@ -38,10 +38,10 @@ function Multimedia() {
           be loaded or for accessibility purposes. Lastly, height and width can be set to adjust postioning.
           </li>
 
-          <div className="media-img">
+          <div className="media-main-img">
             <img src={mediaimg} alt="" />
           </div>
-          <div className="mobile-media-img">
+          <div className="m-media-main-img">
             <img src={mmediaimg} alt="" />
           </div>
 <br />
@@ -53,10 +53,10 @@ function Multimedia() {
           The controls attribute adds video playback controls play, pause, volume, etc. 
           The source elements inside provide different video formats for different browsers.
           </li>
-           <div className="media-img">
+           <div className="media-video-img">
             <img src={mediavid} alt="" />
            </div>
-           <div className="mobile-video-img">
+           <div className="m-media-video-img">
             <img src={mmediavid} alt="" />
            </div>          
 <br />
@@ -66,20 +66,20 @@ function Multimedia() {
           element, it can contain one or more source elements specifying different audio formats. 
           </li>
           
-          <div className="media-img">
+          <div className="media-audio-img">
             <img src={mediaaudio} alt="" />
           </div>
-          <div className="mobile-audio-img">
+          <div className="m-media-audio-img">
             <img src={mmediaaudio} alt="" />
           </div>
           </ul>
 <br />
 <br />
           <h1 className="media-embed-title"> Media Embedding Example: </h1>
-           <div className="html-post-img">
+           <div className="media-embed-img">
             <img src={mediaembedded} alt="" />
            </div>
-           <div className="m-media-post-img">
+           <div className="m-media-embed-img">
             <img src={mobilemedia} alt="" />
            </div>
          </p>

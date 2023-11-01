@@ -14,7 +14,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .react-blog .react-blog-container .react-blog-info {
@@ -67,11 +67,11 @@
 }
 
 .react-blog .react-blog-container .react-main-title {
-    margin-top: -8rem;
+    margin-top: 1rem;
 }
 
 .react-blog .react-blog-container .react-blog-description {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: .5rem;
 }
 
@@ -112,8 +112,42 @@
 @media (max-width: 768px) {
     .react-main {
       width: 90%;
-      margin-left: 1.5rem;
+      margin-left: 2rem;
     }
+}
+
+
+.basic-jsx {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.embedded-expression-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.jsx-attr-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.jsx-component-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.function-components-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
 }
 
 .key-list-container {
@@ -137,24 +171,46 @@
 
 /* Component */
 
+.components-main {
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+@media (max-width:768px) {
+    .components-main {
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+    
+}
+
 .type-title {
-    text-decoration: underline;
-    margin-bottom: .5rem;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: -3rem;
 }
 
 .component-title {
     font-size: 1.5rem;
     color: black;
     margin-top: 5rem;
-    
+    margin-bottom: 1rem;   
 }
 
+.class-components-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
 
 .resuse-title {
     font-size: 1.5rem;
     color: black;
     margin-bottom: 1rem;
-    text-decoration: underline;
 }
 
 
@@ -167,8 +223,27 @@
     font-size: 1.4rem;
 }
 
-.react-router-main {
-  
+.router-main {
+  color: black;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+@media (max-width:768px) {
+    .router-main {
+        width: 90%;
+        margin-left: 1.5rem;
+      }
+}
+
+.route-concepts {
+    margin-top: 2.5rem;
+    margin-bottom: -1rem;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .route-container {
@@ -179,9 +254,13 @@
     margin-top: 1rem;
 }
 
-.route-concepts {
-    margin-bottom: 2rem;
+.router-navigation-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
+
 
 .nav-route-title {
     color: black;
@@ -190,9 +269,11 @@
 
 .linkpro-list {
     margin-top: 1rem;
+    margin-left: 1.5rem;
 }
 
 .nest-routes-title {
+    margin-top: -1rem;
     color: black;
     font-size: 1.5rem;
     text-align: center;
@@ -201,6 +282,28 @@
 
 /* Props */
 
+.props-main {
+    margin-top: 3rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+@media (max-width:768px) {
+    .props-main {
+       width: 90%;
+       margin-left: 1.5rem;
+    }
+}
+
+
+.props-concepts-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
 .react-intro {
     margin-top: 4rem;
 }
@@ -208,13 +311,14 @@
 .props-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -2rem; 
-    margin-bottom: 1rem;
+    margin-top: 1rem; 
+    margin-bottom: 1.5rem;
 }
 
 .propfunc-title {
     color: black;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .props-list {
@@ -225,6 +329,29 @@
 
 /* State */
 
+.react-state-main {
+    color: black;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 3rem;
+}
+
+@media (max-width:768px) {
+    .react-state-main {
+       width: 90%;
+       margin-left: 1.5rem;
+    }
+}
+
+.keypoints-react-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
 .state-info {
     margin-top: 4rem;
     margin-bottom: 2.5rem;
@@ -233,6 +360,7 @@
 .state-intro-title {
     color: black;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .lift-state-title {
@@ -276,11 +404,64 @@
 /* Operators */
 
 .operators-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     color: black;
     font-size: 1.5rem;
+    
 }
 
 .react-operators {
     margin-top: 5rem;
 }
+
+.ternary-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.nullish-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.spread-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.logical-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.map-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.logical-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.destructure-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+

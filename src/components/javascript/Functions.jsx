@@ -15,6 +15,7 @@ import functionex from '../../images/rsz_functionex.png';
 
 
 const Functions = () => {
+        
   return (
     <div className="js-post">
         <div className="js-post-wrapper">

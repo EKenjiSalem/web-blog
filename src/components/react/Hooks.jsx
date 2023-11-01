@@ -13,11 +13,11 @@ const Hooks = () => {
     <div className="js-post">
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="js-post-title"> React Hooks</h1>
-         <div className="js-post-info">
+        <h1 className="js-post-title"> React Hooks </h1>
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
          <p className="react-main"> 
           <div className="hooks-info">
@@ -31,7 +31,7 @@ const Hooks = () => {
 <br />
 <br />
 
-         <strong> Here are some commonly used React hooks: </strong> 
+         <strong> Commonly Used React hooks: </strong> 
 <br />
 <br />
           <strong> useState:  </strong> useState allows you to add state to your functional components. It takes
@@ -40,7 +40,6 @@ const Hooks = () => {
            <div className="props-img">
             <img src={statehook} />
           </div>
-<br />
 <br />
           <strong> useEffect:  </strong> The useEffect hook in React is used to manage side
            effects in functional components. Side effects can include tasks like data 
@@ -51,14 +50,12 @@ const Hooks = () => {
               <img src={useeffecthook} />
              </div>
 <br />
-<br />  
           <strong> useContext: </strong> useContext is used to access and subscribe to a
            context's value within a component.
              <div className="props-img">
               <img src={contexthook} />
              </div>
 <br />
-<br />  
             <strong> useReducer: </strong> useReducer is a hook for managing more complex
              state logic. It is often used when state updates depend on the previous state 
              and when state transitions involve complex logic.
@@ -66,7 +63,6 @@ const Hooks = () => {
               <img src={reducerhook} />
              </div>
 <br />
-<br />  
             <strong> useRef: </strong> useRef allows you to create mutable ref objects that
              can be used to store and access mutable values, such as references to DOM 
              elements.  
@@ -74,7 +70,6 @@ const Hooks = () => {
               <img src={refhook} />
              </div>
 <br />
-<br />  
             <strong> Custom Hooks:  </strong> You can create your own custom hooks to 
             encapsulate and reuse logic across multiple components. Custom hooks are 
             a way to abstract complex state management and side-effect logic into reusable 
@@ -82,7 +77,8 @@ const Hooks = () => {
              <div className="props-img">
               <img src={hookcustom} />
              </div>
-
+<br />
+<br />
 
 
             </p>

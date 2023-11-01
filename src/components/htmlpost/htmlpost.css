@@ -26,8 +26,8 @@
 .html-blog-post {
     font-size: 1.4rem;
     /* padding: 0 7rem; */
-    padding-right: 7rem;
-    padding-left: 8rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
     margin-bottom: 1.5rem;
     line-height: 1.5;
 }
@@ -39,7 +39,6 @@
 .basic-html-title {
     color: black;
     font-size: 1.5rem;
-    margin-left: 4.5rem;
 }
 
 .html-conclusion {
@@ -47,9 +46,16 @@
 }
 
 @media (max-width: 768px) {
-
+    
     .html-blog-post {
-       padding: 3rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+    .explore-html-title {
+        display: block;
+
     }
 
      .html-blog-info {
@@ -58,14 +64,16 @@
 
    .basic-html-title {
       margin-bottom: .5rem;
+      margin-left: -1rem;
    
    }
 }
 
 
 .html-post-img {
-    margin-top: 2rem;
-    margin-left: 6%;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+
 }
 
 .m-html-post-img {
@@ -80,7 +88,7 @@
     
     .m-html-post-img {
         display: block;
-        margin-left: -4rem;
+        margin-left: -2.8rem;
         margin-top: .5rem;
     }
 
@@ -97,48 +105,93 @@
     color: black;
     font-size: 2rem;
     text-align: center;
-    margin-top: 3rem ;
+    margin-top: 2rem ;
+}
+
+.html-media-post {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 @media (max-width: 768px) {
     .html-media-title {
-       margin-bottom: -5rem;
+        margin-left: -2rem;
+        
     }
+    .html-media-post {
+        width: 90%;
+        margin-left: 4%;
+    }
+    
 }
 
 .media-content-info {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .media-embed-title {
     color: black; 
     font-size: 1.5rem;
-    margin-left: 4.5rem;
 }
 
 .media-list {
-    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.m-media-video-img {
+    display: none
+}
+
+.m-media-audio-img {
+    display: none
+}
+
+.m-media-main-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .media-main-img {
+        display: none;
+    }
+    
+    .m-media-main-img {
+        display: block;
+        margin-left: -3rem;
+    }
+    .media-video-img {
+        display: none;
+    }
+    
+    .m-media-video-img {
+        display: block;
+        margin-left: -3rem;
+    }
+    .media-audio-img {
+        display: none;
+    }
+    
+    .m-media-audio-img {
+        display: block;
+        margin-left: -3rem;
+    }
 }
 
 .media-list-audio {
     margin-top: -2rem;
+    list-style-type: none;
 }
 
 .m-media-post-img {
     display: none;
 }
 
-.mobile-media-img {
-    display: none;
-}
 
-.mobile-video-img {
+.m-media-embed-img {
     display: none;
-}
-
-.mobile-audio-img {
-    display: none
 }
 
 
@@ -164,23 +217,40 @@
     .media-embed-title {
         margin-bottom: .5rem;
     }
+    .media-embed-img {
+        display: none;
+
+    }
+    .m-media-embed-img {
+        display: block;
+        margin-left: -3.5rem;
+        
+    }
 }
 
 
 
 /* Buttons Blog */
 
-.button-blog-post {
+.buttons-main-post {
     font-size: 1.4rem;
     margin-top: 4rem;
     margin-bottom: .5rem;
-    padding-left: 7rem;
+    padding-left: 12rem;
     padding-right: 12rem;
     line-height: 1.5;
 }
 
+@media (max-width:768px) {
+    .buttons-main-post {
+        width: 165%;
+        margin-left: -165px;
+        
+    }
+}
+
 .blog-button {
-    margin-left: 7rem;
+    margin-top: 1rem;
 }
 
 .m-attr-img {
@@ -192,7 +262,7 @@
 }
 
 .attr-img {
-    margin-left: 7rem;
+    margin-top: .5rem;
 }
 
 .btn-attr-title {
@@ -200,13 +270,11 @@
     color: black;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    margin-left: 7rem;
 }
 
 .btn-attr {
     font-size: 1.4rem;
     line-height: 1.5;
-    padding-left: 7rem;
     padding-right: 12rem;
 }
 
@@ -214,41 +282,32 @@
 
      .m-blog-button {
         display: block;
-        margin-left: -1rem;
-        margin-top: -4rem;
+        margin-top: 2rem;
+        margin-left: -3rem;
     }
 
     .blog-button {
         display: none;
     }
 
-    .button-blog-post {
-        width: 155%;
-        margin-bottom: 5rem;
-        margin-left: -6rem;
-    }
-
     .m-attr-img {
          display: block;
-         margin-left: 2rem;
          margin-top: 1rem;
     }
 
     .attr-img {
-     display: none; 
+        display: none; 
 
     }
 
     .btn-attr {
         width: 150%;
-        margin-left: -6rem;
     }
 }
 
 .input-btn-title {
     color: black;
     font-size: 1.5rem;
-    margin-left: 7rem;
     margin-top: 2rem ;
     margin-bottom: 1rem;
 }
@@ -256,14 +315,13 @@
 .input-btn-main {
     color: black;
     font-size: 1.4rem;
-    margin-right: 16rem;
-    margin-left: 7rem;
+    margin-right: 12rem;
     margin-bottom: 1rem;
     line-height: 1.5;
 }
 
 .input-btn-img {
-    margin-left: 7rem;
+    margin-top: .5rem;
 }
 
 .m-input-btn-img {
@@ -272,9 +330,17 @@
 
 @media(max-width:768px) {
 
+    .input-btn-title {
+
+    }
+
+    .input-btn-title {
+
+    }
+
+
     .m-input-btn-img {
         display: block;
-        margin-left: .5rem;
     }
 
     .input-btn-img {
@@ -285,14 +351,12 @@
         font-size: 1.4rem;
         line-height: 1.5;
         width: 90%;
-        margin-left: 1rem;
     }
 }
 
 .img-btn-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
     margin-top: 2rem;
     margin-bottom: .5rem;
 }
@@ -300,13 +364,12 @@
 .img-btn-main {
     font-size: 1.4rem;
     line-height: 1.5;
-    margin-left: 7rem;
     margin-bottom: 1rem;
     padding-right: 7rem;
 }
 
 .img-btn {
-    margin-left: 7rem;
+    margin-top: .5rem;
 }
 
 .m-img-btn {
@@ -320,7 +383,6 @@
     }
     .img-btn-main {
         width: 110%;
-        margin-left: 1rem;
     }
 
     .img-btn {
@@ -332,19 +394,16 @@
 .js-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
 }
 
 
 .name-attr-img {
-    margin-left: 7rem;
     margin-top: 1rem;
 }
 
 .name-attr-main {
     font-size: 1.4rem;
     line-height: 1.5;
-    padding-left: 7rem;
     padding-right: 5rem;
     margin-top: 1rem;
 }
@@ -357,7 +416,6 @@
     color: black;
     font-size: 1.5rem;
     margin-top: 2rem;
-    padding-left: 7rem;
     padding-right: 5rem;
 }
 
@@ -371,7 +429,6 @@
 
     .name-attr-main {
         width: 130%;
-        margin-left: -6rem;
     }
 
     .m-name-attr-img {
@@ -383,11 +440,6 @@
     .name-attr-img {
         display: none;
     }
-
-    .attr-title {
-        margin-left: -6rem;
-
-    }
 }
 
 
@@ -395,18 +447,16 @@
     font-size: 1.5rem;
     color: black;
     margin-top: 2rem;
-    margin-left: 7rem;
 }
 
 .onclick-attr {
     font-size: 1.4rem;
     line-height: 1.5;
     margin-top: 1rem;
-    margin-left: 7rem;
 }
 
 .click-attr-img {
-    margin-left: 7rem;
+    margin-top: 1rem;
 }
 
 .m-click-attr-img {
@@ -414,6 +464,7 @@
 }
 
 @media(max-width: 768px) {
+
     .click-attr-img {
         display: none;
     }
@@ -423,7 +474,6 @@
     }
     .onclick-attr {
        width: 90%;
-       margin-left: 1rem;
        margin-bottom: .5rem;
     }
 } 
@@ -434,7 +484,7 @@
 
 .id-line {
     margin-top: 3rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
 }
 
@@ -443,45 +493,45 @@
         margin-top: 3rem;
         width: 100%;
         margin-left: -.5rem;
- }
+   }
 }
 
 .html-attr-intro {
     font-size: 1.4rem;
     line-height: 1.5;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .attr-post-title {
     font-size: 1.5rem;
     color: black;
-    margin-top: 2rem;
-    margin-bottom: -1rem;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
     text-align: center;
 }
 
 .id-attr-title {
     color: black;
     font-size: 1.5rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-bottom: 1rem;
 }
 
 .attr-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     line-height: 1.5;
 
 }
 
 .attr-post-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-attr-img {
@@ -515,14 +565,13 @@
 
     .attr-main {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-left: 1rem;
         margin-bottom: .5rem;
     }
 
     .attr-post-title {
         margin-left: 1rem;
-        margin-top: 2rem;
 
     }
 
@@ -539,26 +588,25 @@
 
 
 .class-post-title {
+    text-align: center;
     font-size: 1.5rem;
     color: black;
-    margin-right: 12rem;
-    margin-top: 2rem;
-    margin-bottom: -1rem;
-    margin-left: 135px;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
 }
 
 
 .class-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
-    margin-right: 15rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
     line-height: 1.5;
 }
 
 .class-post-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-class-img {
@@ -568,20 +616,20 @@
 .class-styles-title {
     color: black;
     font-size: 1.5rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-top: 3rem;
 }
 
 .class-styles {
     font-size: 1.4rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-top: .5rem;
 }
 
 .styling-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-styling-img {
@@ -593,18 +641,18 @@
     color: black;
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .class-js {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-bottom: .5rem;
 }
 
 .class-js-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .m-class-js-img {
@@ -623,7 +671,7 @@
 
     .class-styles {
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 1.5;
         margin-left: 1rem;
         margin-bottom: .5rem;
@@ -642,7 +690,7 @@
 
     .class-post-title {
         width: 100%;
-        margin-left: 155px;
+    
         margin-bottom: ;
     }
 
@@ -673,7 +721,7 @@
 
     .class-js {
         margin-left: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .m-class-js-img {
@@ -687,7 +735,7 @@
 
     .class-main {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-left: 1rem;
         line-height: 1.5;
         margin-bottom: .5rem;
@@ -701,7 +749,7 @@
 .href-post-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 2rem;
     margin-bottom: -1rem;
     
@@ -710,14 +758,14 @@
 .href-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-bottom: .5rem;
 }
 
 .href-post-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-href-img {
@@ -735,7 +783,7 @@
 
     .href-main {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         color: black;
         margin-left: 1rem;
     }
@@ -757,7 +805,7 @@
     font-size: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .src-post-title {
@@ -771,12 +819,12 @@
 .src-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
 }
 
 .src-post-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-top: 1rem;
 }
 
@@ -790,19 +838,19 @@
 .class-style-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-top: 1rem;
 }
 
 .class-style {
-    font-size: 1.2rem;
-    margin-left: 7rem;
+    font-size: 1.4rem;
+    margin-left: 12rem;
 }
 
 .script-src-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-bottom: .5rem;
     margin-top: 2rem;
 }
@@ -850,7 +898,7 @@
 .audio-src-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-top: 2rem;
     margin-bottom: .5rem;
@@ -859,13 +907,13 @@
 .audio-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
 }
 
 .audio-src-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-audio-src-img {
@@ -882,7 +930,7 @@
 
     .audio-main {
         width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 1.5;
         margin-left: 1rem;
     }
@@ -901,21 +949,21 @@
 .video-src-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-top: 2rem;
     margin-bottom: .5rem;
 }
 
 .video-main {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     padding-right: 12rem;
 }
 
 .video-src-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-video-src-img {
@@ -954,13 +1002,13 @@
 .image-width-title {
     font-size: 1.5rem;
     color: black;
-    margin-top: 1rem;
-    margin-left: 7rem;
+    margin-top: .5rem;
+    margin-left: 12rem;
 }
 
 .image-width-main {
-    font-size: 1.2rem;
-    margin-left: 7rem;
+    font-size: 1.4rem;
+    margin-left: 12rem;
     line-height: 1.5;
   }
 }
@@ -971,22 +1019,22 @@
 .alt-post-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-top: 2rem;
 }
 
 .alt-main {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     line-height: 1.5;
 }
 
 .alt-post-img {
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-top: .5rem;
 }
 
 .m-alt-img {
@@ -1025,13 +1073,13 @@
     color: black;
     font-size: 1.5rem;
     margin-bottom: -1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
 .width-main {
     font-size: 1.4rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-top: -1rem;
     line-height: 1.5;
@@ -1073,19 +1121,19 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 4rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .image-width-main {
     font-size: 1.4rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-bottom: .5rem;
     line-height: 1.5;
 }
 
 .width-post-img {
-    margin-left: 7rem; 
+    margin-left: 12rem; 
 
 }
 
@@ -1110,7 +1158,7 @@
 .video-width-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
@@ -1118,7 +1166,7 @@
 .video-width-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-bottom: .5rem;
     line-height: 1.5;
@@ -1140,7 +1188,7 @@
 
 
 .vid-height-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .m-vid-height-img {
@@ -1163,7 +1211,7 @@
 .tab-width-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
 
@@ -1172,13 +1220,13 @@
 .tab-width-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 15rem;
     margin-bottom: .5rem;
 }
 
 .tab-width-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .m-tab-width-img {
@@ -1216,20 +1264,20 @@
 .style-attr-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 40%;
+    text-align: center;
     margin-bottom: -1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   
 }
 
 .style-attr-main {
     font-size: 1.4rem;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .style-attr-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .m-style-attr-img {
@@ -1239,7 +1287,6 @@
 @media(max-width:768px) {
 
     .style-attr-title {
-        margin-left: 155px;
         margin-bottom: -1rem;
         margin-top: 2rem;
     }
@@ -1264,16 +1311,16 @@
 .target-post-title {
     font-size: 1.5rem;
     color: black;
-    margin-left: 40%;
+    text-align: center;
     margin-bottom: -1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .target-main {
     font-size: 1.4rem;
     line-height: 1.5;
     color: black;
-    margin-left: 7rem;
+    margin-left: 12rem;
     margin-right: 12rem;
     margin-bottom: 1rem;
 
@@ -1286,7 +1333,7 @@
 }
 
 .target-blank-img {
-    margin-left: 7rem;
+    margin-left: 12rem;
 }
 
 .m-target-blank-img {
@@ -1296,7 +1343,6 @@
 @media(max-width:768px) {
     .target-post-title {
         width: 100%;
-        margin-left: 145px;
      
 }
     .target-main {

@@ -14,23 +14,20 @@ const Router = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> React Router </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
-         <p className="react-main"> 
-          <h1 className="router-title"> What Is React Router? </h1> 
-          <div className="react-router-main"> 
+         <p className="router-main"> 
           React Router is a JavaScript library specifically designed for managing 
           navigation and routing in React applications. It allows you to build SPAs 
           that offer smooth, seamless transitions between different views or components,
           all without the need for full page refreshes. Essentially, react router is the 
           way to connect components, instead of using a href/anchor tags to connect pages.
-        </div>
 
 <br />
-         <strong className="route-concepts"> Key Concepts: </strong> 
+         <h1 className="route-concepts"> Key Concepts: </h1> 
 <br />
           Before diving into how to use React Router, it's essential to grasp some fundamental concepts:
           <ul className="route-container"> 
@@ -61,8 +58,6 @@ const Router = () => {
            <div className="route-img"> 
             <img src={routebasic} />
           </div> 
-
-<br />
 <br />
        <h1 className="nav-route-title">Navigating with React Router: </h1> 
         Linking Between Routes: To create links between different routes, use the Link component:
@@ -71,15 +66,13 @@ const Router = () => {
             <img src={navroute} />
           </div> 
 <br />
-<br />
        <strong> Link in Action: </strong> 
        When the button is clicked, the router will navigate the to about component.
           <div className="route-img"> 
             <img src={linkuse} />
           </div> 
 <br />
-<br />
-         <strong> Programmatic Navigation: </strong> 
+         <h1 className="router-navigation-title"> Programmatic Navigation: </h1> 
           You can also navigate programmatically using functions from the 
           react-router-dom library. For example, you can use history.push
           to change the URL: 

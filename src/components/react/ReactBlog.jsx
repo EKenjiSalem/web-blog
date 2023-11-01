@@ -21,7 +21,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-right">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-        <span className="react-blog-date"> April 25th, 2022 </span>
+        {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/ReactIntro"><h3 className="react-main-title"> What is React? </h3></Link>
         <p className="react-blog-description"> 
         React.js is a powerful library for building dynamic, responsive, and maintainable user 
@@ -37,7 +37,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="zoom-in">
       <img src={ReactIcon} className="react-img"  alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Syntax"><h3 className="react-main-title"> JSX</h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -53,7 +53,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-left">
       <img src={ReactIcon} className="react-img"  alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Components"><h3 className="react-main-title"> Components </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -69,7 +69,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-left">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Router"><h3 className="react-main-title"> React Router </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -85,7 +85,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="zoom-in">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Props"><h3 className="react-main-title"> Props </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -101,7 +101,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-right">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/State"><h3 className="react-main-title"> State </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -117,7 +117,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-left">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Hooks"><h3 className="react-main-title"> Hooks </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -133,7 +133,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="zoom-in">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/ApiReact"><h3 className="react-main-title"> API </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -149,7 +149,7 @@ function ReactBlog() {
     <div className="react-blog-info" data-aos="fade-right">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">
-      <span className="react-blog-date"> April 25th, 2022 </span>
+      {/* <span className="react-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Operators"><h3 className="react-main-title"> Operators </h3></Link>
         <p className="react-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 

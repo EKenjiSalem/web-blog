@@ -17,10 +17,10 @@ const Operators = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> React Operators </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
          <p className="react-main"> 
           <div className="react-operators">
@@ -32,9 +32,10 @@ const Operators = () => {
             components, manipulate data, and create dynamic user interfaces.
           </div>
 <br />
+<br />
           <h1 className="operators-title"> Common JavaScript Operators Used In React: </h1>
-
-          <strong> Conditional (Ternary) Operator: </strong> You can use the conditional (ternary) operator to
+<br />
+          <h1 className="ternary-react-title"> Conditional (Ternary) Operator: </h1> You can use the conditional (ternary) operator to
           render different content based on a condition within your JSX.
 
             <div className="props-img">
@@ -47,7 +48,7 @@ const Operators = () => {
               <img src={externary} />
              </div>
 <br />
-         <strong> Nullish Coalescing Operator (??): </strong>  This operator is useful for providing default 
+         <h1 className="nullish-react-title"> Nullish Coalescing Operator (??): </h1>  This operator is useful for providing default 
           values when working with potentially null or undefined values.
 <br />
 <br />
@@ -56,9 +57,8 @@ const Operators = () => {
               <img src={nullish} />
              </div>
 <br />
-         <strong> Logical Operators (&& and ||): </strong> You can use logical operators to conditionally
+         <h1 className="logical-react-title"> Logical Operators (&& and ||): </h1> You can use logical operators to conditionally
           render or execute code in JSX.
-<br />
 <br />
           The AdminPanel component will only be displayed if isAdmin is true, and the
           OfflineMessage will be shown if isOnline is false.
@@ -66,7 +66,7 @@ const Operators = () => {
               <img src={logical} />
              </div>
 <br />
-         <strong> Spread Operator (...):  </strong> is commonly used for spreading props or 
+         <h1 className="spread-react-title"> Spread Operator (...):  </h1> is commonly used for spreading props or 
           state to child components, or when updating object properties in the state.
 <br />
 <br />
@@ -77,7 +77,7 @@ const Operators = () => {
              </div>
 
 <br />
-           <strong> Destructuring Assignment:  </strong> You can destructure props or state
+           <h1 className="destructure-react-title"> Destructuring Assignment:  </h1> You can destructure props or state
             to access specific values. 
        
 <br />
@@ -87,7 +87,7 @@ const Operators = () => {
               <img src={destruct} />
              </div>
 <br />
-           <strong> Map Function:  </strong> The map function is a staple when working with arrays in React.
+           <h1 className="map-react-title"> Map Function:  </h1> The map function is a staple when working with arrays in React.
             Map allows you to iterate through an array and create lists of components. 
 <br />
 <br />

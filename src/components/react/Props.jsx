@@ -11,20 +11,18 @@ const Props = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> Props </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
-         <p className="react-main"> 
-          <div className="react-intro"> 
+         <p className="props-main"> 
          In React, "props" is short for "properties," and they are a fundamental concept for
          passing data from one component to another. Props are a way to make your React components
          dynamic and reusable.
-         </div>
 <br />
 
-            <strong> Key Concepts: </strong>
+            <h1 className="props-concepts-title"> Key Concepts: </h1>
              <ul> 
               <li className="props-list"> <strong> Props are Read-Only: </strong> It's essential to understand
                that props are read-only. Child components cannot modify the data they 
@@ -42,10 +40,8 @@ const Props = () => {
               or content to a component through props, making it highly adaptable.
               </li>
              </ul>
-
 <br />
-<br />
-          <h1 className="props-title">How to Use Props</h1>
+          <h1 className="props-title"> How to Use Props: </h1>
 
          <strong> Define a Parent Component: </strong> Create a parent component that needs to
           pass data to a child component.
@@ -74,24 +70,17 @@ const Props = () => {
           a prop:
 <br />
 <br />
-        In this example, in the parent component, we'll define a function and pass it as
-        a prop to the child component. In the child component, you can access and use
-        the function passed as a prop. In this case, we'll use it as an onClick handler
-        for a button element. We'll also create a button in the child component that when
-        clicked, calls a function defined in the parent component.
+          In this example, in the parent component, we'll define a function and pass it as
+          a prop to the child component. In the child component, you can access and use
+          the function passed as a prop. In this case, we'll use it as an onClick handler
+          for a button element. We'll also create a button in the child component that when
+          clicked, calls a function defined in the parent component.
           <div className="props-img">
             <img src={funcprops} />
           </div>
 <br />
-
-      
-  
-
-
-
-
+<br />
             </p>
-
         </div>
     </div>
   )

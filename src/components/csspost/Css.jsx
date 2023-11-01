@@ -18,7 +18,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-        <span className="css-blog-date"> April 25th, 2022 </span>
+        {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/CssPost"><h3 className="css-blog-title"> What is CSS? </h3></Link>
         <p className="css-blog-description"> 
           CSS, which stands for Cascading Style Sheets, is a stylesheet
@@ -32,7 +32,7 @@ function Css() {
     <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="blog-date"> April 25th, 2022 </span>
+      {/* <span className="blog-date"> April 25th, 2022 </span> */}
        <Link to="/Selectors"><h3 className="css-blog-title"> Exploring Selectors </h3></Link> 
         <p className="css-blog-description"> 
         Selectors are powerful tools that allow you to target specific HTML elements and
@@ -46,7 +46,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/BoxModel"> <h3 className="css-blog-title"> The Craft of the Box Model  </h3></Link>
         <p className="css-blog-description"> 
        Layout and positioning are fundamental aspect of web development that empowers you to 
@@ -60,7 +60,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
        <Link to="/FlexBox"><h3 className="css-blog-title"> Flex and the Grid Examined </h3></Link> 
         <p className="css-blog-description"> 
         Flexible Box Layout "FlexBox" is a one-dimensional layout model designed to help you
@@ -75,7 +75,7 @@ function Css() {
     <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Mobile"><h3 className="css-blog-title"> Responsive Mobile Design </h3></Link>
         <p className="css-blog-description"> With the rise of mobile devices, responsive
          web design has become essential. Media queries in CSS allow you to control the
@@ -89,7 +89,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Colors"><h3 className="css-blog-title"> The World of Colors </h3></Link>
         <p className="css-blog-description"> 
          Colors are an integral part of web design, setting the mood and tone of a web page. Colors can be
@@ -104,7 +104,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Specificity"><h3 className="css-blog-title"> Specificity </h3></Link>
         <p className="css-blog-description"> 
         In CSS, specificity is a set of rules that determine which styles are applied to
@@ -121,7 +121,7 @@ function Css() {
         <div className="css-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Media"><h3 className="css-blog-title"> Images</h3></Link>
         <p className="css-blog-description"> 
         Web design has evolved beyond static text and images. Today, multimedia elements like images,
@@ -135,7 +135,7 @@ function Css() {
     <div className="css-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="css-blog-content">
-      <span className="css-blog-date"> April 25th, 2022 </span>
+      {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Animations"><h3 className="css-blog-title"> Amazing Animations </h3></Link>
         <p className="css-blog-description"> 
         CSS animations are a way to add motion, interactivity, and visual effects to elements on a web page

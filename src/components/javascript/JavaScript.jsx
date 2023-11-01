@@ -6,6 +6,7 @@ import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 function JavaScript() {
 
   useEffect(() => {
@@ -18,7 +19,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-        <span className="javascript-blog-date"> April 25th, 2022 </span>
+        {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/JsIntro"><h3 className="js-intro-title"> Intro to JavaScript </h3></Link>
         <p className="javascript-blog-description"> 
         JavaScript is a versatile, high-level, and dynamic programming language primarily used for 
@@ -31,7 +32,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
       <Link to="/JsVarPost"><h3 className="js-intro-title"> Variables & Operators </h3></Link>
         <p className="javascript-blog-description"> 
         Variables, operators, and data types are the buildingblocks of Javascript. They allow you to
@@ -45,7 +46,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="fade-right">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Dom"><h3 className="js-intro-title"> DOM </h3></Link>
         <p className="javascript-blog-description"> 
         Most web development resources advise to learn the dom after learning more fundamental
@@ -61,7 +62,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Functions"><h3 className="js-intro-title"> Functions </h3></Link>
         <p className="javascript-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -77,7 +78,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/ControlStructures"><h3 className="js-intro-title"> If Statements & Loops </h3></Link>
         <p className="javascript-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -93,7 +94,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Arrays"><h3 className="js-intro-title"> Arrays </h3></Link>
         <p className="javascript-blog-description"> In JavaScript, an array is a data structure that
          allows you to store and manipulate a collection of values, such as numbers, strings, objects,
@@ -107,7 +108,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/ObjectProgram"><h3 className="js-intro-title"> Object Oriented Programming </h3></Link>
         <p className="javascript-blog-description"> 
          Web development has evolved into a dynamic and vital field that powers the digital 
@@ -123,7 +124,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Asynchro"><h3 className="js-intro-title"> AJAX </h3></Link>
         <p className="javascript-blog-description"> 
         AJAX is a set of web development techniques that enable web pages to interact with 
@@ -137,7 +138,7 @@ function JavaScript() {
     <div className="javascript-blog-info" data-aos="zoom-in">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
-      <span className="javascript-blog-date"> April 25th, 2022 </span>
+      {/* <span className="javascript-blog-date"> April 25th, 2022 </span> */}
         <Link to="/Modules"><h3 className="js-intro-title"> Modules </h3></Link>
         <p className="javascript-blog-description"> 
         In the world of modern web development, managing the complexity of JavaScript code has become

@@ -44,17 +44,23 @@ import State from './components/react/State.jsx';
 import Hooks from './components/react/Hooks.jsx';
 import Operators from './components/react/Operators.jsx';
 import Props from './components/react/Props.jsx';
-
-
+import MasterWeb from './components/post/MasterWeb.jsx';
+import Certificate from './components/post/Certificate.jsx';
+import DomLearn from './components/post/DomLearn.jsx';
+import Functional from './components/post/Functional.jsx';
+import TechMarketing from './components/post/TechMarketing';
 import {Routes, Route} from 'react-router-dom';
 
 
 
+
 function App() {
+
   return (
+    
     <section className="App">
      <NavBar />
-     <Routes>
+      <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Post" element={<Post />} />
             <Route path="/SinglePost" element={<SinglePost />} />
@@ -99,6 +105,11 @@ function App() {
             <Route path="/Operators" element={<Operators />} />
             <Route path="/Props" element={<Props />} />
             <Route path="/ApiReact" element={<ApiReact />} />
+            <Route path="/MasterWeb" element={<MasterWeb />} />
+            <Route path="/Certificate" element={<Certificate />} />
+            <Route path="/DomLearn" element={<DomLearn />} />
+            <Route path="/Functional" element={<Functional />} />
+            <Route path="/TechMarketing" element={<TechMarketing />} />
 
          </Routes>
     </section>

@@ -14,10 +14,10 @@ const Syntax = () => {
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
         <h1 className="js-post-title"> JSX </h1>
-         <div className="js-post-info">
+         {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
-         </div>
+         </div> */}
      
          <p className="react-main"> 
           <h1 className="jsx-title"> What is JSX? </h1>
@@ -28,33 +28,29 @@ const Syntax = () => {
   <br />
   <br />
 
-        <strong> Basic JSX Element: </strong>
+        <h1 className="basic-jsx"> Basic JSX Element: </h1>
         We've defined a JSX element that represents an h1 heading with the
         text "Hello, JSX!".
          <div className="jsx-img">
           <img src={jsxbasic} />
          </div>
-         <div className="m-jsx-img">
+         {/* <div className="m-jsx-img">
           <img src={jsxbasic} />
-         </div>
+         </div> */}
   
-
 <br />
-<br />
-
-        <strong> Embedding Expressions: </strong>
-        You can embed JavaScript expressions within JSX using curly braces {}. 
+        <h1 className="embedded-expression-title"> Embedding Expressions: </h1>
+        You can embed JavaScript expressions within JSX using curly braces. 
 <br />
 <br />
         In this case, the value of the name variable is dynamically inserted into the JSX 
-        element, resulting in "Hello, John!".
+        element.
         
          <div className="jsx-img">
           <img src={embedded} />
          </div>
 <br />
-<br />
-        <strong> JSX and JavaScript: </strong>
+        <h1 className="jsx-attr-title"> JSX and JavaScript: </h1>
         JSX is not a separate language; it's an extension of JavaScript. You can use JavaScript
         expressions and logic within JSX elements. Here's an example of rendering a list of items 
         using JSX and JavaScript:
@@ -69,9 +65,8 @@ const Syntax = () => {
           <img src={jsandjsx} />
          </div>
 <br />
-<br />
 
-          <strong> JSX Attributes and Components: </strong>
+          <h1 className="jsx-component-title "> JSX Attributes and Components: </h1>
           In JSX, you can specify HTML attributes just like in regular HTML. Additionally,
           you can create and use React components to encapsulate and reuse parts of your UI.
 <br />
@@ -85,12 +80,9 @@ const Syntax = () => {
         <div className="jsx-img">
           <img src={jsxattr} />
          </div>
-
-
-
-
+<br />
+<br />
             </p>
-
         </div>
       </div>
   )

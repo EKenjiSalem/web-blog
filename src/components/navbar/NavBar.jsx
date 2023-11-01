@@ -16,9 +16,10 @@ function NavBar() {
       <a href="https://www.instagram.com/esalemcode/" target="_blank" rel="noopener noreferrer"><FaInstagram className="instagram" /></a>
       <FaPinterest  className="pinterest" /> 
       </div>
+      
         <div className="topcenter">
           <ul className="toplist"> 
-                <Link to="/blog" className={"nav-item"}>Blog </Link>
+                <Link to="/blog" className={"nav-item"}>Opinion </Link>
                 <Link to="/html" className="nav-item">HTML </Link>
                 <Link to="/css" className="nav-item">CSS </Link>
                 <Link to="/javascript" className="nav-item">Javascript </Link>
