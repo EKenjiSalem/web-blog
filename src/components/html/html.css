@@ -17,13 +17,26 @@
     margin-top: 2rem;
 }
 
+.html-blog .html-blog-container .html-blog-description {
+    width: 90%;
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    line-height: 1.4;
+}
+
+.html-blog .html-blog-container .html-main-blog-title {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
 .html-blog .html-blog-container .html-blog-info {
     margin-top: 5rem;
     margin-left: 2rem;
     width: 25rem;
     overflow: hidden;
-    /* border-radius: .5rem; */
-    /* box-shadow: 0 .3rem .5rem rgba(0,0,0,.3); */
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
 .html-blog .html-blog-container .html-blog-info img {
@@ -53,6 +66,7 @@
 }
 
 .html-blog .html-blog-container .button {
+  margin-left: 1rem;
   margin-bottom: 1.2rem;
   padding: 1rem 2rem;
   border-radius: .5rem;
@@ -66,11 +80,4 @@
     transition: 1s;
   }
 
-.html-blog .html-blog-container .html-blog-description {
-    font-size: 1.2rem;
-    margin-top: .5rem;
-}
 
-.html-blog .html-blog-container .html-main-blog-title {
-    margin-top: 1rem;
-}

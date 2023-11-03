@@ -5,7 +5,9 @@ import ol from '../../images/ol.png';
 import listaction from '../../images/listexample.png';
 import mlistaction from '../../images/rsz_listexample.png';
 
+
 function List() {
+
   return (
     <div className="html-post">
         <div className="html-post-wrapper">

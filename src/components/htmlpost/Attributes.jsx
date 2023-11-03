@@ -86,7 +86,7 @@ function Attributes() {
 
          </p>
 
-         <div className="attr-post-img">
+         <div className="id-attr-post-img">
           <img src={idselector} alt="" />
          </div>
          <div className="m-idselector-img">

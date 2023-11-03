@@ -18,6 +18,7 @@ function ReactBlog() {
   return (
   <section className="react-blog" id="html-blog">
    <div className="react-blog-container">
+   
     <div className="react-blog-info" data-aos="fade-right">
       <img src={ReactIcon} className="react-img" alt="" />
       <div className="react-blog-content">

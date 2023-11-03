@@ -198,11 +198,13 @@ const Colors = () => {
          <h1 className="gradient-title"> Gradients: </h1>
         <hr />
 
+        <div className="gradients-main"> 
         Color gradients, often referred to simply as gradients, are a gradual transition 
         between two or more colors or shades. Gradients are used in various design elements,
         including backgrounds, buttons, text, and illustrations, to create visually appealing 
         and dynamic effects. They can be applied in both print and digital media. Here are 
         some key aspects of color gradients:
+        </div> 
 <br />
 <br />
         <h1 class="linear-title"> Linear Gradient: </h1>  
@@ -237,11 +239,14 @@ const Colors = () => {
          <h1 className="var-color-title"> Color Variables: </h1>
         <hr />
 
+         <div className="color-var-main">
          Variable colors, also known as color variables or custom properties in CSS, allow
          you to define reusable color values that you can apply consistently throughout 
          your stylesheet. Using variables for colors makes your CSS more maintainable and
          flexible, especially in larger projects where you may need to update colors in 
          multiple places.
+         </div>
+  
   <br />
   <br />       
           <strong> An Example: </strong>

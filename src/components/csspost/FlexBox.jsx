@@ -19,8 +19,8 @@ const FlexBox = () => {
           <p className="flexbox-main">
           Flexbox and CSS Grid are both powerful layout systems in CSS, but they serve
           different purposes and are best suited for different types of layouts.
-          Here's a comparison of Flexbox and CSS Grid to help you understand when to use
-          each one:
+          Here's a comparison of Flexbox and Grid to help you understand when to use
+          each one.
   <br />
   <br />
         <h1 className="flexbox-main-title"> FlexBox: </h1>
@@ -61,7 +61,7 @@ const FlexBox = () => {
          <h1 className="flexbox-key-title"> Key concepts and features of Flexbox: </h1> 
         <hr />
 
-         <ul>
+         <ul className="flex-list-container">
           <li className="flex-list"> <strong> Container:</strong> In a Flexbox layout, you have a container element and child items. The container is referred to as the "flex container," and the child items are referred to as "flex items." </li>
           <li className="flex-list"> <strong> Main Axis and Cross Axis: </strong> Flexbox works along two axes: the main axis and the cross axis. The main axis is defined by the flex-direction property, which can be set to row, row-reverse, column, or column-reverse. The cross axis is perpendicular to the main axis. </li>
           <li className="flex-list"> <strong> Justify Content:</strong> This property controls the alignment of flex items along the main axis. It determines how extra space in the container is distributed among the items.</li>
@@ -83,7 +83,7 @@ const FlexBox = () => {
        <h1 className="grid-title"> Key features and concepts of CSS Grid: </h1> 
       <hr />
 
-     <ul>
+     <ul className="grid-list-container">
        <li className="grid-list"> <strong> Two-Dimensional Layout: </strong> Unlike Flexbox, which is designed for one-dimensional 
         layouts (either rows or columns), CSS Grid enables two-dimensional layouts. It allows
         you to define both rows and columns, creating a grid where elements can be positioned

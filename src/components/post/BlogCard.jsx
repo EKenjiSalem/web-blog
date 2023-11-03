@@ -1,22 +1,28 @@
 import React from 'react';
 import sidebar from '../../images/rsz_sidebar.jpg'
 import {Link} from 'react-router-dom';
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './blogcard.css';
 
 function BlogCard() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <section className="blog" id="blog">
       <div className="blog-container">
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
               {/* <span className="blog-date"> April 25th, 2022 </span> */}
-
               <div className="master-title">
                <Link to="/MasterWeb"> <h3 className='blog-title'> Mastering Web Development </h3> </Link> 
               </div>
-
               <p className="blog-description"> 
                Web development has evolved into a dynamic and vital field that powers the digital 
                landscape we interact with daily. From the simplest static websites to complex
@@ -28,7 +34,7 @@ function BlogCard() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -44,7 +50,7 @@ function BlogCard() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -60,7 +66,7 @@ function BlogCard() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -76,7 +82,7 @@ function BlogCard() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -92,7 +98,7 @@ function BlogCard() {
              </div>
            </div>
           
-           <div className="blog-info" data-aos="fade-in">
+           <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}

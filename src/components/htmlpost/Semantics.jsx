@@ -22,8 +22,8 @@ function Semantics() {
          search engine optimization SEO, and the overall readability and maintainability of
          web pages.
           </p>
-          <br />
-          <br />
+  <br />
+  <br />
 
           <h1 className="semantics-title"> Common examples of semantic elements and their purposes: </h1>
            <p className="semantics-main">

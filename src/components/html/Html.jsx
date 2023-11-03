@@ -16,6 +16,7 @@ function Html() {
   return (
   <section className="html-blog" id="html-blog">
    <div className="html-blog-container">
+
     <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -29,6 +30,7 @@ function Html() {
         <Link to="/HtmlPost"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt=""/>
       <div className="html-blog-content">
@@ -36,10 +38,11 @@ function Html() {
       <Link to="/Multimedia"><h3 className="html-main-blog-title"> Images, Videos, and Audio </h3></Link>
         <p className="html-blog-description">  Using a video in HTML is quite straightforward.
         HTML5 introduced the video element, which allows you to embed videos directly into your
-         webpages. Here's a basic example of how to use the video element......</p>
+         webpages. Here's a basic example of how to use the video element.</p>
          <Link to="/Multimedia"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -47,12 +50,11 @@ function Html() {
       <Link to="/Buttons"><h3 className="html-main-blog-title"> Creating Buttons </h3></Link>
         <p className="html-blog-description"> 
         An HTML button is an interactive element that allows users to trigger an action when clicked. Buttons 
-        It's a fundamental component of web development and is used to create clickable controls on webpages.
-         Buttons are used for a variety of purposes, such as submitting forms, triggering JavaScript 
-         functions, navigating to different pages, and more......</p>
+        It's a fundamental component of web development and is used to create clickable controls on webpages</p>
          <Link to="/Buttons"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -65,6 +67,7 @@ function Html() {
         <Link to="/Attributes"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -74,12 +77,11 @@ function Html() {
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
           web applications, the process of web development encompasses various technologies,
-           methodologies, and best practices. Whether you're an aspiring developer or 
-           a seasoned pro looking to stay updated, this guide will walk you through the key components 
-           and insights of web development.</p>
+           methodologies, and best practices. </p>
            <Link to="/Forms"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -89,12 +91,11 @@ function Html() {
          Web development has evolved into a dynamic and vital field that powers the digital 
          landscape we interact with daily. From the simplest static websites to complex
           web applications, the process of web development encompasses various technologies,
-           methodologies, and best practices. Whether you're an aspiring developer or 
-           a seasoned pro looking to stay updated, this guide will walk you through the key components 
-           and insights of web development.</p>
+           methodologies, and best practices.</p>
            <Link to="/Div"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -102,10 +103,11 @@ function Html() {
       <Link to="/Text"><h3 className="html-main-blog-title"> Text </h3></Link>
         <p className="html-blog-description">  Using a video in HTML is quite straightforward.
         HTML5 introduced the video element, which allows you to embed videos directly into your
-         webpages. Here's a basic example of how to use the video element......</p>
+         webpages. Here's a basic example of how to use the video element.</p>
          <Link to="/Text"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="zoom-in">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -113,10 +115,11 @@ function Html() {
       <Link to="/List"><h3 className="html-main-blog-title"> The World of List </h3></Link>
         <p className="html-blog-description">  Using a video in HTML is quite straightforward.
         HTML5 introduced the video element, which allows you to embed videos directly into your
-         webpages. Here's a basic example of how to use the video element......</p>
+         webpages. Here's a basic example of how to use the video element.</p>
          <Link to="/List"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
     <div className="html-blog-info" data-aos="fade-right">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">
@@ -124,10 +127,11 @@ function Html() {
       <Link to="/Semantics"><h3 className="html-main-blog-title"> The Importnace of Semantics </h3></Link>
         <p className="html-blog-description">  Using a video in HTML is quite straightforward.
         HTML5 introduced the video element, which allows you to embed videos directly into your
-         webpages. Here's a basic example of how to use the video element......</p>
+         webpages. Here's a basic example of how to use the video element.</p>
          <Link to="/Semantics"><button className="button"> Read More </button></Link>
       </div>
     </div>
+
   </div>
 </section>
   )

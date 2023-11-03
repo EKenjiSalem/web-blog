@@ -22,15 +22,15 @@
     margin-left: 2rem;
     width: 25rem;
     overflow: hidden;
-    /* border-radius: .5rem; */
-    /* box-shadow: 0 .3rem .5rem rgba(0,0,0,.3); */
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
 
 .react-blog .react-blog-container .react-blog-info img {
-    height: 17rem;
-    width: 100%;
-    object-fit: cover;
+    height: 25.5rem;
+    width: 133%;
+    object-fit: fill;
 }
 
 .react-blog .react-blog-container span {
@@ -54,6 +54,7 @@
 
 .react-blog .react-blog-container .button {
   margin-bottom: 1.2rem;
+  margin-left: 1rem;
   padding: 1rem 2rem;
   border-radius: .5rem;
   color: white;
@@ -67,12 +68,16 @@
 }
 
 .react-blog .react-blog-container .react-main-title {
-    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
 }
 
 .react-blog .react-blog-container .react-blog-description {
-    font-size: 1.4rem;
+    width: 90%;
+    font-size: 1.3rem;
     margin-top: .5rem;
+    margin-left: 1rem;
+    line-height: 1.4;
 }
 
 .react-img {

@@ -98,7 +98,7 @@ const Selectors = () => {
   <br />
   <br /> 
 
-        <div className="embedded-img">
+         <div className="embedded-img">
             <img src={embedblock} alt="" />
           </div>
 
@@ -213,9 +213,9 @@ const Selectors = () => {
 <br />
 <br />
 
-          <hr  />
-          <h1 className="pseduo-ce-title"> Pseudo-classes and Pseudo-elements </h1>
-          <hr />
+          <hr className="selector-line"  />
+           <h1 className="pseduo-ce-title"> Pseudo-classes and Pseudo-elements </h1>
+          <hr className="selector-line" />
 
           <p className="pseduo-intro"> CSS selectors go beyond simple element, class, and ID selections. 
           Pseudo-class selectors, ( often indicated by a colon : ) allows you to select elements based on

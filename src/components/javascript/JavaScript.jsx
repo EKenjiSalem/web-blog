@@ -16,6 +16,7 @@ function JavaScript() {
   return (
   <section className="javascript-blog" id="html-blog">
    <div className="javascript-blog-container">
+   
     <div className="javascript-blog-info" data-aos="fade-left">
       <img src={codepost} alt="" />
       <div className="javascript-blog-content">
