@@ -127,10 +127,15 @@
     line-height: 1.5;
 }
 
+.varlist-container {
+    margin-top: 2rem;
+}
+
 .var-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
 
@@ -139,15 +144,36 @@
     margin-bottom: 1rem;
 }
 
-.operators-title {
-    margin-top: -1rem;
-    margin-bottom: -.3rem; 
-    text-align: center;
+
+.var-img {
 
 }
 
-.operator-list-title {
+.m-var-img {
+    display: none;
+}
 
+@media (max-width:768px) {
+    .var-img {
+        display: none;
+    }
+    .m-var-img {
+        display: block;
+        margin-right: 1rem;
+
+    }
+}
+
+
+
+.operators-title {
+    margin-top: .5rem;
+    margin-bottom: .5rem; 
+    text-align: center;
+}
+
+.operatorlist-container {
+    margin-top: 2rem;
 }
 
 .operator-list {
@@ -167,6 +193,27 @@
     margin-top:  1rem;
     list-style-type: none;
 }
+
+.math-img {
+    margin-top: 1rem;
+}
+
+.m-math-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .math-img {
+        display: none;
+    }
+    .m-math-img {
+        display: block;
+        margin-left: -7.5rem;
+        margin-top: 1rem;
+    
+
+    }
+}
  
 .assignment-title {
     color: black;
@@ -178,6 +225,26 @@
 .assignment-list {
     list-style-type: none;
     margin-top: 1rem;
+}
+
+.assign-img {
+    margin-top: 1rem;
+}
+
+.m-assign-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .assign-img {
+       display: none;
+    }
+
+    .m-assign-img {
+        display: block;
+        margin-left: -5rem;
+        margin-top: 1rem;
+    }
 }
 
 .comparison-title {
@@ -193,6 +260,27 @@
     margin-top: 1rem;
     margin-bottom: .5rem;
 
+}
+
+
+.comparison-img {
+    margin-top: 1rem;
+}
+
+.m-comparison-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .comparison-img {
+       display: none;
+    }
+
+    .m-comparison-img {
+        display: block;
+        margin-left: -3.5rem;
+        margin-top: 1rem;
+    }
 }
 
 .logical-title {
@@ -268,7 +356,8 @@
 .datatype-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
 

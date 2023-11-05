@@ -1,8 +1,10 @@
 import React from 'react';
 import './javascript.css';
 import vars from '../../images/vars.png';
+import mvars from '../../images/rsz_vars.png';
 import addopers from '../../images/addopers.png';
 import assign from '../../images/assign.png';
+import massign from '../../images/rsz_assign.png';
 import comped from '../../images/comp.png';
 import logical from '../../images/logical.png';
 import unary from '../../images/unary-op.png';
@@ -17,6 +19,7 @@ import objedata from '../../images/objedata.png';
 import arrdata from '../../images/arrdata.png';
 import funcdata from '../../images/funcdata.png';
 import compareoperate from '../../images/rsz_compareoperate.png';
+import mcompareoperate from '../../images/mobile_compareoperate.png';
 
 
 
@@ -40,11 +43,11 @@ function JsVarPost() {
 
 <br />
 <br />
-      <hr />
-        <h1 className="var-title">Variables: The Building Blocks: </h1>
-      <hr />
+      <hr className="var-line" />
+        <h1 className="var-title"> Variables: The Building Blocks: </h1>
+      <hr className="var-line" />
 
-      <ul>
+      <ul className="varlist-container">
         <li className="var-list"> Variables are used to store and manage data in JavaScript.</li>
         <li className="var-list"> Variables are essentially placeholders for values that can be constantly manipulated. </li>
         <li className="var-list"> Variables are declared using keywords like var, let, or const, followed by a variable name. </li>
@@ -54,6 +57,9 @@ function JsVarPost() {
            <div className="var-img">
              <img src={vars} alt="" />
             </div>
+            <div className="m-var-img">
+             <img src={mvars} alt="" />
+            </div>
 
 <br />
 <br />
@@ -62,7 +68,7 @@ function JsVarPost() {
           <h1 className="operators-title"> Performing Operations: </h1> 
         <hr />
 
-        <ul className="operator-list-title"> 
+        <ul className="operatorlist-container"> 
          <li className="operator-list"> Operators in JavaScript are used to perform operations on variables and values.</li>
          <li className="operator-list"> They enable you to manipulate and work with data in various ways.</li>
          <li className="operator-list"> There are many different types of operators, including arithmetic, assignment, comparison, logical, and more.</li>
@@ -81,7 +87,11 @@ function JsVarPost() {
         <li className="mathoperator-list"><strong> ** (Exponentiation): </strong> Raises the left operand to the power of the right operand.</li>
        </ul>
             
-            <div className="var-img">
+            <div className="math-img">
+              <img src={addopers} alt="" />
+            </div>
+
+            <div className="m-math-img">
               <img src={addopers} alt="" />
             </div>
 <br />
@@ -94,8 +104,11 @@ function JsVarPost() {
         operation and assigns the result to a variable in one step. </li>
        </ul>
 
-        <div className="var-img">
+        <div className="assign-img">
           <img src={assign} alt="" />
+        </div>
+        <div className="m-assign-img">
+          <img src={massign} alt="" />
         </div>
 
 <br />
@@ -112,8 +125,11 @@ function JsVarPost() {
         <li className="comparison-list">  <strong> {">="}  (Greater Than or Equal to): </strong> Checks if the left operand is greater than or equal to the right operand.</li>
         <li className="comparison-list">  <strong> {"<="} (Less Than or Equal to): </strong> Checks if the left operand is less than or equal to the right operand.</li>
       </ul>
-        <div className="var-img">
+        <div className="comparison-img">
          <img src={compareoperate} alt="" />
+        </div>
+        <div className="m-comparison-img">
+         <img src={mcompareoperate} alt="" />
         </div>
 
 <br />

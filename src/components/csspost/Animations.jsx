@@ -1,18 +1,28 @@
 import React from 'react';
 import './csspost.css';
 import transitions from '../../images/transitions.png';
+import mobiletransitions from '../../images/mobile_transitions.png';
 import keyframes from '../../images/rsz_transformation.png';
+import mobilekeyframes from '../../images/mobile_transformation.png';
 import animeprops from '../../images/rsz_animeprops.png';
+import mobileanimeprops from '../../images/mobile_animeprops.png';
 import rotation from '../../images/rsz_1rotate.png';
+import mobilerotation from '../../images/mobile_rotate.png';
 import rotating from '../../images/rsz_1rotating.png';
+import mobilerotating from '../../images/mobile_rotating.png';
 import transform from '../../images/rsz_transform.png';
+import mobiletransform from '../../images/mobile_transform.png';
 import scale from '../../images/rsz_scale.png';
+import mobilescale from '../../images/mobile_scale.png';
 import skewing from '../../images/rsz_skewing.png';
+import mobileskewing from '../../images/mobile_skewing.png';
 import threed from '../../images/rsz_1threed.png';
+import mobilethreed from '../../images/mobile_threed.png';
 
 
 
-const Selectors = () => {
+const Animations = () => {
+  
   return (
     <div className="css-post">
         <div className="css-post-wrapper">
@@ -31,7 +41,7 @@ const Selectors = () => {
           of keyframe, transform, and propertry elements that make them a breeze to apply and control.
 <br />
 <br />
-          <strong>Here are some key aspects of CSS animations: </strong>
+          <strong> Here are some key aspects of CSS animations: </strong>
 <br />
 
           <h1 className="keyframes-title"> Keyframes: </h1> 
@@ -51,7 +61,10 @@ const Selectors = () => {
          
            <div className="transform-img">
             <img src={keyframes} alt="" />
-          </div>
+           </div>
+           <div className="m-transform-img">
+            <img src={mobilekeyframes} alt="" />
+           </div>
   
 
 
@@ -60,28 +73,40 @@ const Selectors = () => {
 <br />
         <strong> Translate: </strong>This moves an element along the X and Y axes (2D) 
         or X, Y, and Z axes (3D).
-        <div className="keyword-img">
+        <div className="transform-img">
           <img src={transform} alt="" />
+        </div>
+        <div className="m-transform-img">
+          <img src={mobiletransform} alt="" />
         </div>
 
 
         <strong> Scale: </strong> Enlarges or shrinks an element. You can specify
         scaling factors for the X and Y axes (2D) or X, Y, and Z axes (3D). 
-        <div className="keyword-img">
+        <div className="transform-img">
           <img src={scale} alt="" />
+        </div>
+        <div className="m-transform-img">
+          <img src={mobilescale} alt="" />
         </div>
 
 
         <strong> Rotate: </strong> This rotates an element clockwise or 
         counterclockwise by a specified angle.
-        <div className="keyword-img">
+        <div className="transform-img">
           <img src={rotating} alt="" />
+        </div>
+        <div className="m-transform-img">
+          <img src={mobilerotating} alt="" />
         </div>
 
 
        <strong> Skew: </strong> This tilts an element along the X and Y axes.
-        <div className="keyword-img">
+        <div className="transform-img">
           <img src={skewing} alt="" />
+        </div>
+        <div className="m-transform-img">
+          <img src={mobileskewing} alt="" />
         </div>
 
 <br />
@@ -97,8 +122,11 @@ const Selectors = () => {
             <li className='anime-list'> <strong>animation-direction: </strong> Determines whether the animation should run forwards, backward, or alternate between both (normal, reverse, alternate, alternate-reverse).</li> 
             <li className='anime-list'> <strong>animation-fill-mode: </strong> Defines what styles are applied to the element before and after the animation (forwards, backwards, both, none).</li>
           </ul>
-          <div className="keyword-img">
+          <div className="animeprops-img">
             <img src={animeprops} alt="" />
+          </div>
+          <div className="m-animeprops-img">
+            <img src={mobileanimeprops} alt="" />
           </div>
 <br />
            <h1 className="transitions-title"> Transitions:  </h1> 
@@ -108,8 +136,11 @@ const Selectors = () => {
             (e.g., on hover). Transitions are simpler to set up compared to animations
             and are ideal for one-off, simple effects.
 
-           <div className="keyword-img">
+           <div className="transitions-img">
             <img src={transitions} alt="" />
+           </div>
+           <div className="m-transitions-img">
+            <img src={mobiletransitions} alt="" />
            </div>
          </div>
 
@@ -120,8 +151,11 @@ const Selectors = () => {
             <h1 className="anime-run-title"> Running Animations: </h1>
           <hr className="anime-line" />
 
-          <div className="keyword-img">
+          <div className="rotation-img">
             <img src={rotation} alt="" />
+          </div>
+          <div className="m-rotation-img">
+            <img src={mobilerotation} alt="" />
           </div>
 
   <br />
@@ -134,8 +168,12 @@ const Selectors = () => {
           Here's an example of how you might use the transform property within a 
           CSS animation to make an element rotate and scale simultaneously:
 
-          <div className="keyword-img">
+          <div className="threed-img">
             <img src={threed} alt="" />
+          </div>
+
+          <div className="m-threed-img">
+            <img src={mobilethreed} alt="" />
           </div>
 <br />
 <br />
@@ -146,4 +184,4 @@ const Selectors = () => {
   )
 }
 
-export default Selectors;
+export default Animations;

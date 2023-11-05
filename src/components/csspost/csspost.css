@@ -1601,10 +1601,21 @@
     margin-bottom: 4rem;
 }
 
+.m-transform-img {
+    display: none;
+
+}
+
 @media(max-width:768px) {
 
     .transform-img {
+        display: none;
+    }
+
+    .m-transform-img {
         display: block;
+        margin-left: -4rem;
+        margin-top: .5rem;
     }
 }
 
@@ -1620,6 +1631,27 @@
     color: black;
     margin-bottom: 1rem;
 }
+
+.animeprops-img {
+  
+}
+
+.m-animeprops-img {
+  display: none;
+}
+
+@media (max-width:768px) {
+
+    .animeprops-img {
+        display: none;
+    }
+    
+    .m-animeprops-img {
+      display: block;
+      margin-left: -4rem;
+    }
+}
+
 
 .anime-list-container{
     margin-top: 1rem;
@@ -1641,6 +1673,69 @@
     color: black;
     font-size: 1.5rem;
     margin-top: -1rem;
+}
+
+.transitions-img {
+    
+}
+
+.m-transitions-img {
+    display: none;
+}
+
+
+@media (max-width:768px) {
+    
+    .transitions-img {
+        display: none;
+    }
+    
+    .m-transitions-img {
+      display: block;
+      margin-left: -3.4rem;
+    }
+}
+
+.rotation-img {
+    
+}
+
+.m-rotation-img {
+    display: none;
+}
+
+
+@media (max-width:768px) {
+    
+    .rotation-img {
+        display: none;
+    }
+    
+    .m-rotation-img {
+      display: block;
+      margin-left: -3.4rem;
+    }
+}
+
+.threed-img {
+    
+}
+
+.m-threed-img {
+    display: none;
+}
+
+
+@media (max-width:768px) {
+    
+    .threed-img {
+        display: none;
+    }
+    
+    .m-threed-img {
+      display: block;
+      margin-left: -3.4rem;
+    }
 }
 
 

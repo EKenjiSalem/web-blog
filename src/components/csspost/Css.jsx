@@ -122,7 +122,7 @@ function Css() {
       <img src={codepost} alt="" />
       <div className="css-blog-content">
       {/* <span className="css-blog-date"> April 25th, 2022 </span> */}
-        <Link to="/Media"><h3 className="css-blog-title"> Images</h3></Link>
+        <Link to="/Media"><h3 className="css-blog-title"> Images </h3></Link>
         <p className="css-blog-description"> 
         Web design has evolved beyond static text and images. Today, multimedia elements like images,
         videos, and audio are essential for creating engaging and dynamic web experiences.
