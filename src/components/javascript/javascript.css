@@ -955,10 +955,24 @@
     margin-top: .5rem;
 }
 
+.m-closure-img {
+    display: none;
+}
+
 @media (max-width:768px) {
     .closure-main {
         width: 90%;
         margin-left: 1.5rem;
+    }
+
+    .closure-img {
+      display: none;
+    }
+
+    .m-closure-img {
+        display: block;
+        margin-left: -2rem;
+        margin-top: .5rem;
     }
 }
 
@@ -1016,6 +1030,53 @@
        margin-left: 1.5rem;
     }
 }
+
+
+.m-mapfunction-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .mapfunction-img {
+        display: none;
+    }
+    .m-mapfunction-img {
+        display: block;
+        margin-left: -3.7rem;
+        margin-top: .5rem;
+    }
+}
+
+.m-filterfunction-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .filterfunction-img {
+        display: none;
+    }
+    .m-filterfunction-img {
+        display: block;
+        margin-left: -3.7rem;
+        margin-top: .5rem;
+    }
+}
+
+.m-reducefunction-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .reducefunction-img {
+        display: none;
+    }
+    .m-reducefunction-img {
+        display: block;
+        margin-left: -3.7rem;
+        margin-top: .5rem;
+    }
+}
+
 
 
 /* If Statements */

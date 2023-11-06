@@ -10,11 +10,15 @@ import mglobalvar from '../../images/rsz_globalvar.png';
 import localvar from '../../images/localvar.png';
 import mlocalvar from '../../images/rsz_localvar.png';
 import closures from '../../images/rsz_closures.png';
+import mclosures from '../../images/m_closures.png';
 import hfunction from '../../images/higherfunction.png';
 import returnfunction from '../../images/rehighfunction.png';
 import mapfunction from '../../images/mapfunction.png';
 import filterfunction from '../../images/filterfunction.png';
 import reducefunction from '../../images/reducefilter.png';
+import mmapfunction from '../../images/m_mapfunction.png';
+import mfilterfunction from '../../images/m_filterfunction.png';
+import mreducefunction from '../../images/m_reducefilter.png';
 import functionex from '../../images/rsz_functionex.png';
 import mfunctionex from '../../images/m_functionex.png';
 
@@ -217,6 +221,9 @@ const Functions = () => {
           <div className="closure-img">
             <img src={closures} alt="" />
           </div> 
+          <div className="m-closure-img">
+            <img src={mclosures} alt="" />
+          </div> 
 <br />
 <br />
 
@@ -230,29 +237,6 @@ const Functions = () => {
            and assigned to variables. In essence, a higher-order function is a function that 
            operates on other functions, either by taking them as arguments, returning them 
            as results, or both.
-<br />
-<br />
-          <strong> Function that takes a function: </strong>
-           Consider a function apply that takes two arguments: another
-           function func and a value x. Here's what it might look like in JavaScript:
-        
-            <div className="var-img">
-              <img src={hfunction} alt="" />
-           </div>
-           In this case, apply is a higher-order function because it takes a function func
-           as one of its arguments and applies func to the value x.
-<br />
-<br />
-           <strong> Function that Returns a Function: </strong>
-           Now, let's look at a function multiplyBy that returns another function. This 
-           function takes a multiplier factor and returns a new function that multiplies its 
-           argument by factor:
-           <div className="var-img">
-             <img src={returnfunction} alt="" />
-           </div>
-
-          Here, multiplyBy is a higher-order function because it returns a function as its 
-          result.
           </p>
 <br />
 <br />
@@ -266,22 +250,31 @@ const Functions = () => {
           The map function applies a given function to each element of a collection
            - e.g., an array - and returns a new collection containing the results. It's great 
           for transforming data.
-          <div className="var-img">
+          <div className="mapfunction-img">
            <img src={mapfunction} alt="" />
+          </div>
+          <div className="m-mapfunction-img">
+           <img src={mmapfunction} alt="" />
           </div>
   <br />
            <strong> Filter: </strong>
            The filter function takes a collection and a filtering function. It returns a new collection
            containing only the elements that satisfy the condition specified by the filtering function.
-            <div className="var-img">
+           <div className="filterfunction-img">
              <img src={filterfunction} alt="" />
+           </div>
+            <div className="m-filterfunction-img">
+             <img src={mfilterfunction} alt="" />
            </div>
 <br />
             <strong> Reduce: </strong> 
             The reduce function combines the elements of a collection into a single result by
             repeatedly applying a combining function.
-             <div className="var-img">
+            <div className="reducefunction-img">
               <img src={reducefunction} alt="" />
+             </div>
+             <div className="m-reducefunction-img">
+              <img src={mreducefunction} alt="" />
              </div>
              </p>
         </div>
