@@ -1,6 +1,7 @@
 import React from 'react';
 import './javascript.css';
 import domclick from '../../images/rsz_toggledom.png';
+import mdomclick from '../../images/m_toggledom.png';
 
 
 
@@ -45,9 +46,14 @@ const Dom = () => {
         clicked. The DOM manipulation occurs within the event listener.
 
 
-         <div className="var-img">
-          <img src={domclick} alt="" />
+          <div className="js-dom-img">
+           <img src={domclick} alt="" />
           </div>
+          <div className="m-js-dom-img">
+           <img src={mdomclick} alt="" />
+          </div>
+<br />
+<br />
             </p>
 
         </div>

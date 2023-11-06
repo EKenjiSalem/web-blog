@@ -1,10 +1,14 @@
 import React from 'react';
 import './javascript.css';
 import funcdeclartion from '../../images/funcdeclar.png';
-import funcexpress from '../../images/funcexpress.png';
-import funcarrow from '../../images/funcarrow.png';
+import funcexpress from '../../images/functionexpress.png';
+import mfuncexpress from '../../images/m_functionexpress.png';
+import funcarrow from '../../images/jsarrowfunction.png';
+import mfuncarrow from '../../images/rsz_jsarrowfunction.png';
 import globalvar from '../../images/globalvar.png';
+import mglobalvar from '../../images/rsz_globalvar.png';
 import localvar from '../../images/localvar.png';
+import mlocalvar from '../../images/rsz_localvar.png';
 import closures from '../../images/rsz_closures.png';
 import hfunction from '../../images/higherfunction.png';
 import returnfunction from '../../images/rehighfunction.png';
@@ -12,6 +16,7 @@ import mapfunction from '../../images/mapfunction.png';
 import filterfunction from '../../images/filterfunction.png';
 import reducefunction from '../../images/reducefilter.png';
 import functionex from '../../images/rsz_functionex.png';
+import mfunctionex from '../../images/m_functionex.png';
 
 
 const Functions = () => {
@@ -39,7 +44,6 @@ const Functions = () => {
          more organized and modular.
         </p>
 
-<br />
 <br />
 
         <h1 className="anatomy-title"> The anatomy of a function consist of: </h1> 
@@ -100,6 +104,9 @@ const Functions = () => {
         <div className="function-expression-img">
          <img src={funcexpress} alt="" />
         </div>
+        <div className="m-function-expression-img">
+         <img src={mfuncexpress} alt="" />
+        </div>
 
 <br />
 <br />
@@ -110,6 +117,9 @@ const Functions = () => {
         </p>
         <div className="arrow-function-img">
          <img src={funcarrow} alt="" />
+        </div>
+        <div className="m-arrow-function-img">
+         <img src={mfuncarrow} alt="" />
         </div>
         
 <br />
@@ -126,11 +136,17 @@ const Functions = () => {
         <div className="function-action-img">
          <img src={functionex} alt="" />
         </div>
+
+        <div className="m-function-action-img">
+         <img src={mfunctionex} alt="" />
+        </div>
   <br />
   <br />
-        <hr />
+
+        <hr className="scope-line" />
          <h1 className="scope-title"> Scope: </h1>
-        <hr />
+        <hr className="scope-line"  />
+
           <p className="scope-main">
           Variables and functions have different scopes, with the two main scopes being global 
           and local (also known as function scope). These scopes determine where a variable or function is 
@@ -147,6 +163,9 @@ const Functions = () => {
        <div className="global-scope-img">
          <img src={globalvar} alt="" />
         </div> 
+        <div className="m-global-scope-img">
+         <img src={mglobalvar} alt="" />
+        </div> 
 
   <br />
   <br />
@@ -161,20 +180,22 @@ const Functions = () => {
         <div className="local-scope-img">
          <img src={localvar} alt="" />
         </div>
+        <div className="m-local-scope-img">
+         <img src={mlocalvar} alt="" />
+        </div>
 
 <br />
 <br />
 
 
-    <hr />
+    <hr className="closure-line" />
      <h1 className="closures-title"> Closures: </h1> 
-    <hr />
+    <hr className="closure-line" />
 
         <p className="closure-main"> 
         Functions in JavaScript "remember" their outer scope and can access variables from that scope 
         even after the outer function has finished executing. This behavior is known as closures.
 <br />   
-<br />
 <br />
       <strong> Key points to understand about closures:</strong> 
 <br />
@@ -199,10 +220,10 @@ const Functions = () => {
 <br />
 <br />
 
-         <hr />
+         <hr className="hof-line" />
           <h1 className="higher-functions-title"> Higher-Order Functions: </h1> 
-         <hr />
-         
+         <hr className="hof-line" />
+<br />
            <p className="higher-function-main">
            Higher-order functions are a concept in functional programming where functions 
            can be passed as arguments to other functions, returned as values from other functions,

@@ -294,6 +294,22 @@
    
 }
 
+.m-logical-img {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .logical-img {
+        display: none;
+    }
+    
+    .m-logical-img {
+        display: block;
+        margin-left: -4.5rem;
+    }
+}
+
+
 .logical-list{
     list-style-type: none;
     margin-top: 1rem;
@@ -315,6 +331,21 @@
 
 }
 
+.m-unary-img{
+    display: none;
+}
+
+@media(max-width:768px) {
+    .unary-img {
+        display: none;
+    }
+    
+    .m-unary-img {
+        display: block;
+        margin-left: -5rem;
+    }
+}
+
 .ternary-title {
     color: black;
     font-size: 1.5rem;
@@ -329,6 +360,26 @@
 }
 
 
+.unary-img {
+
+}
+
+.m-js-ternary-img {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .js-ternary-img {
+        display: none;
+    }
+    
+    .m-js-ternary-img{
+        display: block;
+        margin-left: -5rem;
+    }
+}
+
+
 .basictype-titles {
     color: black;
     font-size: 1.5rem;
@@ -340,6 +391,100 @@
     list-style-type: none;
     margin-top: 1rem;
 }
+
+@media (max-width: 768px) {
+    .num-data-img {
+        display: block;
+        margin-left: -2.5rem;
+ }
+
+    .str-data-img {
+        display: block;
+        margin-left: -7.5rem;
+}
+
+    .boo-data-img {
+        display: block;
+        margin-left: -4rem;
+}
+    .un-data-img {
+        display: block;
+        margin-left: -7rem;
+}
+
+    .null-data-img {
+        display: block;
+        margin-left: -3rem;
+}
+
+}
+
+
+
+.symbol-data-img {
+    display: block;
+}
+
+.m-symbol-data-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .symbol-data-img {
+        display: none;
+    }
+    
+    .m-symbol-data-img {
+        display: block;
+        margin-left: -5rem;
+    }
+}
+
+.js-object-img {
+    
+}
+
+.m-js-object-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .js-object-img {
+        display: none;
+    }
+    
+    .m-js-object-img {
+        display: block;
+        margin-left: -3.9rem;
+    }
+    
+}
+
+
+.m-js-array-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .js-array-img {
+        display: none;
+    }
+    
+    .m-js-array-img {
+        display: block;
+        margin-left: -3.7rem;
+    }
+}
+
+@media(max-width:768px) {
+    .js-function-img {
+        display: block;
+        margin-left: -2rem;
+    }
+
+}
+
+
 
 .reference-title {
     color: black;
@@ -374,14 +519,17 @@
       margin-bottom: -2.5rem;
       margin-left: 2rem;
     }
+
     .js-var-main {
         width: 90%;
         margin-bottom: -2.5rem;
         margin-left: 2rem;
       }
+
     .js-post-date {
         margin-left: 16rem;
     }
+
     .js-post-author {
         margin-left: -12rem;
 }
@@ -420,6 +568,26 @@
 .dom-list {
     list-style-type: none;
     margin-top: 1rem;
+}
+
+.js-dom-img {
+
+}
+
+.m-js-dom-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .js-dom-img {
+        display: none;
+    }
+    
+    .m-js-dom-img {
+        display: block;
+        margin-left: -3.5rem;
+
+    }
 }
 
 
@@ -500,6 +668,7 @@
     margin-top: .5rem;
 }
 
+
 @media (max-width:768px) {
     .create-function-title {
         margin-left: 1.5rem;
@@ -511,6 +680,12 @@
         width: 90%;
         margin-left: 1.5rem;
     }
+
+    .function-declaration-img {
+        margin-left: -3rem;
+        margin-top: .5rem;
+    }
+    
 }
 
 .arguments {
@@ -538,7 +713,23 @@
     margin-top: .5rem;
 }
 
+.m-function-expression-img {
+    display: none;
+}
+
 @media (max-width:768px) {
+    .function-expression-img {
+        display: none;
+    }
+
+    .m-function-expression-img {
+       display: block;
+       margin-left: -2rem;
+    }
+}
+
+@media (max-width:768px) {
+
     .function-expression-title {
         margin-left: 1.5rem;
     }
@@ -569,6 +760,10 @@
     margin-top: .5rem;
 }
 
+.m-arrow-function-img {
+    display: none;
+}
+
 @media (max-width:768px) {
     .arrow-function-title{
         margin-left: 1.5rem;
@@ -576,6 +771,14 @@
     .arrow-function {
         width: 90%;
         margin-left: 1.5rem;
+    }
+    .arrow-function-img {
+        display: none;
+    }
+    
+    .m-arrow-function-img {
+        display: block;
+        margin-left: -1.8rem;
     }
 }
 
@@ -599,6 +802,10 @@
     margin-top: .5rem;
 }
 
+.m-function-action-img {
+    display: none;
+}
+
 @media (max-width:768px) {
     .function-action-title {
         margin-left: 1.5rem;
@@ -607,22 +814,38 @@
         width: 90%;
         margin-left: 1.5rem;
     }
+    .function-action-img {
+        display: none;
+    }
+    
+    .m-function-action-img {
+        display: block;
+        margin-left: -2rem;
+        margin-top: .5rem;
+    }
 }
 
 
 .scope-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .scope-main {
     color: black;
+    margin-top: 2rem;
     font-size: 1.4rem;
     margin-left: 12rem;
     margin-right: 12rem;
     line-height: 1.5;
+}
+
+.scope-line {
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 .global-scope-title {
@@ -644,6 +867,23 @@
     margin-top: .5rem;
 }
 
+.m-global-scope-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .global-scope-img {
+       display: none;
+    }
+    
+    .m-global-scope-img {
+        display: block;
+        margin-top: .5rem;
+        margin-left: -2.2rem;
+    }
+}
+
+
 .local-scope-title {
     color: black;
     font-size: 1.5rem;
@@ -663,13 +903,28 @@
     margin-top: .5rem;
 }
 
+.m-local-scope-img {
+    display: none;
+}
+
 @media (max-width:768px) {
     .global-scope-title, .local-scope-title {
         margin-left: 1.5rem;
     }
+
     .scope-main, .global-list, .local-scope-list {
         width: 90%;
         margin-left: 1.5rem;
+    }
+
+    .local-scope-img {
+       display: none;
+    }
+    
+    .m-local-scope-img {
+        display: block;
+        margin-left: -2rem;
+        margin-top: .5rem;
     }
 }
 
@@ -677,14 +932,22 @@
     color: black;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .closure-main {
+    margin-top: 2rem;
     margin-left: 12rem;
     margin-right: 12rem;
     color: black;
     font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.closure-line {
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 .closure-img {
@@ -703,7 +966,8 @@
     color: black;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .higher-function-main {
@@ -712,6 +976,11 @@
     color: black;
     font-size: 1.4rem;
     line-height: 1.5;
+}
+
+.hof-line {
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 @media (max-width:768px) {

@@ -7,16 +7,22 @@ import assign from '../../images/assign.png';
 import massign from '../../images/rsz_assign.png';
 import comped from '../../images/comp.png';
 import logical from '../../images/logical.png';
+import mlogical from '../../images/rsz_logical.png';
 import unary from '../../images/unary-op.png';
+import munary from '../../images/rsz_unary-op.png';
 import ternary from '../../images/ternary.png';
+import mternary from '../../images/rsz_ternary.png';
 import numdata from '../../images/numdata.png';
 import strdata from '../../images/strdata.png';
 import booldata from '../../images/booldata.png';
 import undedata from '../../images/undedata.png';
 import nulldata from '../../images/nulldata.png';
 import symdata from '../../images/symdata.png';
-import objedata from '../../images/objedata.png';
-import arrdata from '../../images/arrdata.png';
+import msymdata from '../../images/rsz_symdata.png';
+import objedata from '../../images/jsobject.png';
+import mobjedata from '../../images/rsz_jsobject.png';
+import arrdata from '../../images/js-array.png';
+import marrdata from '../../images/rsz_js-array.png';
 import funcdata from '../../images/funcdata.png';
 import compareoperate from '../../images/rsz_compareoperate.png';
 import mcompareoperate from '../../images/mobile_compareoperate.png';
@@ -143,6 +149,9 @@ function JsVarPost() {
         <div className="logical-img">
           <img src={logical} alt="" />
         </div>
+        <div className="m-logical-img">
+          <img src={mlogical} alt="" />
+        </div>
 
 <br />
 <br />
@@ -158,6 +167,10 @@ function JsVarPost() {
          <div className="unary-img">
            <img src={unary} alt="" />
          </div>
+
+         <div className="m-unary-img">
+           <img src={munary} alt="" />
+         </div>
 <br />
 
           <h1 className="ternary-title"> Conditional (Ternary) Operator: </h1>
@@ -168,8 +181,11 @@ function JsVarPost() {
              Evaluates a condition 
              and returns expression1 if true, or expression2 if false. </li>
           </ul>
-           <div className="var-img">
+           <div className="js-ternary-img">
              <img src={ternary} alt="" />
+           </div>
+           <div className="m-js-ternary-img">
+             <img src={mternary} alt="" />
            </div>
 <br />
 <br />
@@ -186,28 +202,31 @@ function JsVarPost() {
         <h1 className="basictype-titles"> Primitive Data Types: </h1>
         <ul>
           <li className="basictype-list"><strong> Number: </strong> Represents numeric values - integers and floating-point numbers. </li>
-          <div className="var-img">
+          <div className="num-data-img">
            <img src={numdata} alt="" />
           </div>
           <li className="basictype-list"><strong> String: </strong> Represents text or character sequences.</li>
-          <div className="var-img">
+          <div className="str-data-img">
            <img src={strdata} alt="" />
           </div>
           <li className="basictype-list"><strong> Boolean: </strong> Represents true or false values. </li>
-          <div className="var-img">
+          <div className="boo-data-img">
            <img src={booldata} alt="" />
           </div>
           <li className="basictype-list"><strong> Undefined: </strong> Represents a variable that has been declared but not assigned a value.</li>
-          <div className="var-img">
+          <div className="un-data-img">
            <img src={undedata} alt="" />
           </div>
           <li className="basictype-list"><strong> Null: </strong> Represents the intentional absence of any object value.</li>
-          <div className="var-img">
+          <div className="null-data-img">
            <img src={nulldata} alt="" />
           </div>
           <li className="basictype-list"><strong> Symbol ES6: </strong> Represents unique and immutable values, often used as object property keys.</li>
-          <div className="var-img">
+          <div className="symbol-data-img">
            <img src={symdata} alt="" />
+          </div>
+          <div className="m-symbol-data-img">
+           <img src={msymdata} alt="" />
           </div>
         </ul>
 
@@ -216,15 +235,21 @@ function JsVarPost() {
         <h1 className="reference-title"> Reference Data Types: </h1>
         <ul>
           <li className="reference-list"><strong> Object: </strong> Represents collections of key-value pairs, which can include functions and nested objects. </li>
-          <div className="var-img">
+          <div className="js-object-img">
            <img src={objedata} alt="" />
           </div>
+          <div className="m-js-object-img">
+           <img src={mobjedata} alt="" />
+          </div>
           <li className="reference-list"><strong> Array: </strong> A specialized object for storing lists of values, accessible by index. </li>
-          <div className="var-img">
+          <div className="js-array-img">
           <img src={arrdata} alt="" />
           </div>
+          <div className="m-js-array-img">
+          <img src={marrdata} alt="" />
+          </div>
           <li className="reference-list"><strong> Function: </strong> Represents reusable blocks of code.</li>
-          <div className="var-img">
+          <div className="js-function-img">
           <img src={funcdata} alt="" />
           </div>
          </ul>
