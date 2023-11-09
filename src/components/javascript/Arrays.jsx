@@ -1,21 +1,38 @@
 import React from 'react';
 import './javascript.css';
-import arrayzero from '../../images/arrayzer.png';
 import arrayliteral from '../../images/arrayliteral.png';
 import arrconstructor from '../../images/arrconstructor.png';
+import marrayliteral from '../../images/rsz_arrayliteral.png';
+import marrconstructor from '../../images/rsz_arrconstructor.png';
 import arrayempty from '../../images/arrayempty.png';
 import arraypush from '../../images/arraybasic.png';
+import marraypush from '../../images/rsz_arraybasic.png';
 import arraypop from '../../images/arraypop.png';
+import marraypop from '../../images/m_arraypop.png';
 import arrayshift from '../../images/arrayshift.png';
+import marrayshift from '../../images/m_1arrayshift.png';
 import arrayunshift from '../../images/arrayunshift.png';
-import arraysplice from '../../images/arraysplice.png';
+import marrayunshift from '../../images/m_arrayunshift.png';
 import arrayconcat from '../../images/arrayconcat.png';
+import marrayconcat from '../../images/rsz_arrayconcat.png';
 import arraysort from '../../images/arraysort.png';
+import marraysort from '../../images/rsz_arraysort.png';
+import arraysplice from '../../images/arraysplice.png';
+import marraysplice from '../../images/rsz_arraysplice.png';
 import arrayslice from '../../images/arrayslice.png';
+import marrayslice from '../../images/m_arrayslice.png';
 import arraylength from '../../images/rsz_arraylengths.png';
+import marraylength from '../../images/m_arraylengths.png';
 import arrayloop from '../../images/arrayloop.png';
+import marrayloop from '../../images/m_arrayloop.png';
 import arrayforof from '../../images/arrayforof.png';
+import marrayforof from '../../images/m_arrayforof.png';
 import foreacharray from '../../images/foreacharray.png';
+import mforeacharray from '../../images/m_foreacharray.png';
+
+import arrayzero from '../../images/arrayzer.png';
+import marrayzero from '../../images/m_arrayzer.png';
+
 import arrayex from '../../images/rsz_arrayex.png';
 import arraydestruct from '../../images/rsz_arraydestruct.png';
 import multiarray from '../../images/multiarray.png';
@@ -44,13 +61,13 @@ const Arrays = () => {
          </div> */}
      
          <p className="arrays-main"> 
-         In JavaScript, an array is a data structure that allows you to store and manipulate a 
+         An array is a data structure that allows you to store and manipulate a 
          collection of values, such as numbers, strings, objects, or even other arrays. Arrays are
           commonly used to organize and work with data in a structured way.
 <br />
 <br />
 
-         <strong> Key characteristics of JavaScript arrays: </strong> 
+         <strong> Key Characteristics of Arrays: </strong> 
     <ul> 
         <li className="array-list"> <strong> Ordered Collection: </strong> Arrays are ordered, meaning that the elements are stored in a specific sequence, and you can access them by their position or index.</li>
         <li className="array-list"> <strong> Zero-Based Indexing:  </strong> JavaScript arrays use zero-based indexing, which means the first element is accessed using index 0, the second with index 1, and so on.</li>
@@ -75,73 +92,106 @@ const Arrays = () => {
 <br />
       <strong> Array Literals: </strong> involves enclosing a comma-separated list of values within
         square brackets []:
-            <div className="var-img">
+            <div className="arrliteral-img">
               <img src={arrayliteral} alt="" />
             </div>
+            <div className="m-arrliteral-img">
+              <img src={marrayliteral} alt="" />
+            </div>
 <br />
-         <strong> Array constructor </strong> can take a fixed number of arguments to initialize the array:
-               <div className="var-img">
+         <strong> Array Constructor: </strong> can take a fixed number of arguments to initialize the array:
+               <div className="arrconstructor-img">
               <img src={arrconstructor} alt="" />
+            </div> 
+            <div className="m-arrconstructor-img">
+              <img src={marrconstructor} alt="" />
             </div> 
 <br />
          Creating an empty array and then adding elements to it:
-           <div className="var-img">
+           <div className="arrempty-img">
               <img src={arrayempty} alt="" />
             </div>
 <br />
+
+
         <hr />
          <h1 className="array-methods-title"> Array Methods and Properties: </h1>
         <hr />
-
-        Array methods in JavaScript are built-in functions that you can use to perform various operations
+         <div className="arrmethods-main">
+         Array methods in JavaScript are built-in functions that you can use to perform various operations
          on arrays. These methods make it easier to manipulate and work with array data.
+         </div>
 <br />
 <br />
         <strong> Here are some commonly used array methods that add, copy, modify, and remove array elements: </strong>
 <br />
 <br />
        <strong> push(): </strong> Adds one or more elements to the end of an array and returns the new length of the array.
-            <div className="var-img">
+            <div className="arrpush-img">
               <img src={arraypush} alt="" />
+            </div> 
+            <div className="m-arrpush-img">
+              <img src={marraypush} alt="" />
             </div> 
 <br />
         <strong> pop(): </strong> Removes the last element from an array and returns that element.
-            <div className="var-img">
+            <div className="arrpop-img">
               <img src={arraypop} alt="" />
+            </div> 
+            <div className="m-arrpop-img">
+              <img src={marraypop} alt="" />
             </div> 
 <br />  
        <strong> shift(): </strong> Removes the first element from an array and returns that element, shifting all other
         elements to a lower index.    
-           <div className="var-img">
+           <div className="arrshift-img">
               <img src={arrayshift} alt="" />
+            </div> 
+            <div className="m-arrshift-img">
+              <img src={marrayshift} alt="" />
             </div> 
 <br />
        <strong> unshift():</strong>  Adds one or more elements to the beginning of an array and returns the new length of
         the array.  
-           <div className="var-img">
+           <div className="arrunshift-img">
               <img src={arrayunshift} alt="" />
+            </div>
+            <div className="m-arrunshift-img">
+              <img src={marrayunshift} alt="" />
             </div>
 <br />
        <strong> sort(): </strong>  Sorts the elements of an array in place, converting elements to strings and using their
          UTF-16 code units' values.
-             <div className="var-img">
+             <div className="arrsort-img">
               <img src={arraysort} alt="" />
+            </div> 
+            <div className="m-arrsort-img">
+              <img src={marraysort} alt="" />
             </div> 
 <br />
 
-      <strong> concat(): </strong>  Combines two or more arrays and returns a new array.
-           <div className="var-img">
+         <strong> concat(): </strong>  Combines two or more arrays and returns a new array.
+           <div className="arrconcat-img">
               <img src={arrayconcat} alt="" />
             </div>
+            <div className="m-arrconcat-img">
+              <img src={marrayconcat} alt="" />
+            </div> 
 <br />
       <strong> slice(): </strong>  Creates a shallow copy of an array by extracting a portion of it.
-           <div className="var-img">
+           <div className="arrslice-img">
               <img src={arrayslice} alt="" />
+            </div>
+            <div className="m-arrslice-img">
+              <img src={marrayslice} alt="" />
             </div>
 <br />
         <strong> splice(): </strong> Adds or removes elements from an array at a specified index. 
-           <div className="var-img">
+           <div className="arrsplice-img">
               <img src={arraysplice} alt="" />
+            </div>
+            <div className="m-arrsplice-img">
+              <img src={marraysplice} alt="" />
             </div>
 <br />
 
@@ -149,9 +199,12 @@ const Arrays = () => {
              <h1 className="array-data-title"> Data manipulation in Arrays </h1>
             <hr />
         
+            <div className="arrdata-main">
             Arrays in various operations, including iterating through arrays using loops, utilizing array
             methods like forEach, map, and filter, and modifying arrays using splice and concat. Let's explore 
             these concepts in more detail:
+            </div>
+       
 
 <br />
 <br />
@@ -159,8 +212,11 @@ const Arrays = () => {
         <strong> Array Properties: </strong>
         length: The length property returns the number of elements in an array. It is read-write,
         meaning you can change its value to truncate or extend the array.
-            <div className="var-img">
+            <div className="arrlength-img">
               <img src={arraylength} alt="" />
+            </div>
+            <div className="m-arrlength-img">
+              <img src={marraylength} alt="" />
             </div>
 <br />
 <br />
@@ -176,33 +232,49 @@ const Arrays = () => {
            This for loop example, iterates through the array and logs each element green, orange, yellow 
            to the console, one element per line.
 
-           <div className="var-img">
+           <div className="arrloop-img">
               <img src={arrayloop} alt="" />
+            </div>
+            <div className="m-arrloop-img">
+              <img src={marrayloop} alt="" />
             </div>
 <br />    
            <strong> Using a for...of Loop: </strong> 
           The for...of loop is a more modern and concise way to iterate through the elements 
           of an array. It directly iterates over the values of the array elements without the
           need for an index variable:
-            <div className="var-img">
+            <div className="arrforof-img">
               <img src={arrayforof} alt="" />
+            </div>
+            <div className="m-arrforof-img">
+              <img src={marrayforof} alt="" />
             </div>
   <br />
           <strong> forEach() Method: </strong>
           Arrays in JavaScript have a built-in forEach() method that allows you to iterate through
           each element in the array and perform a callback function on each element:
-          <div className="var-img">
+            <div className="arrforeach-img">
               <img src={foreacharray} alt="" />
+            </div>
+            <div className="m-arrforeach-img">
+              <img src={mforeacharray} alt="" />
             </div>
   <br />
   <br />
           <hr />
            <h1 className="array-zero-title"> Zero-Based Indexing: </h1>
           <hr />
-          JavaScript arrays use zero-based indexing, which means the first element in the array is accessed
+
+          <div className="arrindex-main">
+           JavaScript arrays use zero-based indexing, which means the first element in the array is accessed
             using an index of 0, the second element with an index of 1, and so on. For example:
-            <div className="var-img">
+          </div>
+
+            <div className="arrindex-img">
                 <img src={arrayzero} alt="" />
+              </div> 
+              <div className="m-arrindex-img">
+                <img src={marrayzero} alt="" />
               </div> 
   <br />
   <br />
