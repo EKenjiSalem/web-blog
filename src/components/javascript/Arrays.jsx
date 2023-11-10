@@ -29,25 +29,36 @@ import arrayforof from '../../images/arrayforof.png';
 import marrayforof from '../../images/m_arrayforof.png';
 import foreacharray from '../../images/foreacharray.png';
 import mforeacharray from '../../images/m_foreacharray.png';
-
 import arrayzero from '../../images/arrayzer.png';
 import marrayzero from '../../images/m_arrayzer.png';
-
 import arrayex from '../../images/rsz_arrayex.png';
+import marrayex from '../../images/m_arrayex.png';
 import arraydestruct from '../../images/rsz_arraydestruct.png';
+import marraydestruct from '../../images/m_arraydestruct.png';
 import multiarray from '../../images/multiarray.png';
 import accessmulti from '../../images/accessmulti.png';
+import maccessmulti from '../../images/m_accessmulti.png';
 import modifymulti from '../../images/modifymulti.png';
+import mmodifymulti from '../../images/m_modifymulti.png';
 import multiloop from '../../images/multiloop.png';
+import mmultiloop from '../../images/m_multiloop.png';
 import threedarray from '../../images/three-darray.png';
 import mutable from '../../images/mutable.png';
+import mmutable from '../../images/rsz_mutable.png';
 import immutable from '../../images/immutable.png';
+import mimmutable from '../../images/rsz_immutable.png';
 import spreadimmute from '../../images/spreadimmute.png';
 import copyspread from '../../images/CopySpread.png';
+import mcopyspread from '../../images/rsz_copyspread.png';
 import mergespread from '../../images/MergeSpread.png';
+import mmergespread from '../../images/rsz_mergespread.png';
 import spreadfunction from '../../images/SpreadFunction.png';
+import mspreadfunction from '../../images/rsz_spreadfunction.png';
 import addspread from '../../images/AddSpread.png';
+import maddspread from '../../images/rsz_addspread.png';
+
 import convertspread from '../../images/ConvertSpread.png';
+import mconvertspread from '../../images/rsz_convertspread.png';
 
 const Arrays = () => {
   return (
@@ -281,12 +292,19 @@ const Arrays = () => {
           <hr />
            <h1 className="array-destructing-title"> Array Destructuring: </h1>
           <hr />
-          Array destructuring is a feature in many programming languages that
+          
+           <div className="arrdestructoring-main">
+           Array destructuring is a feature in many programming languages that
           allows you to extract values from an array and assign them to individual
           variables in a single statement. This can make your code more concise 
            and readable.
-           <div className="var-img">
+           </div>
+   
+           <div className="arrdest-img">
               <img src={arraydestruct} alt="" />
+            </div>
+            <div className="m-arrdest-img">
+              <img src={marraydestruct} alt="" />
             </div>
 
   <br />
@@ -294,16 +312,18 @@ const Arrays = () => {
           <hr />
            <h1 className="multi-array-title"> Multi-dimensional Arrays: </h1>
           <hr />
-            
+
+          <div className="arrmulti-main">
           Multi-dimensional arrays are implemented as arrays of arrays. JavaScript doesn't have
           true multi-dimensional arrays like some other programming languages, but you can create 
           arrays that simulate multi-dimensional behavior by nesting arrays within arrays.
+          </div>
   <br />
   <br />  
          <strong> Creating a Two-Dimensional Array: </strong> 
           You can create a two-dimensional array in JavaScript like this:
           This creates a 3x3 matrix with rows and columns.
-           <div className="var-img">
+           <div className="arrmulti-img">
               <img src={multiarray} alt="" />
             </div>
   <br />
@@ -311,29 +331,41 @@ const Arrays = () => {
             <strong> Accessing Elements: </strong> 
             To access elements in a two-dimensional array, you can use square brackets for 
             each dimension:
-           <div className="var-img">
+           <div className="accesselement-img">
               <img src={accessmulti} alt="" />
+            </div>
+            <div className="m-accesselement-img">
+              <img src={maccessmulti} alt="" />
             </div>
   <br />
   <br />
             <strong> Modifying Elements: </strong> 
             You can modify elements in the array in the same way:
-           <div className="var-img">
+           <div className="modifyelements-img">
               <img src={modifymulti} alt="" />
+            </div>
+            <div className="m-modifyelements-img">
+              <img src={mmodifymulti} alt="" />
             </div>
 <br />
 <br />
             <strong> Iterating through a Two-Dimensional Array: </strong> 
             You can use nested loops to iterate through all the elements in a two-dimensional array:
-           <div className="var-img">
+           <div className="loopthroughelements-img">
               <img src={multiloop} alt="" />
+            </div>
+            <div className="m-loopthroughelements-img">
+              <img src={mmultiloop} alt="" />
             </div>
 
 <br />
 <br />
             <strong> Creating Higher-Dimensional Arrays: </strong> 
             You can create arrays with more than two dimensions by nesting arrays further:
-           <div className="var-img">
+           <div className="higherdimension-img">
+              <img src={threedarray} alt="" />
+            </div>
+            <div className="m-higherdimension-img">
               <img src={threedarray} alt="" />
             </div>
 <br />
@@ -342,16 +374,21 @@ const Arrays = () => {
            <h1 className="mutable-arrays-title"> Mutable and Immutable Arrays: </h1>
           <hr />
 
+         <div className="mutable-main">
          <strong> Mutable Arrays: </strong> 
           By default, arrays in JavaScript are mutable, meaning you can change their
           contents (add, remove, or modify elements) after they are created.
+          </div>
 <br />
 <br />
           Mutable arrays can be modified freely, and any changes you make directly affect the 
           original array.
 
-           <div className="var-img">
+           <div className="arrmutable-img">
               <img src={mutable} alt="" />
+            </div>
+            <div className="m-arrmutable-img">
+              <img src={mmutable} alt="" />
             </div>
 <br />
 <br />
@@ -369,8 +406,11 @@ const Arrays = () => {
   <br />
   <br />
          <strong> Using the map method to create a new array based on an existing one: </strong>
-           <div className="var-img">
+           <div className="arrimutable-img">
               <img src={immutable} alt="" />
+            </div>
+            <div className="m-arrimutable-img">
+              <img src={mimmutable} alt="" />
             </div>
   <br />
   <br />
@@ -383,10 +423,14 @@ const Arrays = () => {
           <hr />
            <h1 className="spread-array-title"> Spread Operator: </h1>
           <hr />
+
+          <div className="spread-main">
           The spread operator (...) is a syntax feature that allows you to expand an iterable object,
           such as an array or a string, into individual elements or characters. When used with 
           arrays, it's often referred to as the "spread syntax" because it spreads the elements of 
           an array into a new array or function arguments.
+          </div>
+ 
 <br />
 <br />
           The spread operator (...) is a versatile feature in JavaScript that simplifies working
@@ -400,23 +444,32 @@ const Arrays = () => {
          <strong> Copying Arrays and Objects: </strong> 
          You can use the spread operator to create shallow copies of arrays and objects. 
          This allows you to duplicate the original data without modifying the original:
-           <div className="var-img">
+           <div className="arrspread-img">
               <img src={copyspread} alt="" />
+            </div>
+            <div className="m-arrspread-img">
+              <img src={mcopyspread} alt="" />
             </div>
 <br />
 <br />
          <strong> Merging Arrays: </strong> 
          You can merge two or more arrays into a single new array using the spread operator:
-           <div className="var-img">
+           <div className="arrmergespread-img">
               <img src={mergespread} alt="" />
+            </div>
+            <div className="m-arrmergespread-img">
+              <img src={mmergespread} alt="" />
             </div>
 <br />
 <br />
           <strong> Adding Elements to Arrays: </strong> 
           You can add elements to an existing array while creating a new array with the additional 
           elements:
-               <div className="var-img">
+          <div className="arraddspread-img">
               <img src={addspread} alt="" />
+            </div>
+               <div className="m-arraddspread-img">
+              <img src={maddspread} alt="" />
             </div>
 <br />
 <br />
@@ -424,16 +477,22 @@ const Arrays = () => {
           <strong> Spreading Function Arguments: </strong> 
           When calling a function, you can spread an array to pass its elements as individual
           arguments to the function:
-               <div className="var-img">
+            <div className="arrfuncspread-img">
               <img src={spreadfunction} alt="" />
+            </div>
+            <div className="m-arrfuncspread-img">
+              <img src={mspreadfunction} alt="" />
             </div>
 <br />
 <br />
 
           <strong> Converting Strings to Arrays: </strong> 
           You can convert a string into an array of characters using the spread operator:
-               <div className="var-img">
+               <div className="arrconvert-img">
               <img src={convertspread} alt="" />
+            </div>
+            <div className="m-arrconvert-img">
+              <img src={mconvertspread} alt="" />
             </div>
 <br />
 <br />
@@ -441,12 +500,22 @@ const Arrays = () => {
           <hr />
            <h1 className="array-action-title"> Array in Action: </h1>
           <hr />
+
+          <div className="arraction-main">
           In this example, we'll create an HTML page with a button, and when you click the button, 
           it will display the array elements in an ordered list - HTML ol element. We'll use the
            forEach() method to loop through the array.
-           <div className="var-img">
+          </div>
+  
+           <div className="arraction-img">
               <img src={arrayex} alt="" />
             </div>
+            <div className="m-arraction-img">
+              <img src={marrayex} alt="" />
+            </div>
+
+
+
             </p>
 <br />
 <br />
