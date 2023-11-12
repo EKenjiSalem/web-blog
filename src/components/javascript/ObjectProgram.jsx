@@ -2,14 +2,22 @@ import React from 'react';
 import './javascript.css';
 import oopbasics from '../../images/oop.png';
 import oopaccess from '../../images/rsz_oopaccess.png';
+import moopaccess from '../../images/m_oopaccess.png';
 import oopupdate from '../../images/rsz_oopupdate.png';
+import moopupdate from '../../images/m_oopupdate.png';
 import oopmethod from '../../images/rsz_oopmethod.png';
+import moopmethod from '../../images/m_oopmethod.png';
 import classes from '../../images/rsz_classvsconstr.png';
+import mclasses from '../../images/m_classvsconstr.png';
 import instance from '../../images/rsz_instance1.png';
-import minstance from '../../images/rsz_1instance2.png';
+import minstance from '../../images/m_instance.png';
 import indepen from '../../images/rsz_indepen.png';
+import mindepen from '../../images/m_indepen.png';
 import classinher from '../../images/rsz_1classinher.png';
+import mclassinher from '../../images/m_classinher.png';
+
 import encaps from '../../images/rsz_encaps.png';
+import mencaps from '../../images/m_encaps.png';
 
 
 const ObjectProgram = () => {
@@ -53,7 +61,7 @@ const ObjectProgram = () => {
           </div>      
 
     
-        <div className="var-img">
+        <div className="oopbasics-img">
          <img src={oopbasics} alt="" />
         </div>
 <br />
@@ -62,8 +70,11 @@ const ObjectProgram = () => {
         You can access the values associated with these properties using dot notation or
          square bracket notation: 
  
-        <div className="var-img">
+        <div className="oopaccess-img">
          <img src={oopaccess} alt="" />
+        </div>
+        <div className="m-oopaccess-img">
+         <img src={moopaccess} alt="" />
         </div>
         
 <br />
@@ -71,8 +82,11 @@ const ObjectProgram = () => {
         <strong> Adding, Updating, or Deleting </strong>
         You can also add, update, or delete property-value pairs in objects dynamically:
  
-        <div className="var-img">
+        <div className="oopupdate-img">
          <img src={oopupdate} alt="" />
+        </div>
+        <div className="m-oopupdate-img">
+         <img src={moopupdate} alt="" />
         </div>
         
         Property-value pairs are the foundation of working with objects in JavaScript, allowing you to
@@ -91,21 +105,27 @@ const ObjectProgram = () => {
         operations that can be performed on the object's data. Methods can access and manipulate
         the object's attributes. Methods can also be added to an object dynamically, especially
         in languages like JavaScript.
-        </div>
-
-        <div className="var-img">
-         <img src={oopmethod} alt="" />
-        </div>
-
+<br />
         Note: the usage of the keyword "this" when accessing properties and values in 
         a method the "this" keyword must be applied. This refers to the object within 
         the method. 
+        </div>
+
+        <div className="oopmethods-img">
+         <img src={oopmethod} alt="" />
+        </div>
+        <div className="m-oopmethods-img">
+         <img src={moopmethod} alt="" />
+        </div>
+
+   
 
 
         <hr />
           <h1 className="constructor-function-title"> Constructor & Class Functions: </h1>
         <hr />
 
+        <div className="constructorfunction-main">
         Constructor & Class functions are both used to create objects and define their properties and methods.
         Essentially, classes are a more modern and syntactically convenient way to define constructors and
         work with object-oriented programming. Classes were introduced in ECMAScript 6 (ES6) to provide a more
@@ -113,17 +133,19 @@ const ObjectProgram = () => {
         constructor function and prototype-based system. 
 <br />
 <br />
-
         A prototype is an internal, object property that every object has. It is used to implement inheritance
         and to share properties and methods between objects. In ES6 classes, the concept of prototypes is abstracted
         away, but under the hood, JavaScript still uses prototypes to implement class inheritance. When you define methods
         inside a class, they are added to the class's prototype automatically. You don't need to explicitly
         define a prototype as you did in the constructor function approach.
+        </div>
 <br />
-<br />
-        <strong> Here's an example comparing the older constructor function approach with the modern class approach: </strong>
-        <div className="var-img">
+         Here's an example comparing the older constructor function approach with the modern class approach: 
+        <div className="constructorclass-img">
         <img src={classes} alt="" />
+        </div>
+        <div className="m-constructorclass-img">
+        <img src={mclasses} alt="" />
         </div>
 
 <br />
@@ -152,24 +174,27 @@ const ObjectProgram = () => {
 
 <br />
 <br />
-        <div className="var-img">
+        <div className="oopinstances-img">
           <img src={instance} alt="" />
+        </div>
+        <div className="m-oopinstances-img">
+          <img src={minstance} alt="" />
         </div>
 <br />
 <br />
         <strong> Methods (Behavior): </strong> Instances of a class can also have
         access to the methods defined in the class. These methods can perform
         actions or calculations based on the instance's data.
-        <div className="var-img">
-          <img src={minstance} alt="" />
-        </div>
 <br />
 <br />
 
        Instances are independent of each other. Changes made to one instance's data do not
        affect the data of other instances. Each instance maintains its own state.
-       <div className="var-img">
+       <div className="oopindepen-img">
           <img src={indepen} alt="" />
+        </div>
+        <div className="m-oopindepen-img">
+          <img src={mindepen} alt="" />
         </div>
 <br />
 <br />
@@ -200,15 +225,17 @@ const ObjectProgram = () => {
         In this example, Dog is a derived class that inherits from the Animal base class. 
         The super(name) call in the Dog constructor invokes the constructor of the Animal class
          to set the name property, and Dog adds its own breed property and a bark method.
-        <div className="var-img">
+        <div className="oopinheritance-img">
           <img src={classinher} alt="" />
+        </div>
+        <div className="m-oopinheritance-img">
+          <img src={mclassinher} alt="" />
         </div>
 
 <br />
 <br />
          
         <strong> Encapsulation: </strong>
-<br />
 <br />
         Encapsulation is one of the fundamental principles of object-oriented programming (OOP), and it refers to the concept of bundling an object's data (attributes or properties) and methods (functions or behaviors) that operate on that data into a single unit or "capsule." In JavaScript, which is a flexible and dynamic language, encapsulation can be achieved using various techniques.
 <br />
@@ -218,14 +245,12 @@ const ObjectProgram = () => {
 <br />
        <strong> Private and Public Members: </strong> 
 <br />
-<br />
         Encapsulation allows you to distinguish between a class's public interface (methods and properties
         accessible from outside the class) and its private implementation details (methods and properties 
         that are not meant to be accessed directly from outside the class).
 <br />
 <br />        
         <strong> Closure for Private Members: </strong> 
-<br />
 <br />
         JavaScript's closures allow you to create private members within a constructor function or class.
         These private members are accessible only within the constructor function or class itself.
@@ -235,8 +260,11 @@ const ObjectProgram = () => {
         In this example, The privateVar is a private variable, and the getPrivateVar method allows you
         to access it through a closure. The name property is a public property that you can access 
         directly.
-        <div className="var-img">
+        <div className="oopencaps-img">
           <img src={encaps} alt="" />
+        </div>
+        <div className="m-oopencaps-img">
+          <img src={mencaps} alt="" />
         </div>
 <br />
 <br />

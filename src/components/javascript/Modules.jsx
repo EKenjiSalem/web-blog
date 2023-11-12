@@ -1,10 +1,15 @@
 import React from 'react';
 import './javascript.css';
 import modcommon from '../../images/rsz_modules.png';
+import mmodcommon from '../../images/m_modules.png';
 import esmodules from '../../images/rsz_esmodules.png';
+import mesmodules from '../../images/m_esmodules.png';
 import namedex from '../../images/named.png';
+import mnamedex from '../../images/m_named.png';
 import defaultex from '../../images/default.png';
+import mdefaultex from '../../images/rsz_default.png';
 import encapsulate from '../../images/rsz_encapsulation.png';
+import mencapsulate from '../../images/m_encapsulation.png';
 
 
 
@@ -79,8 +84,11 @@ const Modules = () => {
       <li className="module-type-list"> <strong> CommonJS Modules: </strong> These are typically used in server-side JavaScript, particularly in Node.js.
        CommonJS modules use require to import modules and module.exports to export values. </li>
 
-       <div className="var-img">
+       <div className="jsmodules-img">
           <img src={modcommon} alt="" />
+        </div>
+        <div className="m-jsmodules-img">
+          <img src={mmodcommon} alt="" />
         </div>
 
 
@@ -88,8 +96,11 @@ const Modules = () => {
       popular in both browser and server-side development. ES modules use import and export statements 
       to define dependencies and exports. </li> 
 
-         <div className="var-img">
+         <div className="esmodules-img">
           <img src={esmodules} alt="" />
+        </div> 
+        <div className="m-esmodules-img">
+          <img src={mesmodules} alt="" />
         </div> 
 <br />
        To run this ES Modules example, you can use modern browsers that support ES modules natively or
@@ -111,10 +122,12 @@ const Modules = () => {
             <h1 className="modules-title-named"> Named and Default Exports: </h1>
           <hr />
 
-          In JavaScript modules, you can export and import both named exports and a default export.
-          Each serves a specific purpose, and they can be used together within the same module or 
-          across different modules. Let's explore the differences between named and default exports:
-<br />
+            <div className="namedexports-main">
+            In JavaScript modules, you can export and import both named exports and a default export.
+            Each serves a specific purpose, and they can be used together within the same module or 
+            across different modules. Let's explore the differences between named and default exports:
+            </div>
+
 <br />
           <strong> Named Exports: </strong>
 <br />
@@ -131,8 +144,11 @@ const Modules = () => {
 <br />
 <br />
             <strong> Example of named exports: </strong>
-            <div className="var-img">
+            <div className="nexportexample-img">
                <img src={namedex} alt="" />
+            </div> 
+            <div className="m-nexportexample-img">
+               <img src={mnamedex} alt="" />
             </div> 
 <br />
 <br />
@@ -149,8 +165,11 @@ const Modules = () => {
 <br />
 <br />
        <strong> Example of a default export: </strong> 
-        <div className="var-img">
+        <div className="dexportexample-img">
             <img src={defaultex} alt="" />
+        </div> 
+        <div className="m-dexportexample-img">
+            <img src={mdefaultex} alt="" />
         </div> 
 
 <br />
@@ -160,11 +179,12 @@ const Modules = () => {
             <h1 className="modules-title-named"> Encapsulation </h1>
           <hr />
 
-          Encapsulation in JavaScript modules involves hiding the internal implementation details
-           of a module and exposing only the necessary interface or public API. This helps prevent
-            the accidental modification of internal variables and functions from outside the module,
-             promoting information hiding and reducing the risk of unintended side effects.
-<br />
+             <div className="encapsulation-main">
+              Encapsulation in JavaScript modules involves hiding the internal implementation details
+              of a module and exposing only the necessary interface or public API. This helps prevent
+              the accidental modification of internal variables and functions from outside the module,
+              promoting information hiding and reducing the risk of unintended side effects.
+            </div>
 <br />
        <strong> In this example: </strong> 
         The count variable and the increment function are encapsulated within the counter.js module.
@@ -173,8 +193,11 @@ const Modules = () => {
         interact with the encapsulated data and behavior. Note: the module's data being accessed 
         by the main.js file.
     
-        <div className="var-img">
+        <div className="jsencapsulation-img">
             <img src={encapsulate} alt="" />
+        </div> 
+        <div className="m-jsencapsulation-img">
+            <img src={mencapsulate} alt="" />
         </div> 
 
 

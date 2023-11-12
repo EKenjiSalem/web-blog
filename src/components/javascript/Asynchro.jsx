@@ -1,9 +1,13 @@
 import React from 'react';
 import './javascript.css';
 import callbacks from '../../images/Callback.png';
+import mcallbacks from '../../images/rsz_callback.png';
 import promises from '../../images/rsz_promise.png';
+import mpromises from '../../images/m_promise.png';
 import asyncawait from '../../images/rsz_async.png';
+import masyncawait from '../../images/m_async.png';
 import fetchapi from '../../images/rsz_apifetch.png';
+import mfetchapi from '../../images/m_apifetch.png';
 
 
 
@@ -55,21 +59,17 @@ const Asynchro = () => {
           it's simple to work with in JavaScript, and widely supported by web APIs.
 <br />
 <br />
-<br />
         <strong> What is asynchronous in javascript? </strong>
-<br />
 <br />
          Asynchronous refers to a programming paradigm and mechanism that allows you to perform 
          tasks without blocking the execution of other code. Asynchronous operations are commonly
           used for tasks that may take some time to complete, such as fetching data from a remote
            server, reading/writing to a file, or waiting for user input.
 <br />
-<br />
         Before delving into asynchronous programming, let's discuss the problem it aims to solve. 
         JavaScript is a single-threaded language, meaning it executes one task at a time. When a 
         time-consuming operation, such as fetching data from a server or reading a large file, 
         is performed synchronously, it can block the entire program, causing the user interface to become unresponsive. This is where asynchronous programming comes into play.
-
 <br />
 <br />
         The primary way to work with asynchronous code in JavaScript is through the use of <strong> callbacks,
@@ -81,26 +81,33 @@ const Asynchro = () => {
           executed once the asynchronous operation is completed. Callbacks are a fundamental way of
           handling asynchronous code in JavaScript, but they can lead to callback hell (nested 
           callbacks), making code hard to read and maintain.
-          <div className="var-img">
+          <div className="jscallbacks-img">
             <img src={callbacks} alt="" />
           </div>
-<br />
+          <div className="m-jscallbacks-img">
+            <img src={mcallbacks} alt="" />
+          </div>
 <br />
           <strong>  Promises: </strong>  
           Promises provide a more structured way to work with asynchronous code. A Promise 
           represents a future value or error, and you can chain .then() and .catch() methods to handle
           the resolution or rejection of the Promise.
-          <div className="var-img">
+          <div className="jspromises-img">
             <img src={promises} alt="" />
           </div>
-<br />
+          <div className="m-jspromises-img">
+            <img src={mpromises} alt="" />
+          </div>
 <br />
          <strong> Async/Await: </strong>   
         Introduced in ECMAScript 2017 (ES8), async and await provide a more readable and
         concise way to work with Promises. The async keyword is used to define a function as 
         asynchronous, and await is used to pause the execution of code until a Promise is resolved.
-          <div className="var-img">
+          <div className="jsasyncawait-img">
             <img src={asyncawait} alt="" />
+          </div>
+          <div className="m-jsasyncawait-img">
+            <img src={masyncawait} alt="" />
           </div>
 
 <br />
@@ -109,12 +116,13 @@ const Asynchro = () => {
               <h1 className="api-title"> API's  </h1>
             <hr/>
 
+            <div className="api-main">
             JavaScript APIs, or JavaScript Application Programming Interfaces, are sets of 
             rules and protocols that allow different software applications or components to
             communicate with each other. In the context of JavaScript, APIs provide a way for 
             your JavaScript code to interact with external services, libraries, or functionality
             provided by web browsers and other software.
-<br />
+            </div>
 <br />  
           <strong>Here are some common types of JavaScript APIs: </strong>
 <br />
@@ -175,8 +183,11 @@ const Asynchro = () => {
           at some point in the future. In the follwing example the .then() and .catch() represents
           the promises.
 
-           <div className="var-img">
+           <div className="jsapi-img">
               <img src={fetchapi} alt="" />
+           </div> 
+           <div className="m-jsapi-img">
+              <img src={mfetchapi} alt="" />
            </div> 
 <br />  
 

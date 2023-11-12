@@ -2098,6 +2098,7 @@
     margin-right: 12rem;
     line-height: 1.5;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width:768px) {
@@ -2111,9 +2112,48 @@
 .create-objects-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
+
+@media (max-width:768px) {
+    .oopbasics-img {
+        display: block;
+        margin-left: -5.5rem;
+    }
+}
+
+
+.m-oopaccess-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopaccess-img {
+        display: none;
+    }
+    .m-oopaccess-img {
+        display: block;
+        margin-left: -3.7rem;
+    }
+}
+
+
+.m-oopupdate-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopupdate-img {
+        display: none;
+    }
+    .m-oopupdate-img {
+        display: block;
+        margin-left: -3.7rem;
+    }
+}
+
 
 .object-intro {
     margin-top: -3rem;
@@ -2123,24 +2163,121 @@
 .methods-title {
     color: black;
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
 
 .methods-main {
-    margin-top: -3.5rem;
+    margin-top: -2rem;
     margin-bottom: .5rem;
 }
 
+.oopmethods-img {
+    margin-bottom: 3rem;
+}
+.m-oopmethods-img {
+    display: none;
+}
 
-
+@media (max-width:768px) {
+    .oopmethods-img {
+        display: none;
+    }
+    .m-oopmethods-img {
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
+}
 
 
 .constructor-function-title {
     font-size: 1.4rem;
     color: black;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.constructorfunction-main {
+    margin-top: 2rem;
+}
+
+.m-constructorclass-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .constructorclass-img{
+        display: none;
+    }
+    .m-constructorclass-img{
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.m-oopinstances-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopinstances-img{
+        display: none;
+    }
+    .m-oopinstances-img{
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.m-oopindepen-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopindepen-img{
+        display: none;
+    }
+    .m-oopindepen-img{
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.m-oopinheritance-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopinheritance-img{
+        display: none;
+    }
+    .m-oopinheritance-img{
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.m-oopencaps-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .oopencaps-img{
+        display: none;
+    }
+    .m-oopencaps-img{
+        display: block;
+        margin-left: -3.7rem;
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -2163,16 +2300,35 @@
     }
 }
 
-.api-title {
-    margin-top: -1rem;
-    font-size: 1.5rem;
-    color: black;
-    text-align: center;
+.m-jscallbacks-img {
+    display: none;
 }
 
-.api-list {
-    list-style-type: none;
-    margin-left: -.2rem;
+@media (max-width:768px) {
+    .jscallbacks-img{
+        display: none;
+    }
+    .m-jscallbacks-img{
+        display: block;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.m-jspromises-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .jspromises-img{
+        display: none;
+    }
+    .m-jspromises-img{
+        display: block;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .async-title {
@@ -2180,6 +2336,57 @@
     color: black;
     text-align: center;
 }
+
+
+.m-jsasyncawait-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .jsasyncawait-img{
+        display: none;
+    }
+    .m-jsasyncawait-img{
+        display: block;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.api-title {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.api-main {
+    margin-top: 2rem;
+}
+
+.api-list {
+    list-style-type: none;
+    margin-left: -.2rem;
+}
+
+.m-jsapi-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .jsapi-img{
+        display: none;
+    }
+    .m-jsapi-img{
+        display: block;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
 
 
 /* Modules */
@@ -2219,18 +2426,108 @@
     list-style-type: none;
 }
 
-.module-type-list {
-    margin-top: 2rem;
-    list-style-type: none;
-}
 
 .modules-type {
     margin-bottom: 1.5rem;
 }
 
+
+.module-type-list {
+    margin-top: 2rem;
+    list-style-type: none;
+}
+
+.m-jsmodules-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .jsmodules-img{
+        display: none;
+    }
+    .m-jsmodules-img{
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.m-esmodules-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .esmodules-img{
+        display: none;
+    }
+    .m-esmodules-img{
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
 .modules-title-named {
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     font-size: 1.5rem;
     color: black;
     text-align: center;
+}
+
+.namedexports-main {
+    margin-top: 2rem;
+}
+
+
+.m-nexportexample-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .nexportexample-img {
+        display: none;
+    }
+    .m-nexportexample-img {
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.m-dexportexample-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .dexportexample-img {
+        display: none;
+    }
+
+    .m-dexportexample-img {
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.encapsulation-main {
+    margin-top: 2rem;
+}
+
+.m-jsencapsulation-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .jsencapsulation-img {
+        display: none;
+    }
+
+    .m-jsencapsulation-img {
+        display: block;
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
 }
