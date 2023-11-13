@@ -107,11 +107,16 @@
     text-decoration: underline;
 }
 
+
+
+
+
 .react-main {
     font-size: 1.3rem;
     margin-right: 12rem;
     margin-left: 12rem;
     line-height: 1.7;
+    margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -128,10 +133,52 @@
     margin-bottom: .5rem;
 }
 
+.m-jsx-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .jsx-img {
+        display: none;
+    }
+    .m-jsx-img {
+        display: block;
+        margin-left: -2.5rem;
+    }
+}
+
+.m-embedjsx-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .embedjsx-img  {
+        display: none;
+    }
+    .m-embedjsx-img {
+        display: block;
+        margin-left: -2.5rem;
+    }
+}
+
 .embedded-expression-title {
     color: black;
     font-size: 1.5rem;
     margin-bottom: .5rem;
+}
+
+.m-jsandjsx-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .jsandjsx-img   {
+        display: none;
+    }
+    .m-jsandjsx-img {
+        display: block;
+        margin-left: -2.5rem;
+    }
 }
 
 .jsx-attr-title {
@@ -141,14 +188,93 @@
     margin-top: 1rem;
 }
 
-.jsx-component-title {
+
+.m-jsxattr-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .jsxattr-img   {
+        display: none;
+    }
+    .m-jsxattr-img {
+        display: block;
+        margin-left: -3.5rem;
+    }
+}
+
+
+.function-components-title {
     color: black;
     font-size: 1.5rem;
     margin-bottom: .5rem;
     margin-top: 1rem;
 }
 
-.function-components-title {
+.m-func-components-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .func-components-img  {
+        display: none;
+    }
+
+    .m-func-components-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-reactfuncdynam-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .reactfuncdynam-img  {
+        display: none;
+    }
+
+    .m-reactfuncdynam-img  {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-classcomponent-img{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .classcomponent-img {
+        display: none;
+    }
+
+    .m-classcomponent-img  {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-reusecomp-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .reusecomp-img {
+        display: none;
+    }
+
+    .m-reusecomp-img   {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.jsx-component-title {
     color: black;
     font-size: 1.5rem;
     margin-bottom: .5rem;
@@ -231,7 +357,7 @@
 .router-main {
   color: black;
   margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   margin-left: 12rem;
   margin-right: 12rem;
@@ -278,10 +404,15 @@
 }
 
 .nest-routes-title {
-    margin-top: -1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     color: black;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.nestedroutes-main {
+    margin-top: 2rem;
 }
 
 

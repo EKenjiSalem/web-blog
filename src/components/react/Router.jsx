@@ -96,10 +96,11 @@ const Router = () => {
           <h1 className="nest-routes-title"> Nesting Routes </h1>
         <hr />
 
+            <div className="nestedroutes-main">
             Nested routes are common requirements in web applications. 
             Nesting routes allows you to create complex page layouts with multiple levels,
             such as a dashboard with sub-pages. 
-<br />
+            </div>
 <br />
           <strong> Nesting Routes:</strong>   
 <br />

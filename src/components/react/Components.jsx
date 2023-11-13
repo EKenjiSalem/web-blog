@@ -1,9 +1,13 @@
 import React from 'react';
 import './react.css';
 import reactfunccomp from '../../images/component-function.png';
+import mreactfunccomp from '../../images/rsz_component-function.png';
 import reactfuncdynam from '../../images/component-dynamic.png';
+import mreactfuncdynam from '../../images/rsz_component-dynamic.png';
 import reactclassfunc from '../../images/class-component.png';
+import mreactclassfunc from '../../images/rsz_class-component.png';
 import resusecomp from '../../images/rsz_reusecomp.png';
+import mresusecomp from '../../images/m_reusecomp.png';
 
 
 
@@ -32,13 +36,19 @@ const Components = () => {
         are a way to define and encapsulate user interface elements in a more concise and modular manner.
         <strong> Function components are highly encouraged in modern React development due to the introduction
         of hooks, which allow you to manage state and side effects in functional components. </strong>
-        <div className="jsx-img">
+        <div className="func-components-img">
          <img src={reactfunccomp} />
+        </div>
+        <div className="m-func-components-img">
+         <img src={mreactfunccomp} />
         </div>
 <br />
        <strong>  Using a function component to display a fixed greeting </strong>
-        <div className="jsx-img">
+        <div className="reactfuncdynam-img">
          <img src={reactfuncdynam} />
+        </div>
+        <div className="m-reactfuncdynam-img">
+         <img src={mreactfuncdynam} />
         </div>
 <br />
 <br />
@@ -52,8 +62,11 @@ const Components = () => {
        at different points in a component's lifecycle, such as when it's created, updated, or 
        unmounted. These methods can be used for tasks like data fetching, setting up timers, or
        cleaning up resources.
-        <div className="jsx-img">
+        <div className="classcomponent-img">
           <img src={reactclassfunc } />
+        </div>
+        <div className="m-classcomponent-img">
+          <img src={mreactclassfunc } />
         </div>
 <br />
 <br />
@@ -74,8 +87,11 @@ const Components = () => {
         In this example, the ReusableComponent is a functional component that doesn't 
         accept any props. It's a self-contained component that can be used as is, and it 
         displays a consistent message and structure each time it's used.
-        <div className="jsx-img">
+        <div className="reusecomp-img">
           <img src={resusecomp} />
+         </div>
+         <div className="m-reusecomp-img">
+          <img src={mresusecomp} />
          </div>
 <br />
 <br /> 

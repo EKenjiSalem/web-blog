@@ -1,9 +1,13 @@
 import React from 'react';
 import './react.css';
 import jsxbasic from '../../images/jsx-basic.png';
+import mjsxbasic from '../../images/rsz_jsx-basic.png';
 import embedded from '../../images/embedexpress.png';
+import membedded from '../../images/rsz_embedexpress.png';
 import jsandjsx from '../../images/jsandjsx.png';
+import mjsandjsx from '../../images/rsz_jsandjsx.png';
 import jsxattr from '../../images/Jsxattr.png';
+import mjsxattr from '../../images/rsz_jsxattr.png';
 
 
 
@@ -20,7 +24,6 @@ const Syntax = () => {
          </div> */}
      
          <p className="react-main"> 
-          <h1 className="jsx-title"> What is JSX? </h1>
          JSX stands for "JavaScript XML." It is a syntax extension for JavaScript often used
          with React, a popular JavaScript library for building user interfaces. JSX allows
          developers to write HTML-like code within their JavaScript files, making it easier 
@@ -34,9 +37,10 @@ const Syntax = () => {
          <div className="jsx-img">
           <img src={jsxbasic} />
          </div>
-         {/* <div className="m-jsx-img">
-          <img src={jsxbasic} />
-         </div> */}
+         <div className="m-jsx-img">
+          <img src={mjsxbasic} />
+         </div>
+ 
   
 <br />
         <h1 className="embedded-expression-title"> Embedding Expressions: </h1>
@@ -46,8 +50,11 @@ const Syntax = () => {
         In this case, the value of the name variable is dynamically inserted into the JSX 
         element.
         
-         <div className="jsx-img">
+         <div className="embedjsx-img">
           <img src={embedded} />
+         </div>
+         <div className="m-embedjsx-img">
+          <img src={membedded} />
          </div>
 <br />
         <h1 className="jsx-attr-title"> JSX and JavaScript: </h1>
@@ -61,8 +68,11 @@ const Syntax = () => {
         of items. We also include a key attribute for each li to help React efficiently update
         the DOM.
         
-         <div className="jsx-img">
+         <div className="jsandjsx-img">
           <img src={jsandjsx} />
+         </div>
+         <div className="m-jsandjsx-img">
+          <img src={mjsandjsx} />
          </div>
 <br />
 
@@ -73,12 +83,11 @@ const Syntax = () => {
 <br />
           In this code, we define a Welcome component that takes a name prop. We then use this 
           component within the App component to render personalized greetings.
-<br />
-<br />
-    
-
-        <div className="jsx-img">
+        <div className="jsxattr-img">
           <img src={jsxattr} />
+         </div>
+         <div className="m-jsxattr-img">
+          <img src={mjsxattr} />
          </div>
 <br />
 <br />
