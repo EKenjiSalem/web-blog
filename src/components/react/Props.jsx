@@ -1,7 +1,9 @@
 import React from 'react';
 import './react.css';
-import propsintro from "../../images/rsz_1props-intro.png"
+import propsintro from "../../images/rsz_1props-intro.png";
+import mpropsintro from "../../images/rsz_props-intro.png"
 import funcprops from "../../images/rsz_funcprops.png"
+import mfuncprops from "../../images/m_funcprops.png"
 
 
 
@@ -56,8 +58,11 @@ const Props = () => {
              In this example, ParentComponent passes the message as a prop to ChildComponent,
              and ChildComponent displays that message. Props allow you to create reusable and 
              configurable components by passing different data to the same component structure.
-           <div className="props-img">
+           <div className="propsintro-img">
             <img src={propsintro} />
+           </div>
+           <div className="m-propsintro-img">
+            <img src={mpropsintro} />
            </div>
 <br />
 <br />
@@ -75,8 +80,11 @@ const Props = () => {
           the function passed as a prop. In this case, we'll use it as an onClick handler
           for a button element. We'll also create a button in the child component that when
           clicked, calls a function defined in the parent component.
-          <div className="props-img">
+          <div className="propsfunction-img">
             <img src={funcprops} />
+          </div>
+          <div className="m-propsfunction-img">
+            <img src={mfuncprops} />
           </div>
 <br />
 <br />

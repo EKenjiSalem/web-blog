@@ -1,11 +1,17 @@
 import React from 'react';
 import './react.css';
 import install from '../../images/install.png';
+import minstall from '../../images/m_install.png';
 import routebasic from '../../images/rsz_routerbasic.png';
+import mroutebasic from '../../images/m_router-basic.png';
 import navroute from "../../images/navroute.png";
+import mnavroute from "../../images/rsz_navroute.png";
 import linkuse from "../../images/rsz_linkuse.png";
+import mlinkuse from "../../images/m_linkuse.png";
 import linkprogram from "../../images/rsz_linkprogram.png";
+import mlinkprogram from "../../images/m_linkprogram.png";
 import nestroute from "../../images/rsz_nestroute.png";
+import mnestroute from "../../images/m_nestroute.png";
 
 
 const Router = () => {
@@ -47,29 +53,41 @@ const Router = () => {
           To get started with React Router, you'll first need to install it. You can 
           use npm or yarn to add it to your project:
 
-           <div className="route-img"> 
+           <div className="router-img"> 
             <img src={install} />
+          </div> 
+          <div className="m-router-img"> 
+            <img src={minstall} />
           </div> 
 
 <br />
           <strong> Basic Configuration: </strong>
           Here's a simple example of setting up React Router in your application:
           
-           <div className="route-img"> 
+           <div className="routerbasic-img"> 
             <img src={routebasic} />
+          </div> 
+          <div className="m-routerbasic-img"> 
+            <img src={mroutebasic} />
           </div> 
 <br />
        <h1 className="nav-route-title">Navigating with React Router: </h1> 
         Linking Between Routes: To create links between different routes, use the Link component:
 
-         <div className="route-img"> 
+         <div className="navrouter-img"> 
             <img src={navroute} />
+          </div> 
+          <div className="m-navrouter-img"> 
+            <img src={mnavroute} />
           </div> 
 <br />
        <strong> Link in Action: </strong> 
        When the button is clicked, the router will navigate the to about component.
-          <div className="route-img"> 
+          <div className="actionrouter-img"> 
             <img src={linkuse} />
+          </div> 
+          <div className="m-actionrouter-img"> 
+            <img src={mlinkuse} />
           </div> 
 <br />
          <h1 className="router-navigation-title"> Programmatic Navigation: </h1> 
@@ -85,8 +103,11 @@ const Router = () => {
             <li className="linkpro-list"> Inside the handleClick function, the history.push('/about') method is called. </li>
             <li className="linkpro-list">  This method instructs React Router to programmatically navigate to the "/about" route. </li>
           </ul>
-          <div className="route-img"> 
+          <div className="linkrouter-img"> 
             <img src={linkprogram} />
+          </div> 
+          <div className="m-linkrouter-img"> 
+            <img src={mlinkprogram} />
           </div> 
 
 <br />
@@ -113,8 +134,11 @@ const Router = () => {
           Dashboard component. When the user clicks on "Profile" or "Settings," the 
           corresponding sub-page component is displayed while keeping the main dashboard 
           layout.
-          <div className="route-img"> 
+          <div className="nestrouter-img"> 
             <img src={nestroute} />
+          </div> 
+          <div className="m-nestrouter-img"> 
+            <img src={mnestroute} />
           </div> 
 <br />
 <br />

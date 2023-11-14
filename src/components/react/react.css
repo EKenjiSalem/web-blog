@@ -143,7 +143,7 @@
     }
     .m-jsx-img {
         display: block;
-        margin-left: -2.5rem;
+        margin-left: -3.5rem;
     }
 }
 
@@ -157,7 +157,7 @@
     }
     .m-embedjsx-img {
         display: block;
-        margin-left: -2.5rem;
+        margin-left: -3.5rem;
     }
 }
 
@@ -177,7 +177,7 @@
     }
     .m-jsandjsx-img {
         display: block;
-        margin-left: -2.5rem;
+        margin-left: -3.5rem;
     }
 }
 
@@ -204,6 +204,8 @@
 }
 
 
+/* Component */
+
 .function-components-title {
     color: black;
     font-size: 1.5rem;
@@ -222,7 +224,7 @@
 
     .m-func-components-img {
         display: block;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 }
 
@@ -237,7 +239,7 @@
 
     .m-reactfuncdynam-img  {
         display: block;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 }
 
@@ -253,7 +255,7 @@
 
     .m-classcomponent-img  {
         display: block;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 }
 
@@ -269,7 +271,7 @@
 
     .m-reusecomp-img   {
         display: block;
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
 }
 
@@ -299,8 +301,6 @@
 
 
 
-
-/* Component */
 
 .components-main {
     margin-top: 3rem;
@@ -385,6 +385,100 @@
     margin-top: 1rem;
 }
 
+
+.m-router-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .router-img {
+        display: none;
+    }
+    .m-router-img {
+        display: block;
+        margin-left: -1.5rem;
+    }
+}
+
+.m-routerbasic-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .routerbasic-img {
+        display: none;
+    }
+    .m-routerbasic-img {
+        display: block;
+        margin-left: -1.5rem;
+    }
+}
+
+.m-navrouter-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .navrouter-img {
+        display: none;
+    }
+    .m-navrouter-img {
+        display: block;
+        margin-left: -1.3rem;
+    }
+}
+
+
+.m-actionrouter-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .actionrouter-img {
+        display: none;
+    }
+    .m-actionrouter-img {
+        display: block;
+        margin-left: -1.4rem;
+    }
+}
+
+
+.m-linkrouter-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .linkrouter-img {
+        display: none;
+    }
+    .m-linkrouter-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-nestrouter-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .nestrouter-img {
+        display: none;
+    }
+    .m-nestrouter-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+
+
+
+
+
 .router-navigation-title {
     color: black;
     font-size: 1.5rem;
@@ -440,6 +534,12 @@
     margin-top: 2.5rem;
 }
 
+.props-list {
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+
+
 .react-intro {
     margin-top: 4rem;
 }
@@ -451,16 +551,45 @@
     margin-bottom: 1.5rem;
 }
 
+
+.m-propsintro-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .propsintro-img {
+        display: none;
+    }
+    .m-propsintro-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-propsfunction-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .propsfunction-img {
+        display: none;
+    }
+    .m-propsfunction-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+
+
+
 .propfunc-title {
     color: black;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.props-list {
-    margin-top: 1rem;
-    margin-left: 1.2rem;
-}
 
 
 /* State */
