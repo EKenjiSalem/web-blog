@@ -622,10 +622,58 @@
     margin-bottom: 2.5rem;
 }
 
+.state-list {
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+
 .state-intro-title {
     color: black;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.m-createstate-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .createstate-img {
+        display: none;
+    }
+    .m-createstate-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-updatestate-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .updatestate-img {
+        display: none;
+    }
+    .m-updatestate-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-prevstate-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .prevstate-img {
+        display: none;
+    }
+    .m-prevstate-img {
+        display: block;
+        margin-left: -2rem;
+    }
 }
 
 .lift-state-title {
@@ -634,9 +682,38 @@
     text-align: center;
 }
 
-.state-list {
-    margin-top: 1rem;
-    margin-left: 1.2rem;
+.liftstate-main {
+    margin-top: 2rem;
+}
+
+
+.m-liftstate-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .liftstate-img {
+        display: none;
+    }
+    .m-liftstate-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-statelift-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .statelift-img {
+        display: none;
+    }
+    .m-statelift-img {
+        display: block;
+        margin-left: -2rem;
+    }
 }
 
 

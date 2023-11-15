@@ -1,10 +1,15 @@
 import React from 'react';
 import './react.css';
 import stateintro from "../../images/stateintro.png";
+import mstateintro from "../../images/rsz_stateintro.png";
 import stateupdate from "../../images/stateupdate.png"
+import mstateupdate from "../../images/rsz_stateupdate.png"
 import prevstate from "../../images/rsz_prevstate.png";
+import mprevstate from "../../images/m_prevstate.png";
 import noliftex from "../../images/rsz_nolift.png";
+import mnoliftex from "../../images/m_nolift.png";
 import stateliftex from "../../images/rsz_exstatelift.png";
+import mstateliftex from "../../images/m_exstatelift.png";
 
 
 
@@ -13,7 +18,7 @@ const State = () => {
     <div className="js-post">
         <div className="js-post-wrapper">
         {/* <img src={sidebar} className="single-post-img" alt="" /> */}
-        <h1 className="js-post-title"> React State </h1>
+        <h1 className="js-post-title"> State </h1>
          {/* <div className="js-post-info">
             <span className="js-post-author"> Author: <b> Elias </b> </span>
             <span className="js-post-date"> 1 hour ago </span>
@@ -69,30 +74,28 @@ const State = () => {
                    <li className="state-list"><strong> Event Handling: </strong> State is frequently used 
                    in conjunction with event handlers. User interactions, such as button clicks or form 
                    submissions, can trigger changes to the state, leading to updates in the UI.. </li>
-
-
-
-
-
-
-
            </ul>
-          </div>
-          
+          </div>  
 <br />
 <br />
           <h1 className="state-intro-title"> Creating State: </h1>
               In this example, count is the state variable, setCount is the function used
                to update its value, 0 is the initial state value.
-               <div className="props-img">
+               <div className="createstate-img">
                  <img src={stateintro} />
+              </div>
+              <div className="m-createstate-img">
+                 <img src={mstateintro} />
               </div>
 <br />
             <strong> Updating State: </strong> You should not directly modify state; 
             instead, you use the state updater function - setCount - in the example.
             React will then re-render the component to reflect th updated state.
-            <div className="props-img">
+            <div className="updatestate-img">
               <img src={stateupdate} />
+            </div>
+            <div className="m-updatestate-img">
+              <img src={mstateupdate} />
             </div>
 <br />
          <strong> Asynchronous Updates: </strong>
@@ -116,8 +119,11 @@ const State = () => {
 <br />
 <br />
          <strong> Here's how you typically use prevState: </strong>
-          <div className="props-img">
+          <div className="prevstate-img">
               <img src={prevstate} />
+            </div>
+            <div className="m-prevstate-img">
+              <img src={mprevstate} />
             </div>
 <br />
 <br />
@@ -125,13 +131,13 @@ const State = () => {
             <h1 className="lift-state-title"> Lifting Up State </h1>
           <hr />
 
-
+          <div className="liftstate-main">
           "Lifting state up" is a common pattern in React used to manage and share state 
           between components, especially when you have a hierarchy of components that need
           access to the same data. It involves moving the state from a lower-level child 
           component to a higher-level parent component, thus making the state available to
            multiple child components.
-<br />
+          </div>
 <br />
          <strong> The main reasons for "lifting state up" are: </strong> 
           <ul> 
@@ -149,15 +155,21 @@ const State = () => {
 <br />
               In this example, you can have components with their own local 
               state without the need to lift state up to a common ancestor.
-             <div className="props-img">
+             <div className="liftstate-img">
                <img src={noliftex} />
+            </div>
+            <div className="m-liftstate-img">
+               <img src={mnoliftex} />
             </div>
 <br />
               In this example of lifting state up, the count state is managed in the 
               higher-level ParentComponent, and its state and state updater are shared 
               with multiple child components that need access to the same data.
-             <div className="props-img">
+             <div className="statelift-img">
                <img src={stateliftex} />
+            </div>
+            <div className="m-statelift-img">
+               <img src={mstateliftex} />
             </div>
 <br />
 <br />
