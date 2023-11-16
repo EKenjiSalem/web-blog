@@ -724,6 +724,94 @@
     margin-bottom: -2rem;
 }
 
+.m-statehook-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .statehook-img {
+        display: none;
+    }
+    .m-statehook-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-useEffecthook-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .useEffecthook-img {
+        display: none;
+    }
+    .m-useEffecthook-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-context-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .context-img {
+        display: none;
+    }
+    .m-context-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-useReducer-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .useReducer-img {
+        display: none;
+    }
+    .m-useReducer-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.m-useRef-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .useRef-img {
+        display: none;
+    }
+    .m-useRef-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-hookcustom-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .hookcustom-img {
+        display: none;
+    }
+    .m-hookcustom-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+
 
 /* Api's */
 
@@ -742,6 +830,22 @@
     margin-top: 1rem;
     margin-left: 1rem;
 }
+
+
+.m-apisreact-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .apisreact-img {
+        display: none;
+    }
+    .m-apisreact-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
 
 /* Operators */
 

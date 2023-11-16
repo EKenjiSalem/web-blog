@@ -1,6 +1,7 @@
 import React from 'react';
 import './react.css';
 import apireact from "../../images/rsz_apireact.png";
+import mapireact from "../../images/m_apireact.png";
 
 
 
@@ -60,8 +61,11 @@ const ApiReact= () => {
                 In this example, we'll fetch and display data from a RESTful API in a React application.
                 You can expand on this foundation to add more features like error handling, pagination,
                 and user interactions, depending on the requirements of your project.
-              <div className="props-img">
+              <div className="apisreact-img">
                 <img src={apireact} />
+              </div>
+              <div className="m-apisreact-img">
+                <img src={mapireact} />
               </div>
 <br />
 
