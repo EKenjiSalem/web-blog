@@ -1,13 +1,19 @@
 import React from 'react';
 import './react.css';
 import reactternary from "../../images/react-ternary.png";
+import mreactternary from "../../images/rsz_react-ternary.png";
 import nullish from "../../images/nullish.png";
+import mnullish from "../../images/rsz_nullish.png";
 import externary from "../../images/externary.png";
+import mexternary from "../../images/rsz_externary.png";
 import logical from "../../images/react-logical.png";
+import mlogical from "../../images/rsz_react-logical.png";
 import reactspread from "../../images/reactspreadoperator.png";
+import mreactspread from "../../images/rsz_reactspreadoperator.png";
 import destruct from "../../images/destruct.png";
+import mdestruct from "../../images/rsz_destruct.png";
 import mapfunc from "../../images/reactmapfunc.png";
-
+import mmapfunc from "../../images/rsz_reactmapfunc.png";
 
 
 
@@ -32,20 +38,24 @@ const Operators = () => {
             components, manipulate data, and create dynamic user interfaces.
           </div>
 <br />
-<br />
           <h1 className="operators-title"> Common JavaScript Operators Used In React: </h1>
-<br />
           <h1 className="ternary-react-title"> Conditional (Ternary) Operator: </h1> You can use the conditional (ternary) operator to
           render different content based on a condition within your JSX.
 
-            <div className="props-img">
+            <div className="reactternary-img">
               <img src={reactternary} />
+             </div>
+             <div className="m-reactternary-img">
+              <img src={mreactternary} />
              </div>
 <br />
            In this code, the UserProfile component will be displayed if isLoggedIn is true, otherwise,
           the LoginButton component will be rendered.
-          <div className="props-img">
+          <div className="externary-img">
               <img src={externary} />
+             </div>
+             <div className="m-externary-img">
+              <img src={mexternary} />
              </div>
 <br />
          <h1 className="nullish-react-title"> Nullish Coalescing Operator (??): </h1>  This operator is useful for providing default 
@@ -53,8 +63,11 @@ const Operators = () => {
 <br />
 <br />
           In this example, username will be set to "Guest" if user.name is null or undefined.
-            <div className="props-img">
+            <div className="nullish-img">
               <img src={nullish} />
+             </div>
+             <div className="m-nullish-img">
+              <img src={mnullish} />
              </div>
 <br />
          <h1 className="logical-react-title"> Logical Operators (&& and ||): </h1> You can use logical operators to conditionally
@@ -62,8 +75,11 @@ const Operators = () => {
 <br />
           The AdminPanel component will only be displayed if isAdmin is true, and the
           OfflineMessage will be shown if isOnline is false.
-            <div className="props-img">
+            <div className="reactlogical-img">
               <img src={logical} />
+             </div>
+             <div className="m-reactlogical-img">
+              <img src={mlogical} />
              </div>
 <br />
          <h1 className="spread-react-title"> Spread Operator (...):  </h1> is commonly used for spreading props or 
@@ -72,8 +88,11 @@ const Operators = () => {
 <br />
           In this code, the ChildComponent receives the name and age props as if they were
           passed explicitly. The spread operator is also useful when updating state:
-            <div className="props-img">
+            <div className="reactspread-img">
               <img src={reactspread} />
+             </div>
+             <div className="m-reactspread-img">
+              <img src={mreactspread} />
              </div>
 
 <br />
@@ -83,8 +102,11 @@ const Operators = () => {
 <br />
 <br />
             This code extracts the name and age properties from this.props, making them easily accessible within the component.
-            <div className="props-img">
+            <div className="destruct-img">
               <img src={destruct} />
+             </div>
+             <div className="m-destruct-img">
+              <img src={mdestruct} />
              </div>
 <br />
            <h1 className="map-react-title"> Map Function:  </h1> The map function is a staple when working with arrays in React.
@@ -93,8 +115,11 @@ const Operators = () => {
 <br />
             Here, the map function generates a list of ListItem components based on the 
             items array.
-            <div className="props-img">
+            <div className="mapfunc-img">
               <img src={mapfunc} />
+             </div>
+             <div className="m-mapfunc-img">
+              <img src={mmapfunc} />
              </div>
 <br />
 <br />

@@ -38,7 +38,7 @@ function BlogCard() {
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
-              <Link to="/SinglePost"><h3 className='blog-title'> Meta Front-End Web Development Certificate </h3></Link>
+              <Link to="/Certificate"><h3 className='blog-title'> Meta Front-End Web Development Certificate </h3></Link>
               <p className="blog-description"> 
                Web development has evolved into a dynamic and vital field that powers the digital 
                landscape we interact with daily. From the simplest static websites to complex
@@ -46,7 +46,7 @@ function BlogCard() {
                  methodologies, and best practices. Whether you're an aspiring developer or 
                  a seasoned pro looking to stay updated, this guide will walk you through the key components 
                  and insights of web development.</p>
-              <Link to="/SinglePost"><button class="button"> Read More </button></Link>
+              <Link to="/Certificate"><button class="button"> Read More </button></Link>
             </div>
           </div>
 

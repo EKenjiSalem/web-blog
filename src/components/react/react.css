@@ -849,15 +849,16 @@
 
 /* Operators */
 
+.react-operators {
+    margin-top: 5rem;
+}
+
+
 .operators-title {
     margin-bottom: 2.5rem;
     color: black;
     font-size: 1.5rem;
     
-}
-
-.react-operators {
-    margin-top: 5rem;
 }
 
 .ternary-react-title {
@@ -867,12 +868,83 @@
     margin-top: 2rem;
 }
 
+.m-reactternary-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .reactternary-img {
+        display: none;
+    }
+
+    .m-reactternary-img {
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+.m-externary-img{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .externary-img {
+        display: none;
+    }
+
+    .m-externary-img{
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
 .nullish-react-title {
     font-size: 1.5rem;
     color: black;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+.m-nullish-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .nullish-img {
+        display: none;
+    }
+
+    .m-nullish-img{
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+.logical-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.m-reactlogical-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .reactlogical-img {
+        display: none;
+    }
+
+    .m-reactlogical-img{
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
 
 .spread-react-title {
     font-size: 1.5rem;
@@ -881,25 +953,19 @@
     margin-top: 1rem;
 }
 
-.logical-react-title {
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.m-reactspread-img {
+    display: none;
 }
 
-.map-react-title {
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
+@media (max-width:768px) {
+    .reactspread-img {
+        display: none;
+    }
 
-.logical-react-title {
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    .m-reactspread-img{
+        display: block;
+        margin-left: -2rem;
+    }
 }
 
 
@@ -909,5 +975,47 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+.m-destruct-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .destruct-img {
+        display: none;
+    }
+
+    .m-destruct-img{
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+
+.map-react-title {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.m-mapfunc-img {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .mapfunc-img {
+        display: none;
+    }
+
+    .m-mapfunc-img{
+        display: block;
+        margin-left: -2rem;
+    }
+}
+
+
+
 
 
