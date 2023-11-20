@@ -162,3 +162,12 @@
     color: black;
     margin-top: 2rem;
 }
+
+/* DOM */
+
+.domlearn-main {
+    font-size: 1.4rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    line-height: 1.5;
+}
