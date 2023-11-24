@@ -5,7 +5,7 @@ import mapireact from "../../images/m_apireact.png";
 
 
 
-const ApiReact= () => {
+const ApiReact = () => {
   return (
     <div className="js-post">
         <div className="js-post-wrapper">

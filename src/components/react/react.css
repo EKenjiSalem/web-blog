@@ -26,12 +26,13 @@
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-
 .react-blog .react-blog-container .react-blog-info img {
-    height: 25.5rem;
-    width: 133%;
-    object-fit: fill;
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 7rem;
 }
+
 
 .react-blog .react-blog-container span {
     color: grey;
@@ -69,7 +70,7 @@
 
 .react-blog .react-blog-container .react-main-title {
     margin-left: 1rem;
-    margin-top: 1.5rem;
+    margin-top: -5rem;
 }
 
 .react-blog .react-blog-container .react-blog-description {
@@ -80,9 +81,6 @@
     line-height: 1.4;
 }
 
-.react-img {
-    margin-left: -4rem;
-}
 
 .react-intro-title {
     color: black;
@@ -108,7 +106,9 @@
 }
 
 
-
+.react-img {
+    background-color: #222222;
+}
 
 
 .react-main {
@@ -816,7 +816,7 @@
 /* Api's */
 
 .api-info {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 2.5rem;
 }
 

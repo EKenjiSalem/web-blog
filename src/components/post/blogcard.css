@@ -80,6 +80,48 @@
     margin-left: 1rem;
   }
 
+  
+  .blog .blog-container .react-blog-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+
+.blog-container .react-blog-info img {
+    height: 15rem;
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: 7rem;
+
+}
+
+
+.blog .blog-container .js-blog-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+
+.blog-container .js-blog-info img {
+    height: 15rem;
+    width: 105%;
+    object-fit: fill;
+    margin-bottom: 7rem;
+    margin-left: -.5rem;
+
+}
+
+
+
+
 
 /* Master Web Development */
 
@@ -161,6 +203,13 @@
     font-size: 1.5rem;
     color: black;
     margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.meta-structure{
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.5;
 }
 
 /* DOM */
@@ -170,4 +219,25 @@
     margin-right: 12rem;
     margin-left: 12rem;
     line-height: 1.5;
+}
+
+
+/* Tech Marketing */
+
+.tech-market-title {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    
+}
+
+.tech-market-main {
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.5;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    
 }
