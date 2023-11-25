@@ -21,12 +21,11 @@ function BlogCard() {
 
           <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
-
             <div className="blog-content">
               {/* <span className="blog-date"> April 25th, 2022 </span> */}
-              <div className="master-title">
+           
                <Link to="/MasterWeb"> <h3 className='blog-title'> Mastering Web Development </h3> </Link> 
-              </div>
+          
               <p className="blog-description"> 
                Web development has evolved into a dynamic and vital field that powers the digital 
                landscape we interact with daily. From the simplest static websites to complex
@@ -41,13 +40,15 @@ function BlogCard() {
           <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
+        
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
               <Link to="/Certificate"><h3 className='blog-title'> Meta Front-End Web Development Certificate </h3></Link>
+         
               <p className="blog-description"> 
                Coursera, a popular online educational platform offers a front end web developer certificate program 
-               designed by Meta. In blog post, we will review the course's structure, curriculum, instructors and more. 
-               If you want an insight from a actual graduate of the program, please feel free to join me on
-               this journey of reviewing a top rated coding program.</p>
+               designed by Meta. In this blog post, we will review the course's structure, curriculum, instructors,
+               and job assistance. If you want a insight from an actual graduate of the certificate program, please 
+               feel free to join me on this journey of reviewing a top rated coding program.</p>
               <Link to="/Certificate"><button class="button"> Read More </button></Link>
             </div>
           </div>
@@ -55,10 +56,9 @@ function BlogCard() {
 
           <div className="react-blog-info" data-aos="zoom-in">
             <img src={reactpost} className="react-img" alt="" />
-
-            <div className="blog-content">
+            <div className="react-blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
-              <Link to="/ApiReact"><h3 className='blog-title'> React Api's </h3></Link>
+              <Link to="/ApiReact"><h3 className='react-blog-title'> React Api's </h3></Link>
               <p className="blog-description"> 
               In the world of web development, REST APIs (Representational State Transfer Application 
               Programming Interfaces) have become the backbone for building scalable and dynamic 
@@ -137,9 +137,9 @@ function BlogCard() {
 
            <div className="js-blog-info" data-aos="zoom-in">
             <img src={jspost}  alt="" />
-            <div className="blog-content">
+            <div className="js-blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
-              <Link to="/Functions"> <h3 className='blog-title'> Functions </h3></Link>
+              <Link to="/Functions"> <h3 className='js-blog-title'> Functions </h3></Link>
               <p className="blog-description"> 
               JavaScript functions are a fundamental building block of JavaScript, providing a way to 
               structure code, promote reusability, and encapsulate logic.  In this blog post, we will dive into

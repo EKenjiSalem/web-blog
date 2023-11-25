@@ -1,14 +1,23 @@
 import React from 'react';
 import sidebar from '../../images/rsz_sidebar.jpg'
 import {Link} from 'react-router-dom';
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './blog.css';
 
 function Blog() {
 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+
   return (
     <section className="blog" id="blog">
        <div className="blog-container">
-          <div className="blog-info" data-aos="fade-in">
+       
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
               {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -24,7 +33,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
@@ -38,7 +47,7 @@ function Blog() {
             </div>
           </div>
 
-          <div className="blog-info" data-aos="fade-in">
+          <div className="blog-info" data-aos="zoom-in">
             <img src={sidebar} alt="" />
             <div className="blog-content">
             {/* <span className="blog-date"> April 25th, 2022 </span> */}
