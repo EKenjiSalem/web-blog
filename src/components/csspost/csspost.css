@@ -76,6 +76,13 @@
     margin-top: .5rem;
 }
 
+@media(max-width:768px) {
+    .css-blog .css-blog-container .css-blog-info {
+        margin-top: 7rem;
+        margin-bottom: -3rem;
+    }
+}
+
 /* CSS Intro */
 
 .css-post-title {

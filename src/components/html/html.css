@@ -78,6 +78,12 @@
     background: orange;
     color: black;
     transition: 1s;
-  }
+}
 
+@media (max-width:768px) {
+    .html-blog .html-blog-container .html-blog-info {
+        margin-top: 7rem;
+        margin-bottom: -4rem;
+}
+}
 

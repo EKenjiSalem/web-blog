@@ -16,7 +16,6 @@ function Html() {
   return (
   <section className="html-blog" id="html-blog">
    <div className="html-blog-container">
-
     <div className="html-blog-info" data-aos="fade-left">
       <img src={htmlblog} alt="" />
       <div className="html-blog-content">

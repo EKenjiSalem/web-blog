@@ -92,6 +92,15 @@
     color: black;
 }
 
+
+@media (max-width:768px) {
+    .javascript-blog .javascript-blog-container .javascript-blog-info {
+        margin-top: 7rem;
+        margin-bottom: -3rem;
+    }
+}
+
+
 .js-post-title {
     font-size: 1.5rem;
     color: black;
