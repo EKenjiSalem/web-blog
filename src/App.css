@@ -276,7 +276,8 @@ nav .nav-menu {
 }
 
 .sidebar .sidebar-area .sidebar-info {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
 
 .sidebar .sidebar-area .sidebar-img {
@@ -328,6 +329,12 @@ nav .nav-menu {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+
+@media (max-width:768px) {
+    .sidebar .sidebar-area {
+        display: none;
+    }
 }
 
 .posts {

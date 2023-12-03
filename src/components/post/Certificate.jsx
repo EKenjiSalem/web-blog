@@ -5,7 +5,7 @@ import './blogcard.css';
 const Certificate = () => {
   return (
     <div> 
-        <h1 className="master-web-title"> Meta Front-End Web Developer Certificate </h1>
+        <h1 className="certificate-web-title"> Meta Front-End Web Developer Certificate </h1>
 
 
        <p className="meta-main">

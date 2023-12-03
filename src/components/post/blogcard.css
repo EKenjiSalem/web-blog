@@ -4,98 +4,65 @@
     padding: 0;
 }
 
-
-.blog .heading {
-    text-decoration: underline;
-    margin-top: -3rem
+.blog-card .blog-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
 }
 
-.blog .blog-container .blog-content .blog-title {
+.blog-card .blog-card-container .blog-card-content .blog-card-title {
     margin-left: 1rem;
-    padding-top: 7rem;
-
+    padding-top: 2rem;
+    padding-bottom: .5rem;
 }
 
 .link-blog {
     margin-top: 3rem;
 }
 
-.blog .blog-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 5rem;
-
-}
-
-.blog .blog-container .blog-info {
-    margin-top: 12rem;
+.blog-card .blog-card-container .blog-card-info {
     margin-left: 2rem;
-    width: 35rem;
+    width: 25rem;
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-
-.blog .blog-container .blog-info img {
+.blog-card .blog-card-container .blog-card-info img {
     height: 15rem;
     width: 100%;
     object-fit: cover;
-
+    margin-bottom: -1rem;
 }
 
-.blog .blog-container .blog-info .blog-content {
-	transition-duration: .5s;
+.blog-card .blog-card-container .blog-card-description {
+    width: 90%;
+    margin-left: 1rem;
+    line-height: 1.5;
+    font-size: 1.3rem;
 }
 
-.blog .blog-container .blog-info .blog-content:hover {
-    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
-    width: 100%;
-    height: 100%;
-}
-
-.blog .blog-container .react-blog-info .react-blog-content {
-	transition-duration: .5s;
-
-}
-
-.blog .blog-container .react-blog-info .react-blog-content:hover {
-    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
-    height: 120%;
-}
-
-.blog .blog-container .js-blog-info .js-blog-content {
-	transition-duration: .5s;
-
-}
-
-.blog .blog-container .js-blog-info .js-blog-content:hover {
-    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
-    height: 120%;
-}
-
-
-.blog .blog-container span {
+  .blog-card .blog-card-container span {
     color: grey;
     font-size: 1rem;
     display: block;
     padding: 1rem 0;
 }
 
-.blog .blog-container h3 {
+.blog-card .blog-card-container h3 {
     font-size: 1.5rem;
     color: black;
 }
 
-.blog .blog-container p {
+.blog-card .blog-card-container p {
     font-size: 1rem;
     color: black;
     width: 100%;
     margin-bottom: 1.5rem;
 }
 
-.blog .blog-container .button {
+.blog-card .blog-card-container .button {
   margin-bottom: 1.2rem;
   margin-left: 1rem;
   padding: 1rem 2rem;
@@ -104,37 +71,63 @@
   background: black;
 }
 
-.blog .blog-container .button:hover {
+.blog-card .blog-card-container .button:hover {
     background: orange;
     color: black;
     transition: 1s;
 }
 
+.blog-card .blog-card-container .blog-card-info .blog-card-content {
+	transition-duration: .5s;
+}
 
-/* .blog .blog-container .certi-button {
-    margin-top: 4rem;
-    margin-bottom: 10%;
-    margin-left: 1rem;
-    padding: 1rem 2rem;
+.blog-card .blog-card-container .blog-card-info .blog-card-content:hover {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:768px) {
+    .blog-card .blog-card-container .blog-card-info {
+        margin-left: 4.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* Why is the dom taught last  */
+
+.blog-card .blog-card-container .blog-card-dom-info {
+    margin-left: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-top: 5rem;
+    width: 25rem;
+    overflow: hidden;
     border-radius: .5rem;
-    color: white;
-    background: black;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
-.blog .blog-container .certi-button:hover {
-    background: orange;
-    color: black;
-    transition: 1s;
-} */
+.blog-card .blog-card-container .blog-card-dom-info img {
+    height: 15rem;
+    width: 100%;
+    margin-bottom: -1rem;
+    object-fit: cover;
+}
+
+.blog-card .blog-card-container .blog-card-dom-info .blog-card-content {
+	transition: 1s;
+}
+
+.blog-card .blog-card-container .blog-card-dom-info .blog-card-content:hover {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+    width: 100%;
+    height: 100%;
+}
 
 
-.blog .blog-container .blog-description {
-    width: 90%;
-    margin-left: 1rem;
-  }
+/* React  */
 
-  
-  .blog .blog-container .react-blog-info {
+.blog-card .blog-card-container .react-blog-card-info {
     margin-top: 5rem;
     margin-left: 2rem;
     width: 25rem;
@@ -144,33 +137,81 @@
 }
 
 
-.blog-container .react-blog-info img {
+.blog-card-container .react-blog-card-info img {
+    height: 15rem;
+    width: 100%;
+    object-fit: fill;
+}
+
+.blog-card .blog-card-container .react-blog-card-content {
+    margin-top: 1rem;
+}
+
+.blog-card .blog-card-container .react-blog-card-content .react-blog-card-title {
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: .5rem;
+    padding-top: 2rem;
+}
+
+.blog-card .blog-card-container .react-blog-card-info .react-blog-card-content {
+	transition-duration: .5s;
+}
+
+.blog-card .blog-card-container .react-blog-card-info .react-blog-card-content:hover {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+    height: 120%;
+}
+
+
+/* CSS */
+
+  .blog-card .blog-card-container .css-blog-card-content .css-blog-card-title {
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: .5rem;
+    padding-top: 2rem;
+}
+  
+  .blog-card .blog-card-container .css-blog-card-info {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.blog-card-container .css-blog-card-info img {
     height: 15rem;
     width: 100%;
     object-fit: fill;
 
 }
 
-.blog .blog-container .react-blog-content {
+.blog-card .blog-card-container .css-blog-card-content {
     margin-top: 1rem;
 }
 
-.blog .blog-container .react-blog-content .react-blog-title {
-    margin-left: 1rem;
-    margin-top: -2rem;
-    padding-top: 2rem;
-    
+.blog-card .blog-card-container .css-blog-card-info .css-blog-card-content {
+	transition-duration: .5s;
 }
 
-.blog .blog-container .js-blog-content .js-blog-title {
-    margin-left: 1rem;
-    margin-top: -2rem;
-    padding-top: 3rem;
-    
+.blog-card .blog-card-container .css-blog-card-info .css-blog-card-content:hover {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+    height: 120%;
 }
 
+/* JS */
 
-.blog .blog-container .js-blog-info {
+.blog-card .blog-card-container .js-blog-card-content .js-blog-card-title {
+    margin-left: 1rem;
+    margin-top: -2rem;
+    margin-bottom: .5rem;
+    padding-top: 3rem; 
+}
+
+.blog-card .blog-card-container .js-blog-card-info {
     margin-top: 5rem;
     margin-left: 2rem;
     width: 25rem;
@@ -180,16 +221,22 @@
 }
 
 
-.blog-container .js-blog-info img {
+.blog-card-container .js-blog-card-info img {
     height: 15rem;
     width: 105%;
     object-fit: fill;
     margin-left: -.5rem;
+}
+
+.blog-card .blog-card-container .js-blog-card-info .js-blog-card-content {
+	transition-duration: .5s;
 
 }
 
-
-
+.blog-card .blog-card-container .js-blog-card-info .js-blog-card-content:hover {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); 
+    height: 120%;
+}
 
 
 /* Master Web Development */
@@ -250,6 +297,36 @@
     margin-top: 2rem;
 }
 
+@media (max-width:768px) {
+    .masterweb-main {
+        width: 90%;
+        line-height: 1.5;
+        margin-left: 2rem;
+    }
+
+    .master-web-title {
+        margin-top: 12rem;
+    }
+
+    .webskills-container {
+        width: 90%;
+        line-height: 1.5;
+        margin-left: 2rem;
+    }
+
+    .webtips-main  {
+        width: 90%;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        margin-left: 2rem;
+    }
+
+    .webtips-list {
+    
+    }
+    
+}
+
 
 /* Certificate */
 
@@ -257,6 +334,14 @@
     font-size: 1.4rem;
     margin-left: 12rem;
     margin-right: 12rem;
+}
+
+.certificate-web-title {
+    margin-top: 12rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .meta-container {
@@ -281,6 +366,14 @@
     line-height: 1.5;
 }
 
+@media(max-width:768px) {
+    .meta-main {
+        width: 90%;
+        margin-left: 2rem;
+        line-height: 1.5;
+    }
+}
+
 /* DOM */
 
 .domlearn-main {
@@ -288,6 +381,15 @@
     margin-right: 12rem;
     margin-left: 12rem;
     line-height: 1.5;
+}
+
+@media (max-width:768px) {
+    .domlearn-main {
+        width: 90%;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        margin-left: 2rem;
+    }
 }
 
 
@@ -299,7 +401,6 @@
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 3rem;
-    
 }
 
 .tech-market-main {
@@ -308,5 +409,26 @@
     line-height: 1.5;
     margin-left: 12rem;
     margin-right: 12rem;
-    
 }
+
+/* .blog .heading {
+    text-decoration: underline;
+    margin-top: -3rem
+} */
+
+
+/* .blog .blog-container .certi-button {
+    margin-top: 4rem;
+    margin-bottom: 10%;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    color: white;
+    background: black;
+}
+
+.blog .blog-container .certi-button:hover {
+    background: orange;
+    color: black;
+    transition: 1s;
+} */

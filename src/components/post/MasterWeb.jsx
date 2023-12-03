@@ -5,7 +5,7 @@ import './blogcard.css';
 const MasterWeb = () => {
   return (
     <div> 
-        <h1 className="master-web-title"> Master Web </h1>
+        <h1 className="master-web-title"> Master Web Development </h1>
   
 
       <p className="masterweb-main">
@@ -71,12 +71,12 @@ const MasterWeb = () => {
       </p>
 
      
-      <p className="webtips-main">
+
     <hr />
       <h1 className="webtips-title"> Tips to Master Web Development </h1>
     <hr />
       
-      <div className="webtips-container">  
+     <p className="webtips-main">
        <h1 className="webtips-list"> Choose an Area of Study: </h1>
       First things first, began to research within the industry to identify an area of web development 
       you want to master (e.g., front-end, back-end, full-stack). Set short-term and long-term goals 
@@ -168,6 +168,14 @@ const MasterWeb = () => {
       comparable salary.
 
      <h1 className="webtips-list"> Build a Professional Network: </h1>
+      Networking is an essetinal part of searching for a new opportunity.
+      Contrary to popular belief, social media is one of the greatest networiking
+      tools to date. With access to almost every meetup and networking event in
+      your respected city, social media is the ultimate way to network. 
+      Not to say you need hundred of thousands of followers, but rather
+      utlize the page as a resource to showcase your coding talents and skills.
+      So while attending an event
+      Some of methods that I utlizing to locating networking opportunitie
       Attend Meetups and Networking Events:
       Join local or virtual meetups to connect with other developers.
       Networking can lead to job opportunities and collaborations.
@@ -177,11 +185,11 @@ const MasterWeb = () => {
 
    
       <h1 className="webtips-list"> Growth Mindstate </h1>
-      Include personal anecdotes or success stories for inspiration.
-      Provide links to recommended resources and tools.
-      Encourage a positive and growth-oriented mindset.
-
-      </div>
+      The Growthmind state is an important concept that essetinally sugguest
+      that we should not so stuck in a mental that does not allow for growth 
+      through learning new skills. Anything that is currently not known can be 
+      accessed through learning. Coding is hard. So to become a master at coding 
+      you must endure a grueling path of non stop learning and humility.
       </p>
 <br />
 <br />
