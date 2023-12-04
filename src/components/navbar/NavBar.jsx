@@ -31,10 +31,12 @@ function NavBar() {
         </Link>
       <div className="topleft">
       <a href="https://github.com/EKenjiSalem" target="_blank" rel="noopener noreferrer"><FaGithub className="git-hub" /></a>
-      <FaLinkedin className="linkedin" />
+      <a href="https://www.linkedin.com/in/elias-k-salem-65740831/" target="_blank" rel="noopener noreferrer"> <FaLinkedin className="linkedin" /></a>
       <a href="https://www.instagram.com/esalemcode/" target="_blank" rel="noopener noreferrer"><FaInstagram className="instagram" /></a>
-      <FaPinterest  className="pinterest" /> 
+      <a href="https://www.pinterest.com/esalemcode/" target="_blank" rel="noopener noreferrer"><FaPinterest  className="pinterest" /></a>
       </div>
+
+      {/* https://www.pinterest.com/esalemcode/*/}
 
       <div className="nav-menu" onClick={toggleMenu} >
         <img src={icon} className="menu-icon" />

@@ -169,27 +169,24 @@ const MasterWeb = () => {
 
      <h1 className="webtips-list"> Build a Professional Network: </h1>
       Networking is an essetinal part of searching for a new opportunity.
-      Contrary to popular belief, social media is one of the greatest networiking
-      tools to date. With access to almost every meetup and networking event in
-      your respected city, social media is the ultimate way to network. 
-      Not to say you need hundred of thousands of followers, but rather
-      utlize the page as a resource to showcase your coding talents and skills.
-      So while attending an event
-      Some of methods that I utlizing to locating networking opportunitie
-      Attend Meetups and Networking Events:
-      Join local or virtual meetups to connect with other developers.
-      Networking can lead to job opportunities and collaborations.
-      LinkedIn and Online Presence:
-      Optimize your LinkedIn profile to showcase your skills and projects.
-      Connect with professionals in the industry for mentorship.
+      Attending meetups and or networking can be almost almost as important as learning how to code.
+      One of my beliefs is that social media is one of the greatest networkingtools to date. With access
+      to thousands of potential contacts, in  these contemporary times having a strong social media presence
+      is almost as important for a business to have a website. Not to say you must be an influencer with
+      thousands of followers, but rather an optimized linkedin, instagram, facebook, etc. page that is focused
+      on showcasing your coding talents and skills can be a huge game changer.
 
    
       <h1 className="webtips-list"> Growth Mindstate </h1>
-      The Growthmind state is an important concept that essetinally sugguest
-      that we should not so stuck in a mental that does not allow for growth 
-      through learning new skills. Anything that is currently not known can be 
-      accessed through learning. Coding is hard. So to become a master at coding 
-      you must endure a grueling path of non stop learning and humility.
+      The growth mindstate is a powerful perspective that can shape the way we approach 
+      challenges, learn from failures, and ultimately, achieve success. At the core, 
+      the growth mindstate is the belief that abilities and intelligence can be developed 
+      with dedication, hard work, and a willingness to learn. People with a growth mindstate
+      embrace challenges as opportunities for growth. They see effort as a path to mastery, 
+      learn from criticism, and find lessons and inspiration in the success of others.
+      This mindset not only fosters a love for learning but also cultivates resilience in the 
+      face of setbacks. Lastly, Coding is hard. So to become a master at coding you must endure
+      a grueling path of non stop learning and humility. Happy Coding.
       </p>
 <br />
 <br />

@@ -24,7 +24,7 @@ const Certificate = () => {
 
       <h1 className="meta-structure-title"> Course Structure: </h1>
        <div className="meta-structure">
-        First off, the program is a fully online and self paced program. The program appears to be aimed at beginers.
+        First off, the program is a fully online and self paced program. The program appears to be aimed at beginners.
         The course is structured with each topic taught in weeks. Within each week there's a combination of 
         reading material, videos, a mini quiz in the middle of the video, quizes after the weeks worth 
         of reading and video materials, and a final and project at the each of each learning topics. Then,

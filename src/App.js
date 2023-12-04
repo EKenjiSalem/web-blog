@@ -2,7 +2,6 @@ import './App.css';
 import Home from "./pages/home/Home.jsx";
 import Post from "./components/post/Post.jsx"
 import NavBar from './components/navbar/NavBar';
-// import SinglePost from './components/singlepost/SinglePost.jsx';
 import Html from './components/html/Html.jsx';
 import HtmlPost from './components/htmlpost/HtmlPost.jsx';
 import Attributes from './components/htmlpost/Attributes';
