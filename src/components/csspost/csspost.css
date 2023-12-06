@@ -83,6 +83,13 @@
     }
 }
 
+@media(max-width:476px) {
+    .css-blog .css-blog-container .css-blog-info {
+        margin-left: -.3rem;
+    }
+}
+
+
 /* CSS Intro */
 
 .css-post-title {

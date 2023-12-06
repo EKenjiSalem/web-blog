@@ -26,6 +26,12 @@
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
+@media (max-width:476px) {
+    .react-blog .react-blog-container .react-blog-info {
+      margin-left: -.3rem;
+    }
+}
+
 .react-blog .react-blog-container .react-blog-info img {
     height: 15rem;
     width: 100%;

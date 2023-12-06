@@ -94,6 +94,12 @@
     }
 }
 
+@media(max-width:476px) {
+    .blog-card .blog-card-container .blog-card-info {
+      margin-left: 2.3rem;
+}
+}
+
 
 /* Why is the dom taught last  */
 
