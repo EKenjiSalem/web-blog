@@ -88,7 +88,8 @@
 
 @media (max-width:476px) {
     .html-blog .html-blog-container .html-blog-info {
-       margin-left: -.5rem;
+       width: 20rem;
+       margin-left: .2rem;
  }
 }
 }

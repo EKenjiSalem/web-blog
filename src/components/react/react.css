@@ -28,7 +28,8 @@
 
 @media (max-width:476px) {
     .react-blog .react-blog-container .react-blog-info {
-      margin-left: -.3rem;
+      width: 20rem;
+      margin-left: .2rem;
     }
 }
 

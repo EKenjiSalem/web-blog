@@ -93,3 +93,10 @@
       font-size: 1.4rem;
     }
   }
+
+
+@media (max-width:476px) {
+  .blog .blog-container .blog-info {
+    width: 75%;
+  }
+}

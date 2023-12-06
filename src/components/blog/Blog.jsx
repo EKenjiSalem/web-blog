@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './blog.css';
 
-function Blog() {
+const Blog = () => {
 
   useEffect(() => {
     AOS.init();

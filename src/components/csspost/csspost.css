@@ -85,7 +85,8 @@
 
 @media(max-width:476px) {
     .css-blog .css-blog-container .css-blog-info {
-        margin-left: -.3rem;
+        width: 20rem;
+        margin-left: .2rem;
     }
 }
 
